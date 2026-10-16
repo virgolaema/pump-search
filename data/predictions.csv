@@ -92,3 +92,5 @@ ts,ticker,price,prev_close,pct,burst,rvol,st_rate,st_bull,trending,session,score
 2026-10-16T21:40:06Z,EVGO,1.078,1.105,-2.44,99501.0,0.75,0.0,0.78,False,post,1,vol_burst x99501
 2026-10-16T21:40:06Z,BMEA,0.89,0.827,7.62,108169.0,1.21,1.0,1.0,False,post,1,vol_burst x108169
 2026-10-16T21:40:06Z,GLDG,0.8135,0.8,1.68,8.69,0.87,,,False,post,1,vol_burst x9
+2026-10-16T21:50:06Z,INVZ,0.2818,0.2823,-0.18,318177.0,0.83,0.0,0.4,False,post,1,vol_burst x318177
+2026-10-16T21:50:06Z,PLG,1.1389,1.17,-2.66,171367.0,0.74,0.0,1.0,False,post,1,vol_burst x171367
