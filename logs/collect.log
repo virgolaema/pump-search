@@ -1,1 +1,6 @@
-2026-10-16T15:20:05Z: priced 574/611, stocktwits ok (21 calls), new flags 1: SRXH
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: GBPUSD"}}}
+$GBPUSD: No data found, symbol may be delisted
+
+1 Failed download:
+['GBPUSD']: No data found, symbol may be delisted
+2026-10-16T15:30:06Z: priced 574/612, stocktwits ok (21 calls), new flags 1: POWW

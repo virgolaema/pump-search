@@ -47,3 +47,4 @@ ts,ticker,price,prev_close,pct,burst,rvol,st_rate,st_bull,trending,session,score
 2026-10-16T15:10:06Z,NKTX,1.8337,1.925,-4.74,7.22,2.94,0.0,1.0,False,reg,1,vol_burst x7
 2026-10-16T15:10:06Z,KPTI,0.369,0.35,5.43,5.12,2.98,7.0,0.95,False,reg,1,vol_burst x5
 2026-10-16T15:20:05Z,SRXH,1.1999,1.25,-4.01,7.75,2.14,14.0,0.67,False,reg,1,vol_burst x8
+2026-10-16T15:30:06Z,POWW,2.155,2.15,0.23,7.57,2.25,0.0,0.67,False,reg,1,vol_burst x8
