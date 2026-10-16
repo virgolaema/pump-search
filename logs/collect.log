@@ -3,4 +3,4 @@ $GBPUSD: No data found, symbol may be delisted
 
 1 Failed download:
 ['GBPUSD']: No data found, symbol may be delisted
-2026-10-16T15:30:06Z: priced 574/612, stocktwits ok (21 calls), new flags 1: POWW
+2026-10-16T15:40:06Z: priced 575/612, stocktwits http_502 (3 calls), new flags 1: KULR
