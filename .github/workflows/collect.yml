@@ -3,6 +3,9 @@ on:
   schedule:
     - cron: "*/30 11-21 * * 1-5"   # UTC; covers US pre-market through close in both EDT and EST
   workflow_dispatch:
+  push:                           # test run whenever the code changes
+    branches: [main]
+    paths: ["pump/**", "requirements.txt", ".github/workflows/**"]
 concurrency:
   group: data
   cancel-in-progress: false
