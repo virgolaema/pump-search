@@ -1,0 +1,48 @@
+name: loop
+# Self-chaining runner: GitHub's cron never fired for this repo, so one job loops ~5.7 h and
+# re-dispatches itself (workflow_dispatch via GITHUB_TOKEN is allowed to start a new run).
+# To stop: create a file named STOP in the repo root, or disable this workflow. Ends 2026-11-13.
+on:
+  workflow_dispatch:
+    inputs:
+      minutes:
+        description: loop length in minutes
+        default: "340"
+  push:
+    branches: [main]
+    paths: [".github/workflows/loop.yml", "scripts/loop.sh"]
+  schedule:
+    - cron: "7 */6 * * *"          # backstop restart, in case GitHub's scheduler starts working here
+concurrency:
+  group: loop
+  cancel-in-progress: false
+permissions:
+  contents: write
+  actions: write
+jobs:
+  loop:
+    runs-on: ubuntu-latest
+    timeout-minutes: 355
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: loop
+        env:
+          # push-triggered runs are short so the re-dispatch chain is exercised quickly
+          LOOP_MINUTES: ${{ github.event_name == 'push' && '12' || inputs.minutes || '340' }}
+        run: |
+          git config user.name "pump-bot"
+          git config user.email "pump-bot@users.noreply.github.com"
+          scripts/loop.sh
+      - name: re-dispatch
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git pull -q || true
+          if [ -f STOP ] || [ "$(date -u +%F)" \> "2026-11-13" ]; then echo "stopping chain"; exit 0; fi
+          gh workflow run loop.yml --ref main --repo "$GITHUB_REPOSITORY"

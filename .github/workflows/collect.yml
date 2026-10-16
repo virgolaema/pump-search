@@ -1,11 +1,6 @@
-name: collect  # scheduled collector
+name: collect
 on:
-  schedule:
-    - cron: "*/10 8-23 * * 1-5"    # UTC; US pre-market (04:00 ET) through post-market
   workflow_dispatch:
-  push:                           # test run whenever the code changes
-    branches: [main]
-    paths: ["pump/**", "requirements.txt", ".github/workflows/**"]
 concurrency:
   group: data
   cancel-in-progress: false

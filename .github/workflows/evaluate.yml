@@ -1,11 +1,6 @@
 name: evaluate
 on:
-  schedule:
-    - cron: "20 0 * * 2-6"         # UTC, after US post-market close (same New York date)
   workflow_dispatch:
-  push:                           # test run whenever the code changes
-    branches: [main]
-    paths: ["pump/**", "requirements.txt", ".github/workflows/**"]
 concurrency:
   group: data
   cancel-in-progress: false
