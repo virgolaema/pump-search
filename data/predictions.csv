@@ -1,0 +1,4 @@
+ts,ticker,price,prev_close,pct,burst,rvol,st_rate,st_bull,trending,session,score,reasons
+2026-10-16T13:22:21Z,WFF,0.1328,0.1599,-16.95,0.0,,16.0,0.77,False,pre,1,st_rate 16/h
+2026-10-16T13:22:21Z,DVLT,0.1402,0.1402,-0.0,0.0,,11.0,0.91,False,pre,1,st_rate 11/h
+2026-10-16T13:22:21Z,GLND,3.4,3.4499,-1.45,0.0,,18.0,0.75,False,pre,1,st_rate 18/h
