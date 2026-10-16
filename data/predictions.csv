@@ -55,3 +55,5 @@ ts,ticker,price,prev_close,pct,burst,rvol,st_rate,st_bull,trending,session,score
 2026-10-16T16:10:06Z,AHMA,1.18,1.22,-3.28,5.35,3.19,0.0,0.83,False,reg,1,vol_burst x5
 2026-10-16T16:50:06Z,STFS,4.04,3.88,4.12,5.32,2.75,0.0,0.79,False,reg,1,vol_burst x5
 2026-10-16T17:00:05Z,ARQ,1.82,1.855,-1.89,11.28,2.26,0.0,1.0,False,reg,1,vol_burst x11
+2026-10-16T17:30:05Z,SITC,3.445,3.0,14.83,10.12,12.09,1.0,1.0,False,reg,1,vol_burst x10
+2026-10-16T17:30:05Z,FABC,2.23,2.22,0.45,6.93,2.5,0.0,0.14,False,reg,1,vol_burst x7
