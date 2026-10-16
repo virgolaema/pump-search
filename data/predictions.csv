@@ -96,3 +96,5 @@ ts,ticker,price,prev_close,pct,burst,rvol,st_rate,st_bull,trending,session,score
 2026-10-16T21:50:06Z,PLG,1.1389,1.17,-2.66,171367.0,0.74,0.0,1.0,False,post,1,vol_burst x171367
 2026-10-16T22:00:05Z,MRLN,1.1,1.115,-1.35,105337.0,0.47,0.0,1.0,False,post,1,vol_burst x105337
 2026-10-16T22:00:05Z,AMPG,2.48,2.57,-3.5,125622.0,1.62,0.0,0.93,False,post,1,vol_burst x125622
+2026-10-16T22:20:06Z,DPRO,3.72,3.915,-4.98,104462.0,0.56,0.0,0.9,False,post,1,vol_burst x104462
+2026-10-16T22:20:06Z,PFAI,4.7,4.91,-4.28,12532.0,0.03,0.0,1.0,False,post,1,vol_burst x12532
