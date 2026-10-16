@@ -6,7 +6,7 @@ Paper test: can StockTwits chatter plus unusual volume flag low-price US stocks 
 - `pump/collect.py` rebuilds the watchlist once a day from the Yahoo screener (up to 600 names), snapshots 5-min price/volume and StockTwits message rates, and appends flags to `data/predictions.csv`.
 - `pump/evaluate.py` It scores flags and finds the day's spikes, then writes `reports/YYYY-MM-DD.md`.
 
-Flag rule (frozen, see `pump/common.py`). A stock is flagged if it is still below +15% vs the previous close and at least one of these holds:
+Flag rule (see `pump/common.py`; v2 from 2026-10-16 14:20 UTC: burst baseline is now the same time of day on prior days, and stocks down >5% are excluded. Flags before that time used v1 and over-flagged at the open). A stock is flagged if it is between −5% and +15% vs the previous close and at least one of these holds:
 - the last 30-min volume is ≥5× its usual 30-min volume, with ≥$50k traded and (in regular hours) relative volume ≥2;
 - the StockTwits message rate is ≥10/h and ≥3× its own baseline, or ≥20/h if there is no baseline yet;
 - the stock is newly on StockTwits trending.

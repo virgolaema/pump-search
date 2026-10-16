@@ -26,7 +26,8 @@ UNIVERSE_MAX = 600
 
 # Prediction rule (frozen before outcomes are known; change only with a dated note in README)
 MAX_PCT_AT_FLAG = 15.0      # stock must not have spiked yet (% vs previous close)
-BURST_MIN = 5.0             # last-30-min volume / median 30-min volume of prior days
+MIN_PCT_AT_FLAG = -5.0      # ...and must not be selling off (v2, 2026-10-16 14:20 UTC)
+BURST_MIN = 5.0             # last-30-min volume / same-time-of-day 30-min volume of prior days (v2)
 RVOL_MIN = 2.0              # today's volume / expected volume at this time of day
 ST_RATE_MIN = 10.0          # StockTwits messages per hour
 ST_RATE_MULT = 3.0          # vs. the ticker's own median rate in earlier snapshots

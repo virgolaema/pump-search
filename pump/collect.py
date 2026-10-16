@@ -5,7 +5,7 @@ import numpy as np
 import pandas as pd
 
 from . import market
-from .common import (BURST_MIN, MAX_PCT_AT_FLAG, PREDICTIONS, PRICE_MAX, REFLAG_HOURS, RUNLOG, RVOL_MIN,
+from .common import (BURST_MIN, MAX_PCT_AT_FLAG, MIN_PCT_AT_FLAG, PREDICTIONS, PRICE_MAX, REFLAG_HOURS, RUNLOG, RVOL_MIN,
                      SNAPSHOTS, ST_RATE_MIN, ST_RATE_MULT, ST_TRENDING, UNIVERSE, append_csv, now_utc, read_csv)
 
 ST_CANDIDATES = 20  # keeps StockTwits calls ~150/h at a 10-min cadence
@@ -42,11 +42,16 @@ def volume_metrics(bars, today, now_ny):
     sess = market.session_of(now_ny)
     last = float(tb["Close"].iloc[-1])
     # 30-min volume burst vs. median 30-min volume of earlier days in the same session type
-    labels = pd.Series([market.session_of(t) for t in bars.index], index=bars.index)
+    # baseline: 30-min volume ending at the same clock time (+-10 min) on earlier days,
+    # so the routine open/close volume surge does not count as a burst
     roll = bars["Volume"].rolling(6, min_periods=6).sum()
-    prior = roll[(bars.index.date < today) & (labels == sess)].dropna()
+    prior = roll[bars.index.date < today].dropna()
+    t_last = tb.index[-1].hour * 60 + tb.index[-1].minute
+    tod = prior.index.hour * 60 + prior.index.minute
+    same = prior[np.abs(tod - t_last) <= 10]
+    per_day = same.groupby(same.index.date).mean()
     recent_vol = float(tb["Volume"].tail(6).sum())
-    base = float(prior.median()) if len(prior) else np.nan
+    base = float(per_day.median()) if len(per_day) else np.nan
     burst = recent_vol / max(base, 1.0) if not np.isnan(base) else np.nan
     reg_today = tb[[market.session_of(t) == "reg" for t in tb.index]]
     return {
@@ -99,7 +104,7 @@ def main():
 
     # StockTwits message rates for the most interesting names that have not spiked yet
     trend_set = {t["ticker"] for t in trending}
-    fresh = snap[snap["pct"] < MAX_PCT_AT_FLAG]
+    fresh = snap[(snap["pct"] < MAX_PCT_AT_FLAG) & (snap["pct"] > MIN_PCT_AT_FLAG)]
     cand = list(fresh.sort_values("burst", ascending=False)["ticker"].head(ST_CANDIDATES))
     cand += [t for t in fresh["ticker"] if t in trend_set and t not in cand]
     st_rows = {}
@@ -127,7 +132,7 @@ def main():
 
     def reasons(r):
         out = []
-        if r["pct"] >= MAX_PCT_AT_FLAG:
+        if r["pct"] >= MAX_PCT_AT_FLAG or r["pct"] <= MIN_PCT_AT_FLAG:
             return out
         if (r["burst"] >= BURST_MIN and r["dollar_vol_30m"] >= 50_000 and
                 (r["session"] != "reg" or (not np.isnan(r["rvol"]) and r["rvol"] >= RVOL_MIN))):
