@@ -10,6 +10,6 @@ $QNCX: possibly delisted; no price data found  (period=5d)
 - TGL +99%, started 04:35 ET — missed (watched)
 
 **Running totals:** 0 flags, 0 resolved, 0 hit +30% within 2 days (precision n/a). Spikes caught in advance: 0/1.
-**Baseline:** 1.7% of 350 low-price stocks hit +30% intraday today (what random picking would roughly give per day).
-**Data health:** 4 collection runs today; StockTwits status {'ok': 3, 'http_404': 1}.
+**Baseline:** 2.0% of 445 low-price stocks hit +30% intraday today (what random picking would roughly give per day).
+**Data health:** 5 collection runs today; StockTwits status {'ok': 4, 'http_404': 1}.
 
