@@ -89,3 +89,6 @@ ts,ticker,price,prev_close,pct,burst,rvol,st_rate,st_bull,trending,session,score
 2026-10-16T21:20:06Z,AMRO,4.94,4.5,9.78,20485.0,,1.0,1.0,False,post,1,vol_burst x20485
 2026-10-16T21:30:05Z,DGXX,2.67,2.785,-4.13,98650.0,0.6,1.0,0.78,False,post,1,vol_burst x98650
 2026-10-16T21:30:05Z,AREC,1.14,1.195,-4.6,195853.0,1.34,1.0,0.62,False,post,1,vol_burst x195853
+2026-10-16T21:40:06Z,EVGO,1.078,1.105,-2.44,99501.0,0.75,0.0,0.78,False,post,1,vol_burst x99501
+2026-10-16T21:40:06Z,BMEA,0.89,0.827,7.62,108169.0,1.21,1.0,1.0,False,post,1,vol_burst x108169
+2026-10-16T21:40:06Z,GLDG,0.8135,0.8,1.68,8.69,0.87,,,False,post,1,vol_burst x9
