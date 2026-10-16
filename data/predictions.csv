@@ -77,3 +77,5 @@ ts,ticker,price,prev_close,pct,burst,rvol,st_rate,st_bull,trending,session,score
 2026-10-16T20:30:05Z,NMRA,0.4815,0.4272,12.71,7.39,1.35,0.0,1.0,False,post,1,vol_burst x7
 2026-10-16T20:30:05Z,OCGN,0.792,0.8134,-2.63,6.08,0.61,7.0,0.87,False,post,1,vol_burst x6
 2026-10-16T20:30:05Z,INV,0.3268,0.2981,9.63,7.06,1.49,0.0,0.62,False,post,1,vol_burst x7
+2026-10-16T20:40:05Z,NAUT,2.0695,2.145,-3.52,8.8,0.69,0.0,0.7,False,post,1,vol_burst x9
+2026-10-16T20:40:05Z,ORGO,1.05,1.105,-4.98,5.52,1.87,0.0,1.0,False,post,1,vol_burst x6
