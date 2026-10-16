@@ -42,3 +42,5 @@ ts,ticker,price,prev_close,pct,burst,rvol,st_rate,st_bull,trending,session,score
 2026-10-16T14:20:05Z,SGRX,0.7653,0.6751,13.36,309.3,338.65,77.7,0.93,False,reg,2,vol_burst x309; st_rate 78/h
 2026-10-16T14:30:06Z,HUBC,0.4155,0.3832,8.43,16.84,11.72,2.0,0.8,False,reg,1,vol_burst x17
 2026-10-16T14:40:05Z,VJET,0.9713,0.9719,-0.06,6.0,2.92,0.0,0.75,False,reg,1,vol_burst x6
+2026-10-16T14:50:05Z,CIGL,0.2461,0.2417,1.82,11.47,36.36,5.0,1.0,False,reg,1,vol_burst x11
+2026-10-16T14:50:05Z,ATLX,2.48,2.285,8.53,5.37,4.95,1.0,0.76,False,reg,1,vol_burst x5
