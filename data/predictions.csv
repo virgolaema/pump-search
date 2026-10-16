@@ -74,3 +74,6 @@ ts,ticker,price,prev_close,pct,burst,rvol,st_rate,st_bull,trending,session,score
 2026-10-16T20:10:06Z,APRE,0.5957,0.6251,-4.7,12.56,0.6,0.0,1.0,False,post,1,vol_burst x13
 2026-10-16T20:10:06Z,VIP,1.29,1.34,-3.73,5.51,0.69,0.0,0.77,False,post,1,vol_burst x6
 2026-10-16T20:20:05Z,ABAT,1.4902,1.565,-4.78,9.29,1.39,6.0,0.93,False,post,1,vol_burst x9
+2026-10-16T20:30:05Z,NMRA,0.4815,0.4272,12.71,7.39,1.35,0.0,1.0,False,post,1,vol_burst x7
+2026-10-16T20:30:05Z,OCGN,0.792,0.8134,-2.63,6.08,0.61,7.0,0.87,False,post,1,vol_burst x6
+2026-10-16T20:30:05Z,INV,0.3268,0.2981,9.63,7.06,1.49,0.0,0.62,False,post,1,vol_burst x7
