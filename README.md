@@ -3,7 +3,7 @@
 Paper test: can StockTwits chatter plus unusual volume flag low-price US stocks ($0.10–$5, market cap < $300M, ≥50k shares/day, Nasdaq/NYSE/AMEX) before they spike? Observation only, no trading.
 
 - Scheduling: GitHub's cron never fired for this repo, so `loop.yml` runs `scripts/loop.sh` (collect every 10 min on weekdays 08:00–24:00 UTC, evaluate at 00:20 UTC), ~5.7 h per job, then re-dispatches itself. Stop it by committing a file named `STOP` or disabling the workflow; it ends on its own after 2026-11-13. `collect.yml`/`evaluate.yml` are manual-run only.
-- `pump/collect.py` It rebuilds the watchlist once a day from the Yahoo screener (up to 600 names), snapshots 5-min price/volume and StockTwits message rates, and appends flags to `data/predictions.csv`.
+- `pump/collect.py` rebuilds the watchlist once a day from the Yahoo screener (up to 600 names), snapshots 5-min price/volume and StockTwits message rates, and appends flags to `data/predictions.csv`.
 - `pump/evaluate.py` It scores flags and finds the day's spikes, then writes `reports/YYYY-MM-DD.md`.
 
 Flag rule (frozen, see `pump/common.py`). A stock is flagged if it is still below +15% vs the previous close and at least one of these holds:
