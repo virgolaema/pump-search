@@ -1,0 +1,3 @@
+date,ticker,prev_close,max_gain,start,in_universe,flagged_before,lead_min
+2026-10-16,OPENW,0.0860000029206276,74.3,2026-10-16T08:00:00Z,False,False,
+2026-10-16,SEATW,0.01679999940097332,673.8,2026-10-16T08:05:00Z,False,False,
