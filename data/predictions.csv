@@ -32,3 +32,7 @@ ts,ticker,price,prev_close,pct,burst,rvol,st_rate,st_bull,trending,session,score
 2026-10-16T14:00:47Z,TLSA,1.0499,1.05,-0.01,5.31,3.42,,,False,reg,1,vol_burst x5
 2026-10-16T14:00:47Z,SNTI,0.23,0.2616,-12.08,29.52,19.59,1.0,0.5,False,reg,1,vol_burst x30
 2026-10-16T14:00:47Z,SST,2.42,2.245,7.8,6.04,2.71,,,False,reg,1,vol_burst x6
+2026-10-16T14:10:06Z,EVTL,0.4279,0.4305,-0.6,19.42,22.07,6.0,1.0,False,reg,1,vol_burst x19
+2026-10-16T14:10:06Z,ENSC,0.5468,0.579,-5.56,5.34,2.57,,,False,reg,1,vol_burst x5
+2026-10-16T14:10:06Z,TII,2.055,2.01,2.24,7.31,4.05,0.0,1.0,False,reg,1,vol_burst x7
+2026-10-16T14:10:06Z,CCTG,0.405,0.3762,7.66,32.44,55.66,0.0,1.0,False,reg,1,vol_burst x32
