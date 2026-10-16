@@ -34,10 +34,10 @@ REFLAG_HOURS = 24           # do not re-flag the same ticker within this window
 
 # Outcomes
 HIT_GAIN = 30.0             # prediction is a hit if high reaches +30% over flag price...
-HIT_DAYS = 3                # ...within this many trading days
+HIT_DAYS = 2                # ...within this many trading days (flag day + next)
 SPIKE_GAIN = 50.0           # a spike event: day high >= +50% vs previous close
 SPIKE_START = 20.0          # spike start time = first 5-min bar with high >= +20%
-LEAD_DAYS = 3               # a flag counts for an event if made up to 3 days before its start
+LEAD_DAYS = 2               # a flag counts for an event if made up to 2 days before its start
 
 
 def now_utc():

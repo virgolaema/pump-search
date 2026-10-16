@@ -11,6 +11,6 @@ Flag rule (frozen, see `pump/common.py`). A stock is flagged if it is still belo
 - the stock is newly on StockTwits trending.
 
 Scoring:
-- A flag is a hit if the price reaches +30% over the flag price within 3 trading days.
-- A spike event is a day with an intraday high ≥ +50% vs the previous close; it starts at the first 5-min bar at +20%. It counts as caught if it was flagged up to 3 days before the start.
+- A flag is a hit if the price reaches +30% over the flag price within 2 trading days (flag day + next).
+- A spike event is a day with an intraday high ≥ +50% vs the previous close; it starts at the first 5-min bar at +20%. It counts as caught if it was flagged up to 2 days before the start.
 - The baseline is the share of watched stocks that hit +30% intraday on the day.
