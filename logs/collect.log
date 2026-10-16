@@ -1,5 +1,1 @@
-
-1 Failed download:
-['ZENA']: OperationalError('database is locked')
-universe rebuilt: 583 tickers
-2026-10-16T09:43:57Z: priced 291/611, stocktwits ok (21 calls), new flags 0: 
+2026-10-16T11:14:39Z: priced 332/610, stocktwits ok (21 calls), new flags 0: 
