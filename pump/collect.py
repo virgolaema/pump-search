@@ -74,7 +74,7 @@ def main():
     u = load_universe(today)
     tickers = list(u["ticker"])
     # add trending StockTwits names that are low-priced (checked below via price)
-    extra = [t["ticker"] for t in trending if t["ticker"] and t["ticker"] not in tickers and "." not in t["ticker"]]
+    extra = [t["ticker"] for t in trending if market.is_common(t["ticker"]) and t["ticker"] not in tickers]
     bars = market.download(tickers + extra, period="5d", interval="5m", prepost=True)
 
     avg = dict(zip(u["ticker"], u.get("avg_vol20", pd.Series(dtype=float))))

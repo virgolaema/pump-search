@@ -13,6 +13,13 @@ NY = "America/New_York"
 UA = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36"}
 
 
+def is_common(sym):
+    """Drop warrants, units, rights and preferred/class suffixes (e.g. SEATW, ABCU, XYZ-PA)."""
+    if not sym or "-" in sym or "." in sym or "^" in sym:
+        return False
+    return not (len(sym) >= 5 and (sym.endswith(("W", "U", "R")) or sym.endswith("WS")))
+
+
 def screen_low_price():
     """Low-price US listed stocks, most active and biggest movers first."""
     q = EquityQuery("and", [
@@ -30,7 +37,7 @@ def screen_low_price():
                 continue
             for x in res.get("quotes", []):
                 s = x.get("symbol")
-                if s and s not in rows:
+                if is_common(s) and s not in rows:
                     rows[s] = {"ticker": s, "exchange": x.get("exchange"),
                                "mcap": x.get("marketCap"), "name": x.get("shortName")}
     return pd.DataFrame(list(rows.values())[:UNIVERSE_MAX])
@@ -38,7 +45,7 @@ def screen_low_price():
 
 def predefined(name, size=100):
     try:
-        return [x["symbol"] for x in yf.screen(name, count=size).get("quotes", [])]
+        return [x["symbol"] for x in yf.screen(name, count=size).get("quotes", []) if is_common(x.get("symbol"))]
     except Exception as e:
         print(f"predefined {name} failed: {e}")
         return []
@@ -111,6 +118,8 @@ class StockTwits:
         if r.status_code == 429:
             self.status = "rate_limited"
             return None
+        if r.status_code == 404:  # unknown symbol on StockTwits; skip it, keep going
+            return {}
         if r.status_code != 200:
             self.status = f"http_{r.status_code}"
             return None
@@ -127,7 +136,7 @@ class StockTwits:
         """Messages/hour over the last hour (extrapolated if the 30-message page is saturated)."""
         j = self._get(f"streams/symbol/{ticker}.json")
         time.sleep(0.6)
-        if not j:
+        if j is None:
             return None
         msgs = j.get("messages", [])
         if not msgs:
