@@ -1,7 +1,7 @@
 name: evaluate
 on:
   schedule:
-    - cron: "40 21 * * 1-5"        # UTC, after the US close
+    - cron: "20 0 * * 2-6"         # UTC, after US post-market close (same New York date)
   workflow_dispatch:
   push:                           # test run whenever the code changes
     branches: [main]

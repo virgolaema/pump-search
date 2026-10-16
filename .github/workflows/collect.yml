@@ -1,7 +1,7 @@
 name: collect
 on:
   schedule:
-    - cron: "*/30 11-21 * * 1-5"   # UTC; covers US pre-market through close in both EDT and EST
+    - cron: "*/10 8-23 * * 1-5"    # UTC; US pre-market (04:00 ET) through post-market
   workflow_dispatch:
   push:                           # test run whenever the code changes
     branches: [main]

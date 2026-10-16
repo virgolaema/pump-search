@@ -8,7 +8,7 @@ from . import market
 from .common import (BURST_MIN, MAX_PCT_AT_FLAG, PREDICTIONS, PRICE_MAX, REFLAG_HOURS, RUNLOG, RVOL_MIN,
                      SNAPSHOTS, ST_RATE_MIN, ST_RATE_MULT, ST_TRENDING, UNIVERSE, append_csv, now_utc, read_csv)
 
-ST_CANDIDATES = 40
+ST_CANDIDATES = 20  # keeps StockTwits calls ~150/h at a 10-min cadence
 
 
 def load_universe(today):
