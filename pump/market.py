@@ -7,7 +7,7 @@ import requests
 import yfinance as yf
 from yfinance import EquityQuery
 
-from .common import EXCHANGES, MIN_DAY_VOLUME, PRICE_MAX, PRICE_MIN, UNIVERSE_MAX, chunks, now_utc
+from .common import EXCHANGES, MCAP_MAX, MIN_DAY_VOLUME, PRICE_MAX, PRICE_MIN, UNIVERSE_MAX, chunks, now_utc
 
 NY = "America/New_York"
 UA = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36"}
@@ -26,6 +26,7 @@ def screen_low_price():
         EquityQuery("is-in", ["exchange", *EXCHANGES]),
         EquityQuery("btwn", ["intradayprice", PRICE_MIN, PRICE_MAX]),
         EquityQuery("gt", ["dayvolume", MIN_DAY_VOLUME]),
+        EquityQuery("lt", ["intradaymarketcap", MCAP_MAX]),
     ])
     rows = {}
     for sort, pages in (("dayvolume", 2), ("percentchange", 1)):

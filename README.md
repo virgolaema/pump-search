@@ -1,6 +1,6 @@
 # pump-search
 
-Paper test: can StockTwits chatter plus unusual volume flag low-price US stocks (<$5, Nasdaq/NYSE/AMEX) before they spike? Observation only, no trading.
+Paper test: can StockTwits chatter plus unusual volume flag low-price US stocks ($0.10–$5, market cap < $300M, ≥50k shares/day, Nasdaq/NYSE/AMEX) before they spike? Observation only, no trading.
 
 - `pump/collect.py` runs every 10 min on weekdays, 04:00–20:00 ET (GitHub Actions, `collect.yml`). It rebuilds the watchlist once a day from the Yahoo screener (up to 600 names), snapshots 5-min price/volume and StockTwits message rates, and appends flags to `data/predictions.csv`.
 - `pump/evaluate.py` runs after post-market (`evaluate.yml`). It scores flags and finds the day's spikes, then writes `reports/YYYY-MM-DD.md`.

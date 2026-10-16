@@ -20,6 +20,7 @@ os.makedirs(DATA, exist_ok=True)
 # Universe
 PRICE_MIN, PRICE_MAX = 0.10, 5.00
 MIN_DAY_VOLUME = 50_000
+MCAP_MAX = 300e6           # pumps target micro/small caps; drops big names that just trade cheaply
 EXCHANGES = ["NMS", "NGM", "NCM", "NYQ", "ASE"]
 UNIVERSE_MAX = 600
 
