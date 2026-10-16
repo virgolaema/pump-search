@@ -1,1 +1,6 @@
-2026-10-16T13:22:21Z: priced 421/610, stocktwits ok (21 calls), new flags 3: WFF, DVLT, GLND
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: GBPUSD"}}}
+$GBPUSD: No data found, symbol may be delisted
+
+1 Failed download:
+['GBPUSD']: No data found, symbol may be delisted
+2026-10-16T14:00:47Z: priced 571/613, stocktwits ok (21 calls), new flags 30: WETO, GP, ESLA, GCDT, HAIN, TGL, CDT, ALEC, SNDL, ENGS, ALDX, ICG, BIOT, EONR, BZUN, MODD, SIGA, MDXH, BLNE, IFRX, CRIS, ELME, JAGX, MBRX, BAOS, SY, DXF, TLSA, SNTI, SST
