@@ -81,3 +81,6 @@ ts,ticker,price,prev_close,pct,burst,rvol,st_rate,st_bull,trending,session,score
 2026-10-16T20:40:05Z,ORGO,1.05,1.105,-4.98,5.52,1.87,0.0,1.0,False,post,1,vol_burst x6
 2026-10-16T20:50:06Z,SPWR,0.255,0.263,-3.04,5.54,0.7,0.0,0.56,False,post,1,vol_burst x6
 2026-10-16T20:50:06Z,XPOF,4.5,4.61,-2.39,7.15,1.08,0.0,0.57,False,post,1,vol_burst x7
+2026-10-16T21:10:06Z,OTLK,0.4918,0.5,-1.64,120772.0,0.68,4.0,1.0,False,post,1,vol_burst x120772
+2026-10-16T21:10:06Z,SRFM,0.8847,0.9251,-4.37,194367.0,0.8,4.0,1.0,False,post,1,vol_burst x194367
+2026-10-16T21:10:06Z,SKYA,2.7,2.735,-1.28,121561.0,0.57,0.0,0.64,False,post,1,vol_burst x121561
