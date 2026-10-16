@@ -44,3 +44,5 @@ ts,ticker,price,prev_close,pct,burst,rvol,st_rate,st_bull,trending,session,score
 2026-10-16T14:40:05Z,VJET,0.9713,0.9719,-0.06,6.0,2.92,0.0,0.75,False,reg,1,vol_burst x6
 2026-10-16T14:50:05Z,CIGL,0.2461,0.2417,1.82,11.47,36.36,5.0,1.0,False,reg,1,vol_burst x11
 2026-10-16T14:50:05Z,ATLX,2.48,2.285,8.53,5.37,4.95,1.0,0.76,False,reg,1,vol_burst x5
+2026-10-16T15:10:06Z,NKTX,1.8337,1.925,-4.74,7.22,2.94,0.0,1.0,False,reg,1,vol_burst x7
+2026-10-16T15:10:06Z,KPTI,0.369,0.35,5.43,5.12,2.98,7.0,0.95,False,reg,1,vol_burst x5
