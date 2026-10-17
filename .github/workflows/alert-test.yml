@@ -1,0 +1,24 @@
+name: alert-test
+# Sends one test alert (ntfy + GitHub issue) whenever the alert code changes.
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["pump/alerts.py", ".github/workflows/alert-test.yml"]
+permissions:
+  contents: read
+  issues: write
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - run: python -m pump.alerts --test
+        env:
+          NTFY_TOPIC: pump-search-f664b7a15dac
+          GITHUB_TOKEN: ${{ github.token }}

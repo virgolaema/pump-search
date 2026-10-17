@@ -15,6 +15,7 @@ PREDICTIONS = os.path.join(DATA, "predictions.csv")
 OUTCOMES = os.path.join(DATA, "outcomes.csv")
 EVENTS = os.path.join(DATA, "events.csv")
 RUNLOG = os.path.join(DATA, "runlog.csv")
+ALERTS = os.path.join(DATA, "alerts.csv")
 os.makedirs(DATA, exist_ok=True)
 
 # Universe

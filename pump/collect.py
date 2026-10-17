@@ -4,7 +4,7 @@ Run every ~30 min during US trading hours (GitHub Actions)."""
 import numpy as np
 import pandas as pd
 
-from . import market
+from . import alerts, market
 from .common import (BURST_MIN, MAX_PCT_AT_FLAG, MIN_PCT_AT_FLAG, PREDICTIONS, PRICE_MAX, REFLAG_HOURS, RUNLOG, RVOL_MIN,
                      SNAPSHOTS, ST_RATE_MIN, ST_RATE_MULT, ST_TRENDING, UNIVERSE, append_csv, now_utc, read_csv)
 
@@ -155,6 +155,9 @@ def main():
         flagged = flagged[~flagged["ticker"].isin(set(recent["ticker"]))]
     flagged["ts"] = ts
     flagged["score"] = flagged["reasons"].str.count(";") + 1
+    strong = flagged[flagged["reasons"].map(alerts.is_strong)]
+    if not strong.empty:
+        print("alerts:", alerts.send(strong))
     append_csv(PREDICTIONS, flagged[["ts", "ticker", "price", "prev_close", "pct", "burst", "rvol",
                                      "st_rate", "st_bull", "trending", "session", "score", "reasons"]])
 
