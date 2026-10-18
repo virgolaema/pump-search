@@ -5,7 +5,9 @@ import numpy as np
 import pandas as pd
 
 from . import alerts, market
-from .common import (BURST_MIN, MAX_PCT_AT_FLAG, MIN_PCT_AT_FLAG, PREDICTIONS, PRICE_MAX, REFLAG_HOURS, RUNLOG, RVOL_MIN,
+from .features import bar_features
+from .common import (BURST_MIN, MAX_PCT_AT_FLAG, MIN_PCT_AT_FLAG, MOM_BURST, MOM_DVOL, MOM_PCT_HI, MOM_PCT_LO,
+                     MOM_RET10, PREDICTIONS, PRICE_MAX, REFLAG_HOURS, RUNLOG, RVOL_MIN,
                      SNAPSHOTS, ST_RATE_MIN, ST_RATE_MULT, ST_TRENDING, UNIVERSE, append_csv, now_utc, read_csv)
 
 ST_CANDIDATES = 20  # keeps StockTwits calls ~150/h at a 10-min cadence
@@ -36,32 +38,24 @@ def load_universe(today):
 
 
 def volume_metrics(bars, today, now_ny):
-    prev_close, tb = market.prev_close_and_today(bars, today)
-    if prev_close is None or tb.empty:
+    """Features of the last complete 5-min bar, computed exactly as in the backtest."""
+    f = bar_features(bars)
+    f = f[f.index <= now_ny - pd.Timedelta(minutes=5)]   # drop the still-forming bar
+    if f.empty or f.index[-1].date() != today:
         return None
-    sess = market.session_of(now_ny)
-    last = float(tb["Close"].iloc[-1])
-    # 30-min volume burst vs. median 30-min volume of earlier days in the same session type
-    # baseline: 30-min volume ending at the same clock time (+-10 min) on earlier days,
-    # so the routine open/close volume surge does not count as a burst
-    roll = bars["Volume"].rolling(6, min_periods=6).sum()
-    prior = roll[bars.index.date < today].dropna()
-    t_last = tb.index[-1].hour * 60 + tb.index[-1].minute
-    tod = prior.index.hour * 60 + prior.index.minute
-    same = prior[np.abs(tod - t_last) <= 10]
-    per_day = same.groupby(same.index.date).mean()
-    recent_vol = float(tb["Volume"].tail(6).sum())
-    base = float(per_day.median()) if len(per_day) else np.nan
-    burst = recent_vol / max(base, 1.0) if not np.isnan(base) else np.nan
-    reg_today = tb[[market.session_of(t) == "reg" for t in tb.index]]
+    r = f.iloc[-1]
+    if not np.isfinite(r["prev_close"]):
+        return None
+    reg_today = f[(f["date"] == today) & (f["tod"] >= 570) & (f["tod"] < 960)]
     return {
-        "price": round(last, 4),
-        "prev_close": round(prev_close, 4),
-        "pct": round((last / prev_close - 1) * 100, 2),
-        "burst": round(burst, 2) if not np.isnan(burst) else np.nan,
-        "dollar_vol_30m": round(recent_vol * last),
-        "vol_today_reg": float(reg_today["Volume"].sum()),
-        "session": sess,
+        "price": round(float(r["close"]), 4),
+        "prev_close": round(float(r["prev_close"]), 4),
+        "pct": round(float(r["pct"]), 2),
+        "burst": round(float(r["burst"]), 2) if np.isfinite(r["burst"]) else np.nan,
+        "ret10": round(float(r["ret10"]), 2) if np.isfinite(r["ret10"]) else np.nan,
+        "dollar_vol_30m": round(float(r["dvol30"])) if np.isfinite(r["dvol30"]) else 0,
+        "vol_today_reg": float(bars.loc[reg_today.index, "Volume"].sum()),
+        "session": market.session_of(now_ny),
     }
 
 
@@ -132,19 +126,24 @@ def main():
 
     def reasons(r):
         out = []
-        if r["pct"] >= MAX_PCT_AT_FLAG or r["pct"] <= MIN_PCT_AT_FLAG:
+        pct, burst, ret10 = r["pct"], r["burst"], r["ret10"]
+        # v3 momentum rule, chosen by the blind backtest (backtest/results.md)
+        if (MOM_PCT_LO <= pct < MOM_PCT_HI and burst >= MOM_BURST and ret10 >= MOM_RET10
+                and r["dollar_vol_30m"] >= MOM_DVOL):
+            out.append(f"momentum {ret10:+.0f}% in 10 min, vol x{burst:.0f}")
+        if not (MIN_PCT_AT_FLAG < pct < MAX_PCT_AT_FLAG):
             return out
-        if (r["burst"] >= BURST_MIN and r["dollar_vol_30m"] >= 50_000 and
-                (r["session"] != "reg" or (not np.isnan(r["rvol"]) and r["rvol"] >= RVOL_MIN))):
-            out.append(f"vol_burst x{r['burst']:.0f}")
+        social = []
         rate = r["st_rate"]
         if not np.isnan(rate) and rate >= ST_RATE_MIN:
             b = st_base.get(r["ticker"])
             if (b is None and rate >= 2 * ST_RATE_MIN) or (b is not None and rate >= ST_RATE_MULT * max(b, 1)):
-                out.append(f"st_rate {rate:.0f}/h")
+                social.append(f"st_rate {rate:.0f}/h")
         if r["trending"] and r["ticker"] not in recently_trending:
-            out.append("st_new_trending")
-        return out
+            social.append("st_new_trending")
+        if social and not out and burst >= BURST_MIN:
+            social.append(f"vol x{burst:.0f}")
+        return out + social
 
     snap["reasons"] = snap.apply(lambda r: "; ".join(reasons(r)), axis=1)
     flagged = snap[snap["reasons"] != ""].copy()

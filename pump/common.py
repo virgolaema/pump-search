@@ -25,7 +25,13 @@ MCAP_MAX = 300e6           # pumps target micro/small caps; drops big names that
 EXCHANGES = ["NMS", "NGM", "NCM", "NYQ", "ASE"]
 UNIVERSE_MAX = 600
 
-# Prediction rule (frozen before outcomes are known; change only with a dated note in README)
+# Prediction rules. v3 (2026-10-18): alerts use the momentum rule chosen by the blind backtest
+# (backtest/results.md, train 38 d / test 20 d). StockTwits flags are logged and alerted only
+# together with a volume burst; they are not backtestable (no history).
+MOM_PCT_LO, MOM_PCT_HI = 5.0, 15.0   # % vs previous close
+MOM_RET10 = 10.0                     # % price change over the last 10 min
+MOM_BURST = 5.0                      # 30-min volume vs same time of day on prior 4 days
+MOM_DVOL = 100_000                   # $ traded in the last 30 min
 MAX_PCT_AT_FLAG = 15.0      # stock must not have spiked yet (% vs previous close)
 MIN_PCT_AT_FLAG = -5.0      # ...and must not be selling off (v2, 2026-10-16 14:20 UTC)
 BURST_MIN = 5.0             # last-30-min volume / same-time-of-day 30-min volume of prior days (v2)

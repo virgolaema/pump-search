@@ -6,12 +6,13 @@ Paper test: can StockTwits chatter plus unusual volume flag low-price US stocks 
 - `pump/collect.py` rebuilds the watchlist once a day from the Yahoo screener (up to 600 names), snapshots 5-min price/volume and StockTwits message rates, and appends flags to `data/predictions.csv`.
 - `pump/evaluate.py` It scores flags and finds the day's spikes, then writes `reports/YYYY-MM-DD.md`.
 
-Alerts: when a flag has both a volume burst and a StockTwits signal, `pump/alerts.py` sends an ntfy.sh push (topic in `loop.yml`) and opens a GitHub issue labelled `alert`.
+Alerts (v3, from 2026-10-19): an ntfy.sh push (topic in `loop.yml`) plus a GitHub issue labelled `alert` when either
+- **momentum** (chosen by the blind backtest, `backtest/results.md`): price +5% to +15% vs previous close, +10% or more in the last 10 min, 30-min volume ≥5× the same time of day on the prior 4 days, and ≥$100k traded in 30 min; or
+- **social + volume** (not backtestable): a StockTwits signal (rate ≥10/h and ≥3× its baseline, or newly trending) with volume ≥5× and price between −5% and +15%.
 
-Flag rule (see `pump/common.py`; v2 from 2026-10-16 14:20 UTC: burst baseline is now the same time of day on prior days, and stocks down >5% are excluded. Flags before that time used v1 and over-flagged at the open). A stock is flagged if it is between −5% and +15% vs the previous close and at least one of these holds:
-- the last 30-min volume is ≥5× its usual 30-min volume, with ≥$50k traded and (in regular hours) relative volume ≥2;
-- the StockTwits message rate is ≥10/h and ≥3× its own baseline, or ≥20/h if there is no baseline yet;
-- the stock is newly on StockTwits trending.
+StockTwits-only signals are logged as flags but not alerted. Earlier rules: v1 until 2026-10-16 14:20 UTC (over-flagged at the open), v2 until 2026-10-18 (any 5× volume burst).
+
+Backtest (`pump/backtest.py`, run by `backtest.yml`): 579 watchlist stocks, 58 days of 5-min bars, a check every 10 min using only past data; rules are picked on the first 38 days and scored once on the last 20. Trade model: buy at flag +1%, sell at +30%, stop at −15%, or close at the end of the next trading day. Result for the chosen rule on the test days: 37 alerts (≈2/day), 24% hit +30% (random entries: 4%), 51% stopped out, mean trade −0.5%; only 2 of 217 spikes were flagged before reaching +20%.
 
 Scoring:
 - A flag is a hit if the price reaches +30% over the flag price within 2 trading days (flag day + next).

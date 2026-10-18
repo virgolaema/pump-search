@@ -11,7 +11,7 @@ from .common import ALERTS, append_csv, now_utc
 
 
 def is_strong(reasons):
-    return "vol_burst" in reasons and "st_" in reasons
+    return "momentum" in reasons or ("st_" in reasons and "vol x" in reasons)
 
 
 def _ntfy(title, body, url):
@@ -47,7 +47,8 @@ def send(flags):
         title = f"Pump watch: {r.ticker} ${r.price:.2f} ({r.pct:+.0f}%)"
         body = (f"{r.ticker} at ${r.price:.2f}, {r.pct:+.1f}% vs previous close, {r.ts}.\n"
                 f"Signals: {r.reasons}.\n"
-                f"Paper test only: a hit means +30% within 2 trading days; most flags are not hits.")
+                f"Backtest of the momentum rule (20 unseen days): 24% reached +30%, 51% fell -15% first, "
+                f"average trade about -0.5%. Paper test, not advice.")
         url = f"https://finance.yahoo.com/quote/{r.ticker}"
         out.append({"ts": r.ts, "ticker": r.ticker, "ntfy": _ntfy(title, body, url),
                     "issue": _issue(title, body + f"\n\n{url}")})
