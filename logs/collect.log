@@ -8,4 +8,4 @@ $XAUUSD: No data found, symbol may be delisted
 1 Failed download:
 ['XAUUSD']: No data found, symbol may be delisted
 download failed for batch of 200: expected string or bytes-like object, got 'float'
-2026-10-19T14:40:05Z: priced 393/628, stocktwits ok (21 calls), new flags 0: 
+2026-10-19T14:50:06Z: priced 393/628, stocktwits ok (21 calls), new flags 0: 
