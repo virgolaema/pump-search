@@ -3,4 +3,4 @@ $MIMI: possibly delisted; no price data found  (period=5d)
 1 Failed download:
 ['MIMI']: possibly delisted; no price data found  (period=5d)
 download failed for batch of 200: expected string or bytes-like object, got 'float'
-2026-10-19T16:50:05Z: priced 393/629, stocktwits ok (21 calls), new flags 1: WFF
+2026-10-19T17:00:06Z: priced 393/629, stocktwits ok (21 calls), new flags 0: 
