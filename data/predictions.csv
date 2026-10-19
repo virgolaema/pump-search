@@ -107,3 +107,4 @@ ts,ticker,price,prev_close,pct,burst,rvol,st_rate,st_bull,trending,session,score
 2026-10-19T15:50:06Z,GP,1.78,1.6035,11.01,7.76,,10.0,0.93,False,reg,2,st_rate 10/h; vol x8
 2026-10-19T16:20:06Z,SDEV,0.9851,0.8784,12.15,8.29,0.48,28.0,1.0,False,reg,2,st_rate 28/h; vol x8
 2026-10-19T16:50:05Z,WFF,0.1164,0.1074,8.38,3.15,4.21,29.0,0.92,False,reg,1,st_rate 29/h
+2026-10-19T18:10:06Z,RUBI,0.43,0.3825,12.42,361.31,1.85,4.0,0.33,False,reg,1,"momentum +46% in 10 min, vol x361"
