@@ -117,3 +117,4 @@ ts,universe,priced,st_status,st_calls,flags
 2026-10-19T15:40:06Z,600,393,ok,21,0
 2026-10-19T15:50:06Z,600,393,ok,21,1
 2026-10-19T15:51:28Z,600,393,ok,21,0
+2026-10-19T16:00:06Z,600,393,error:ConnectionError,18,0
