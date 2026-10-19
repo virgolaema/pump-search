@@ -1,7 +1,9 @@
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: USDCAD"}}}
+$USDCAD: No data found, symbol may be delisted
 HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: EURUSD"}}}
 $EURUSD: No data found, symbol may be delisted
 
-1 Failed download:
-['EURUSD']: No data found, symbol may be delisted
+2 Failed downloads:
+['USDCAD', 'EURUSD']: No data found, symbol may be delisted
 download failed for batch of 200: expected string or bytes-like object, got 'float'
 no price data
