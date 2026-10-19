@@ -2,5 +2,11 @@ $MIMI: possibly delisted; no price data found  (period=5d)
 
 1 Failed download:
 ['MIMI']: possibly delisted; no price data found  (period=5d)
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: USDCAD"}}}
+$USDCAD: No data found, symbol may be delisted
+
+1 Failed download:
+['USDCAD']: No data found, symbol may be delisted
 download failed for batch of 200: expected string or bytes-like object, got 'float'
-2026-10-19T13:40:06Z: priced 391/629, stocktwits ok (21 calls), new flags 0: 
+alerts: [{'ts': '2026-10-19T13:50:05Z', 'ticker': 'BURU', 'ntfy': 'http_200', 'issue': 'http_201'}]
+2026-10-19T13:50:05Z: priced 393/629, stocktwits ok (21 calls), new flags 1: BURU
