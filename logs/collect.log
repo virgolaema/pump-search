@@ -4,4 +4,4 @@ $EURJPY: No data found, symbol may be delisted
 1 Failed download:
 ['EURJPY']: No data found, symbol may be delisted
 download failed for batch of 200: expected string or bytes-like object, got 'float'
-2026-10-19T21:20:06Z: priced 393/628, stocktwits ok (21 calls), new flags 0: 
+2026-10-19T21:30:06Z: priced 393/630, stocktwits ok (21 calls), new flags 0: 
