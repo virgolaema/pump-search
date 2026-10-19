@@ -8,5 +8,4 @@ $XAUUSD: No data found, symbol may be delisted
 1 Failed download:
 ['XAUUSD']: No data found, symbol may be delisted
 download failed for batch of 200: expected string or bytes-like object, got 'float'
-alerts: [{'ts': '2026-10-19T14:30:05Z', 'ticker': 'XLAB', 'ntfy': 'http_200', 'issue': 'http_201'}, {'ts': '2026-10-19T14:30:05Z', 'ticker': 'IPW', 'ntfy': 'http_200', 'issue': 'http_201'}]
-2026-10-19T14:30:05Z: priced 393/628, stocktwits ok (21 calls), new flags 2: XLAB, IPW
+2026-10-19T14:40:05Z: priced 393/628, stocktwits ok (21 calls), new flags 0: 
