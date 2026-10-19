@@ -1,7 +1,7 @@
-HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: GBPUSD"}}}
-$GBPUSD: No data found, symbol may be delisted
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: NZDJPY"}}}
+$NZDJPY: No data found, symbol may be delisted
 
 1 Failed download:
-['GBPUSD']: No data found, symbol may be delisted
+['NZDJPY']: No data found, symbol may be delisted
 download failed for batch of 200: expected string or bytes-like object, got 'float'
 no price data
