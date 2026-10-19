@@ -102,3 +102,5 @@ ts,ticker,price,prev_close,pct,burst,rvol,st_rate,st_bull,trending,session,score
 2026-10-16T23:50:06Z,MVST,0.5404,0.5629,-4.0,321828.0,0.53,0.0,0.71,False,post,1,vol_burst x321828
 2026-10-19T13:30:06Z,GPRO,1.12,1.045,7.18,0.0,0.0,24.0,0.92,False,reg,1,st_rate 24/h
 2026-10-19T13:50:05Z,BURU,0.5582,0.5798,-3.73,7.74,26.31,22.0,0.63,False,reg,2,st_rate 22/h; vol x8
+2026-10-19T14:30:05Z,XLAB,2.5312,2.335,8.4,43.31,37.25,48.4,0.72,False,reg,2,st_rate 48/h; vol x43
+2026-10-19T14:30:05Z,IPW,0.4586,0.4,14.65,36.59,76.74,10.0,0.87,False,reg,2,st_rate 10/h; vol x37
