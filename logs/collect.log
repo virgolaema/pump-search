@@ -1,6 +1,6 @@
 HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: EURUSD"}}}
-HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: USDCAD"}}}
 $EURUSD: No data found, symbol may be delisted
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: USDCAD"}}}
 $USDCAD: No data found, symbol may be delisted
 
 2 Failed downloads:
