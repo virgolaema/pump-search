@@ -1,1 +1,9 @@
-2026-10-16T23:50:06Z: priced 575/612, stocktwits ok (21 calls), new flags 1: MVST
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: USDCAD"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: USDJPY"}}}
+$USDCAD: No data found, symbol may be delisted
+$USDJPY: No data found, symbol may be delisted
+
+2 Failed downloads:
+['USDCAD', 'USDJPY']: No data found, symbol may be delisted
+universe rebuilt: 600 tickers
+no price data
