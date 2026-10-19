@@ -104,3 +104,4 @@ ts,ticker,price,prev_close,pct,burst,rvol,st_rate,st_bull,trending,session,score
 2026-10-19T13:50:05Z,BURU,0.5582,0.5798,-3.73,7.74,26.31,22.0,0.63,False,reg,2,st_rate 22/h; vol x8
 2026-10-19T14:30:05Z,XLAB,2.5312,2.335,8.4,43.31,37.25,48.4,0.72,False,reg,2,st_rate 48/h; vol x43
 2026-10-19T14:30:05Z,IPW,0.4586,0.4,14.65,36.59,76.74,10.0,0.87,False,reg,2,st_rate 10/h; vol x37
+2026-10-19T15:50:06Z,GP,1.78,1.6035,11.01,7.76,,10.0,0.93,False,reg,2,st_rate 10/h; vol x8
