@@ -1,9 +1,2 @@
-HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: USDCAD"}}}
-HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: USDJPY"}}}
-$USDCAD: No data found, symbol may be delisted
-$USDJPY: No data found, symbol may be delisted
-
-2 Failed downloads:
-['USDCAD', 'USDJPY']: No data found, symbol may be delisted
-universe rebuilt: 600 tickers
+download failed for batch of 200: expected string or bytes-like object, got 'float'
 no price data
