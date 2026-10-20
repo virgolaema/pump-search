@@ -1,0 +1,46 @@
+# Tier-2 what-if: $100 per flag, bought at +20%, sell +50% / -50%
+
+595 watchlist stocks, 59 trading days (2026-07-29 to 2026-10-20). Entry fill = close of the first bar at +20% vs previous close, +1% slippage. Stop wins ties. Unfilled exits are closed at the close of the next trading day.
+
+| Group | Trades | per day | +50% | -50% | timed out | avg trade | total P&L ($100 each) |
+|---|---|---|---|---|---|---|---|
+| tier-2 flags - all days | 424 | 7.4 | 14% | 3% | 83% | -3.2% | $-1,374 |
+| tier-2 flags - last 20 days | 139 | 7.3 | 12% | 4% | 83% | -6.3% | $-876 |
+| control: every stock at +20% - all days | 923 | 15.9 | 15% | 6% | 79% | -3.0% | $-2,758 |
+| control: every stock at +20% - last 20 days | 324 | 17.1 | 15% | 7% | 77% | -4.8% | $-1,543 |
+
+Tier-2 flags that never reached +20% that day (no trade): 836; tier-2 trades: 424.
+
+Worst 5 / best 5 tier-2 trades (return on the $100):
+
+ticker       date  how  ret
+  XXII 2026-09-23 stop -0.5
+   YXT 2026-08-13 stop -0.5
+  NIVF 2026-09-25 stop -0.5
+  RUBI 2026-10-16 stop -0.5
+   SMX 2026-10-16 stop -0.5
+
+ticker       date how  ret
+   WCT 2026-08-12  tp  0.5
+  BIVI 2026-08-20  tp  0.5
+  BTCT 2026-08-19  tp  0.5
+  AMOD 2026-10-01  tp  0.5
+  ZBAO 2026-07-31  tp  0.5
+
+Tier-2 P&L by week:
+
+                       trades  pnl
+week                              
+2026-07-27/2026-08-02      13 -133
+2026-08-03/2026-08-09      40  -46
+2026-08-10/2026-08-16      42 -239
+2026-08-17/2026-08-23      43  -33
+2026-08-24/2026-08-30      33  -57
+2026-08-31/2026-09-06      32 -118
+2026-09-07/2026-09-13      20 -227
+2026-09-14/2026-09-20      47  273
+2026-09-21/2026-09-27      40 -236
+2026-09-28/2026-10-04      27  -76
+2026-10-05/2026-10-11      35 -252
+2026-10-12/2026-10-18      40 -156
+2026-10-19/2026-10-25      12  -74
