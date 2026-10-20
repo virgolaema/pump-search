@@ -1,0 +1,77 @@
+$CIGL: 5m data not available for startTime=1785850200 and endTime=1792492088. The requested range must be within the last 60 days.
+
+1 Failed download:
+['CIGL']: 5m data not available for startTime=1785850200 and endTime=1792492088. The requested range must be within the last 60 days.
+$GYGY: 5m data not available for startTime=1785418200 and endTime=1792492107. The requested range must be within the last 60 days.
+
+1 Failed download:
+['GYGY']: 5m data not available for startTime=1785418200 and endTime=1792492107. The requested range must be within the last 60 days.
+downloaded 595/597 tickers, 60 days
+candidates: 93818, result array (93818, 4, 2, 6, 5)
+# Grid search: flag thresholds x entry trigger x take-profit/stop, blind split
+
+595 stocks, 60 days (2026-07-28 to 2026-10-20); train = first 40 days, test = last 20 days (not used for any choice). $100 per trade, entry +1% / exit -1% slippage.
+Configurations evaluated (>= 60 train and >= 30 test trades): 59,880
+
+- positive on train: 1.1%
+- positive on test: 0.3%
+- positive on both: 0.0%
+- correlation of train and test mean return across configs: 0.43
+- median test mean return of the best 100 configs on train: -6.33%
+
+## Top 12 configs by train P&L (and what they did on the unseen test days)
+
+ pct_lo  pct_hi  burst  ret10   dvol entry  horizon  tp  sl  n_train  mean_train  pnl_train  n_test  mean_test  pnl_test
+      5      25     10      5 100000  flag        1 0.5 0.5      284      0.0135      383.0     164    -0.0412    -676.0
+      0      25     10      5 100000  flag        1 0.5 0.5      330      0.0112      368.0     193    -0.0432    -833.0
+      5      25     10      5  25000  flag        1 0.5 0.5      315      0.0106      335.0     186    -0.0511    -951.0
+     -5      40     20   -100 100000  +30%        1 0.3 0.5      220      0.0151      331.0     145    -0.0594    -862.0
+      0      40     20   -100 100000  +30%        1 0.3 0.5      217      0.0150      325.0     142    -0.0672    -954.0
+     -5      25     10      5 100000  flag        1 0.5 0.5      374      0.0083      311.0     212    -0.0454    -962.0
+      5      40     10      5  25000  +30%        1 0.3 0.5      171      0.0180      308.0      99    -0.0751    -744.0
+     -5      40     10     10 100000  +30%        1 0.3 0.5       67      0.0455      305.0      55    -0.0783    -430.0
+     -5      40     10     10  25000  +30%        1 0.3 0.5       67      0.0455      305.0      55    -0.0783    -430.0
+      5      40     20      5  25000  +30%        1 0.3 0.5      132      0.0229      303.0      85    -0.0728    -619.0
+      5      25     20      5  25000  +30%        1 1.0 0.5       62      0.0484      300.0      38    -0.0504    -192.0
+      5      40     20      5 100000  +30%        1 0.3 0.5      131      0.0227      297.0      85    -0.0728    -619.0
+
+## Configs positive on both, ranked by the weaker of the two means
+
+ pct_lo  pct_hi  burst  ret10   dvol entry  horizon  tp  sl  n_train  mean_train  pnl_train  n_test  mean_test  pnl_test
+      0      15      5     10 100000  flag        1 0.1 0.5       65       0.001        6.0      41     0.0005       2.0
+
+## Average train/test mean return by exit pair (all flag configs, entry at +20%)
+
+           mean_train  mean_test
+tp   sl                         
+0.10 0.05     -0.0415    -0.0531
+     0.10     -0.0381    -0.0495
+     0.15     -0.0344    -0.0450
+     0.25     -0.0247    -0.0453
+     0.50     -0.0207    -0.0401
+0.15 0.05     -0.0421    -0.0555
+     0.10     -0.0360    -0.0540
+     0.15     -0.0341    -0.0459
+     0.25     -0.0229    -0.0543
+     0.50     -0.0172    -0.0510
+0.20 0.05     -0.0417    -0.0573
+     0.10     -0.0349    -0.0549
+     0.15     -0.0339    -0.0439
+     0.25     -0.0258    -0.0544
+     0.50     -0.0200    -0.0514
+0.30 0.05     -0.0415    -0.0630
+     0.10     -0.0367    -0.0560
+     0.15     -0.0373    -0.0447
+     0.25     -0.0266    -0.0539
+     0.50     -0.0216    -0.0510
+0.50 0.05     -0.0474    -0.0615
+     0.10     -0.0409    -0.0630
+     0.15     -0.0420    -0.0505
+     0.25     -0.0298    -0.0627
+     0.50     -0.0260    -0.0632
+1.00 0.05     -0.0501    -0.0694
+     0.10     -0.0457    -0.0669
+     0.15     -0.0554    -0.0582
+     0.25     -0.0454    -0.0704
+     0.50     -0.0407    -0.0715
+
