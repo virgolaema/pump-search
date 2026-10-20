@@ -2,5 +2,4 @@ $MIMI: possibly delisted; no price data found  (period=5d)
 
 1 Failed download:
 ['MIMI']: possibly delisted; no price data found  (period=5d)
-alerts: [{'ts': '2026-10-20T19:00:06Z', 'ticker': 'HCAI', 'ntfy': 'http_200', 'issue': 'http_201'}]
-2026-10-20T19:00:06Z: priced 591/625, stocktwits ok (21 calls), new flags 1: HCAI
+2026-10-20T19:10:06Z: priced 591/625, stocktwits ok (21 calls), new flags 0: 
