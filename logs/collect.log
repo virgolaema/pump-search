@@ -1,8 +1,5 @@
 $MIMI: possibly delisted; no price data found  (period=5d)
-HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: MACRO"}}}
-$MACRO: No data found, symbol may be delisted
 
-2 Failed downloads:
+1 Failed download:
 ['MIMI']: possibly delisted; no price data found  (period=5d)
-['MACRO']: No data found, symbol may be delisted
-2026-10-20T17:40:06Z: priced 591/624, stocktwits ok (21 calls), new flags 0: 
+2026-10-20T17:50:06Z: priced 591/626, stocktwits ok (21 calls), new flags 0: 
