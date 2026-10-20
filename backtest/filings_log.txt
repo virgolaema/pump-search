@@ -1,9 +1,9 @@
 Traceback (most recent call last):
   File "<frozen runpy>", line 198, in _run_module_as_main
   File "<frozen runpy>", line 88, in _run_code
-  File "/home/runner/work/pump-search/pump-search/pump/filings_test.py", line 136, in <module>
+  File "/home/runner/work/pump-search/pump-search/pump/filings_test.py", line 138, in <module>
     main()
-  File "/home/runner/work/pump-search/pump-search/pump/filings_test.py", line 109, in main
+  File "/home/runner/work/pump-search/pump-search/pump/filings_test.py", line 111, in main
     cover = F["ticker"].nunique() / T["ticker"].nunique() * 100
             ~^^^^^^^^^^
   File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/pandas/core/frame.py", line 4378, in __getitem__
@@ -12,4 +12,5 @@ Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 535, in get_loc
     raise KeyError(key)
 KeyError: 'ticker'
+SEC 403 for https://www.sec.gov/files/company_tickers.json: '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n<html xmlns="http://www.w3.org/1999/xhtml">\n<head>\n<meta http-equiv="Content-T'
 filings found for 0/321 tickers; no CIK or no data: 321
