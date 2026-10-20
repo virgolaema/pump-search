@@ -16,7 +16,10 @@ def bar_features(b):
 
     # previous regular-session close
     last_reg = b["Close"][reg].groupby(date[reg]).last()
-    prev_close = date.map(last_reg.shift(1))
+    # today has no regular-session bar before 09:30 ET, so reindex over all dates, then shift
+    all_days = sorted(set(date))
+    prev_by_day = last_reg.reindex(all_days).shift(1).ffill()
+    prev_close = date.map(prev_by_day)
 
     vol30 = b["Volume"].rolling(6, min_periods=6).sum()
     # baseline: same clock time (+-10 min) on the previous BASE_DAYS days, median over days

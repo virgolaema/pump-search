@@ -1,4 +1,5 @@
 """Price/volume access via yfinance, plus StockTwits public endpoints."""
+import re
 import time
 from datetime import timedelta
 
@@ -52,29 +53,40 @@ def predefined(name, size=100):
         return []
 
 
+def _download_batch(batch, period, interval, prepost):
+    try:
+        df = yf.download(batch, period=period, interval=interval, prepost=prepost,
+                         group_by="ticker", threads=True, progress=False, auto_adjust=False)
+    except Exception as e:
+        if len(batch) == 1:
+            print(f"download failed for {batch[0]}: {e}")
+            return {}
+        print(f"download failed for batch of {len(batch)} ({e}); bisecting")
+        h = len(batch) // 2
+        return {**_download_batch(batch[:h], period, interval, prepost),
+                **_download_batch(batch[h:], period, interval, prepost)}
+    out = {}
+    if df.empty:
+        return out
+    for t in batch:
+        try:
+            d = df[t] if isinstance(df.columns, pd.MultiIndex) else df
+        except KeyError:
+            continue
+        d = d.dropna(subset=["Close"])
+        if d.empty:
+            continue
+        idx = d.index.tz_localize("UTC") if d.index.tz is None else d.index
+        out[t] = d.set_axis(idx.tz_convert(NY))
+    return out
+
+
 def download(tickers, period, interval, prepost=False):
     """Return {ticker: OHLCV DataFrame indexed in New York time}."""
+    tickers = sorted({t for t in tickers if isinstance(t, str) and re.fullmatch(r"[A-Z]{1,5}", t)})
     out = {}
-    for batch in chunks(list(tickers), 200):
-        try:
-            df = yf.download(batch, period=period, interval=interval, prepost=prepost,
-                             group_by="ticker", threads=True, progress=False, auto_adjust=False)
-        except Exception as e:
-            print(f"download failed for batch of {len(batch)}: {e}")
-            continue
-        if df.empty:
-            continue
-        for t in batch:
-            try:
-                d = df[t] if isinstance(df.columns, pd.MultiIndex) else df
-            except KeyError:
-                continue
-            d = d.dropna(subset=["Close"])
-            if d.empty:
-                continue
-            idx = d.index.tz_localize("UTC") if d.index.tz is None else d.index
-            d = d.set_axis(idx.tz_convert(NY))
-            out[t] = d
+    for batch in chunks(tickers, 200):
+        out.update(_download_batch(batch, period, interval, prepost))
         time.sleep(1)
     return out
 

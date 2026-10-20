@@ -2,6 +2,7 @@
 
 Run once after the US close."""
 import os
+import sys
 
 import numpy as np
 import pandas as pd
@@ -56,6 +57,8 @@ def find_events(bars, today):
 def main():
     now = now_utc()
     today = pd.Timestamp(now).tz_convert(market.NY).date()
+    if len(sys.argv) > 1:                      # re-run for an earlier day still inside the 5-day window
+        today = pd.Timestamp(sys.argv[1]).date()
     preds = read_csv(PREDICTIONS)
     uni = read_csv(UNIVERSE)
     universe = set(uni["ticker"]) if not uni.empty else set()

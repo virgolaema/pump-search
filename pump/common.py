@@ -55,6 +55,8 @@ def now_utc():
 def read_csv(path, **kw):
     if not os.path.exists(path) or os.path.getsize(path) == 0:
         return pd.DataFrame()
+    kw.setdefault("keep_default_na", False)   # ticker "NA" (Nano Labs) must stay a string
+    kw.setdefault("na_values", [""])
     return pd.read_csv(path, **kw)
 
 
