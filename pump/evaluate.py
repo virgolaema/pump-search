@@ -55,10 +55,27 @@ def find_events(bars, today):
 
 
 def main():
+    """No argument: evaluate today (only once the NY day is over) plus any of the last 4 weekdays whose
+    report is missing. With a date argument: evaluate only that day."""
     now = now_utc()
-    today = pd.Timestamp(now).tz_convert(market.NY).date()
-    if len(sys.argv) > 1:                      # re-run for an earlier day still inside the 5-day window
-        today = pd.Timestamp(sys.argv[1]).date()
+    now_ny = pd.Timestamp(now).tz_convert(market.NY)
+    if len(sys.argv) > 1:
+        days = [pd.Timestamp(sys.argv[1]).date()]
+    else:
+        log = read_csv(RUNLOG)
+        ran = set()
+        if not log.empty:
+            lg = log[log["priced"] > 0]
+            ran = set(pd.to_datetime(lg["ts"], utc=True).dt.tz_convert(market.NY).dt.date)
+        days = [d.date() for d in pd.bdate_range(end=now_ny.date() - pd.Timedelta(days=1), periods=4)
+                if d.date() in ran and not os.path.exists(os.path.join(REPORTS, f"{d.date()}.md"))]
+        if now_ny.weekday() < 5 and now_ny.hour >= 20:
+            days.append(now_ny.date())
+    for day in days:
+        run(day, now)
+
+
+def run(today, now):
     preds = read_csv(PREDICTIONS)
     uni = read_csv(UNIVERSE)
     universe = set(uni["ticker"]) if not uni.empty else set()

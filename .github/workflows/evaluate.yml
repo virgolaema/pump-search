@@ -5,6 +5,9 @@ on:
       date:
         description: report date YYYY-MM-DD (default today, New York)
         default: ""
+  push:
+    branches: [main]
+    paths: ["pump/evaluate.py"]
 concurrency:
   group: data
   cancel-in-progress: false
