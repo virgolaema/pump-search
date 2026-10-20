@@ -2,4 +2,5 @@ $MIMI: possibly delisted; no price data found  (period=5d)
 
 1 Failed download:
 ['MIMI']: possibly delisted; no price data found  (period=5d)
-2026-10-20T13:30:06Z: priced 310/627, stocktwits ok (21 calls), new flags 0: 
+alerts: [{'ts': '2026-10-20T13:40:06Z', 'ticker': 'EXYN', 'ntfy': 'http_200', 'issue': 'http_201'}]
+2026-10-20T13:40:06Z: priced 572/627, stocktwits ok (21 calls), new flags 1: EXYN
