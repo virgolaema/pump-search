@@ -21,7 +21,7 @@ import requests
 
 from .backtest import OUT
 
-UA = {"User-Agent": "pump-search research bot github.com/virgolaema/pump-search", "Accept-Encoding": "gzip, deflate"}
+UA = {"User-Agent": "pump-search research villa.emanuele.97@gmail.com", "Accept-Encoding": "gzip, deflate"}
 FEATS = ["offering", "shelf", "financing", "charter", "late", "fresh8k", "dilution"]
 
 
