@@ -110,3 +110,4 @@ ts,ticker,price,prev_close,pct,burst,rvol,st_rate,st_bull,trending,session,score
 2026-10-19T18:10:06Z,RUBI,0.43,0.3825,12.42,361.31,1.85,4.0,0.33,False,reg,1,"momentum +46% in 10 min, vol x361"
 2026-10-20T13:40:06Z,EXYN,2.92,2.6999,8.15,18.67,4.18,1.0,0.93,False,reg,1,"momentum +13% in 10 min, vol x19"
 2026-10-20T13:50:06Z,EYPT,0.4672,0.4399,6.21,30.91,11.1,10.0,1.0,False,reg,2,st_rate 10/h; vol x31
+2026-10-20T14:30:06Z,CIRC,0.3701,0.3437,7.68,4.51,3.69,27.0,0.97,False,reg,1,st_rate 27/h
