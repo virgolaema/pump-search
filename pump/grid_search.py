@@ -21,7 +21,7 @@ SLIP_IN, SLIP_OUT = 0.01, 0.01
 TPS = np.array([0.10, 0.15, 0.20, 0.30, 0.50, 1.00])
 SLS = np.array([0.05, 0.10, 0.15, 0.25, 0.50])
 ENTRY = [None, 10.0, 20.0, 30.0]            # None = buy at the flag bar
-HORIZ = [0, 1]                              # timeout at close of flag day / next trading day
+HORIZ = [1, 2, 3, 5]                        # timeout at the close of the Nth trading day after the flag day
 FLAGS = dict(pct_lo=[-5, 0, 5], pct_hi=[15, 25, 40], burst=[3, 5, 10, 20], ret10=[-100, 0, 5, 10],
              dvol=[25_000, 100_000])
 MIN_TRAIN, MIN_TEST = 60, 30
@@ -79,6 +79,8 @@ def build(bars, gdays):
                 if j >= n or gday[j] != gday[i]:
                     continue
                 for hi_, h in enumerate(HORIZ):
+                    if gday[j] + h > len(gdays) - 1:      # horizon runs past the end of the data
+                        continue
                     key = (j, h)
                     if key not in cache:
                         cache[key] = path_returns(hi, lo, cl, j, int(end[h][gday[j]]))
@@ -115,24 +117,24 @@ def main():
         tr = train[first]
         for mi, x in enumerate(ENTRY):
             Rm = R[first, mi]                                   # (n, H, TP, SL)
-            valid = ~np.isnan(Rm[:, 0, 0, 0])
-            ntr, nte = int((tr & valid).sum()), int((~tr & valid).sum())
-            if ntr < MIN_TRAIN or nte < MIN_TEST:
-                continue
-            s_tr = np.nansum(Rm[tr & valid], axis=0)           # (H, TP, SL)
-            s_te = np.nansum(Rm[~tr & valid], axis=0)
             for hi_, h in enumerate(HORIZ):
+                valid = ~np.isnan(Rm[:, hi_, 0, 0])
+                ntr, nte = int((tr & valid).sum()), int((~tr & valid).sum())
+                if ntr < MIN_TRAIN or nte < MIN_TEST:
+                    continue
+                s_tr = np.nansum(Rm[tr & valid][:, hi_], axis=0)    # (TP, SL)
+                s_te = np.nansum(Rm[~tr & valid][:, hi_], axis=0)
                 for a, tp in enumerate(TPS):
                     for c, sl in enumerate(SLS):
                         rows.append({**rule, "entry": "flag" if x is None else f"+{x:.0f}%", "horizon": h,
                                      "tp": tp, "sl": sl, "n_train": ntr, "n_test": nte,
-                                     "mean_train": s_tr[hi_, a, c] / ntr, "mean_test": s_te[hi_, a, c] / nte})
+                                     "mean_train": s_tr[a, c] / ntr, "mean_test": s_te[a, c] / nte})
     G = pd.DataFrame(rows)
     for k in ("train", "test"):
         G[f"pnl_{k}"] = 100 * G[f"mean_{k}"] * G[f"n_{k}"]
     G["both_pos"] = (G["mean_train"] > 0) & (G["mean_test"] > 0)
     os.makedirs(OUT, exist_ok=True)
-    G.sort_values("pnl_train", ascending=False).head(3000).to_csv(os.path.join(OUT, "grid_search_top3000.csv"), index=False)
+    G.sort_values("pnl_train", ascending=False).head(3000).to_csv(os.path.join(OUT, "grid_search_horizons_top3000.csv"), index=False)
 
     ntr_days, nte_days = cut_i, len(gdays) - cut_i
     top = G.sort_values("pnl_train", ascending=False).head(12)
@@ -141,7 +143,7 @@ def main():
     fmt = lambda d: d[cols].round({"mean_train": 4, "mean_test": 4, "pnl_train": 0, "pnl_test": 0}).to_string(index=False)
     best_both = G[G["both_pos"]].assign(minmean=lambda d: d[["mean_train", "mean_test"]].min(axis=1)) \
         .sort_values("minmean", ascending=False).head(8)
-    L = ["# Grid search: flag thresholds x entry trigger x take-profit/stop, blind split", "",
+    L = ["# Grid search with multi-day holding (timeout 1, 2, 3 or 5 trading days), blind split", "",
          f"{len(bars)} stocks, {len(gdays)} days ({gdays[0]} to {gdays[-1]}); train = first {ntr_days} days, "
          f"test = last {nte_days} days (not used for any choice). $100 per trade, entry +1% / exit -1% slippage.",
          f"Configurations evaluated (>= {MIN_TRAIN} train and >= {MIN_TEST} test trades): {len(G):,}", "",
@@ -152,10 +154,14 @@ def main():
          f"- median test mean return of the best 100 configs on train: {G.sort_values('pnl_train', ascending=False).head(100)['mean_test'].median() * 100:+.2f}%",
          "", "## Top 12 configs by train P&L (and what they did on the unseen test days)", "", fmt(top), "",
          "## Configs positive on both, ranked by the weaker of the two means", "", fmt(best_both), "",
-         "## Average train/test mean return by exit pair (all flag configs, entry at +20%)", ""]
-    e = G[G["entry"] == "+20%"]
+         "## Average train/test mean return by holding period (all configs)", "",
+         G.groupby("horizon")[["mean_train", "mean_test"]].mean().round(4).to_string(), "",
+         "## Share of configs positive, by holding period", "",
+         G.groupby("horizon")[["mean_train", "mean_test", "both_pos"]].agg(lambda x: (x > 0).mean() if x.dtype != bool else x.mean()).round(4).to_string(), "",
+         "## Average train/test mean return by exit pair (all configs, 3-day timeout)", ""]
+    e = G[G["horizon"] == 3]
     L += [e.groupby(["tp", "sl"])[["mean_train", "mean_test"]].mean().round(4).to_string(), ""]
-    open(os.path.join(OUT, "grid_search.md"), "w").write("\n".join(L))
+    open(os.path.join(OUT, "grid_search_horizons.md"), "w").write("\n".join(L))
     print("\n".join(L))
 
 
