@@ -31,11 +31,13 @@ def sec_get(url, tries=4):
             r = requests.get(url, headers=UA, timeout=30)
             if r.status_code == 200:
                 return r.json()
+            print(f"SEC {r.status_code} for {url}: {r.text[:200]!r}")
             if r.status_code in (429, 503):
                 time.sleep(5 * (k + 1))
                 continue
             return None
-        except Exception:
+        except Exception as e:
+            print(f"SEC request error for {url}: {type(e).__name__}: {e}")
             time.sleep(2)
     return None
 
