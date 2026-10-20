@@ -1,40 +1,34 @@
-$CIGL: 5m data not available for startTime=1785850200 and endTime=1792361565. The requested range must be within the last 60 days.
+$CIGL: 5m data not available for startTime=1785850200 and endTime=1792490674. The requested range must be within the last 60 days.
 
 1 Failed download:
-['CIGL']: 5m data not available for startTime=1785850200 and endTime=1792361565. The requested range must be within the last 60 days.
-$GYGY: 5m data not available for startTime=1785418200 and endTime=1792361577. The requested range must be within the last 60 days.
-$BIOT: 5m data not available for startTime=1784899800 and endTime=1792361581. The requested range must be within the last 60 days.
-
-2 Failed downloads:
-['GYGY']: 5m data not available for startTime=1785418200 and endTime=1792361577. The requested range must be within the last 60 days.
-['BIOT']: 5m data not available for startTime=1784899800 and endTime=1792361581. The requested range must be within the last 60 days.
-$SNSC: 5m data not available for startTime=1786541400 and endTime=1792361586. The requested range must be within the last 60 days.
+['CIGL']: 5m data not available for startTime=1785850200 and endTime=1792490674. The requested range must be within the last 60 days.
+$GYGY: 5m data not available for startTime=1785418200 and endTime=1792490703. The requested range must be within the last 60 days.
 
 1 Failed download:
-['SNSC']: 5m data not available for startTime=1786541400 and endTime=1792361586. The requested range must be within the last 60 days.
-downloaded 579/583 tickers
+['GYGY']: 5m data not available for startTime=1785418200 and endTime=1792490703. The requested range must be within the last 60 days.
+downloaded 595/597 tickers
 # Backtest (blind split)
 
-Tickers: 579 (watchlist of 2026-10-16). Days: 58 (2026-07-28 to 2026-10-16); train < 2026-09-21 (38 d), test >= 2026-09-21 (20 d).
+Tickers: 595 (watchlist of 2026-10-20). Days: 58 (2026-07-30 to 2026-10-20); train < 2026-09-23 (38 d), test >= 2026-09-23 (20 d).
 Trade model: entry = flag close +1%, exit +30% / -15% / end of next trading day. Break-even win rate ~33%.
 
-**Chosen on train:** {'pct_lo': 5.0, 'pct_hi': 15.0, 'burst': 5.0, 'ret10': 10.0, 'dvol': 100000.0}
-- train: {'flags': 43, 'per_day': 1.1, 'win': 23.3, 'stop': 25.6, 'mean_ret': 2.88, 'med_max_up': 8.3, 'events': 320, 'caught_early': 6, 'caught_with_30pct_left': 9}
-- **test: {'flags': 37, 'per_day': 1.9, 'win': 24.3, 'stop': 51.4, 'mean_ret': -0.53, 'med_max_up': 10.9, 'events': 217, 'caught_early': 2, 'caught_with_30pct_left': 8}**
+**Chosen on train:** {'pct_lo': 5.0, 'pct_hi': 15.0, 'burst': 50.0, 'ret10': 3.0, 'dvol': 300000.0}
+- train: {'flags': 61, 'per_day': 1.6, 'win': 31.1, 'stop': 32.8, 'mean_ret': 4.27, 'med_max_up': 13.8, 'events': 340, 'caught_early': 0, 'caught_with_30pct_left': 28}
+- **test: {'flags': 56, 'per_day': 2.8, 'win': 28.6, 'stop': 46.4, 'mean_ret': 1.22, 'med_max_up': 13.1, 'events': 213, 'caught_early': 3, 'caught_with_30pct_left': 20}**
 
-Baseline random entries (−5%..+15%, ≥$25k/30min): train {'n': 5652, 'win': 3.4, 'mean_ret': -1.04}, test {'n': 2937, 'win': 4.3, 'mean_ret': -2.11}
+Baseline random entries (−5%..+15%, ≥$25k/30min): train {'n': 5909, 'win': 3.0, 'mean_ret': -1.18}, test {'n': 2927, 'win': 4.3, 'mean_ret': -1.98}
 
 Top 10 rules on train (mean return per trade):
 
  pct_lo  pct_hi  burst  ret10   dvol  flags  per_day  win  stop  mean_ret  med_max_up  events  caught_early  caught_with_30pct_left
-      5      15      5     10 100000     43      1.1 23.3  25.6      2.88         8.3     320             6                       9
-      0      15     10     10  25000     40      1.1 25.0  25.0      2.63         8.2     320             7                      12
-      5      15      5     10  25000     53      1.4 20.8  28.3      1.23         7.7     320             7                      11
-      0      15      5     10 100000     51      1.3 21.6  33.3      1.22         7.9     320             6                      10
-      5      15      3     10 100000     53      1.4 20.8  32.1      1.15         8.1     320             7                      10
-      5      15      3     10  25000     69      1.8 20.3  31.9      0.77         7.7     320            10                      14
-      5      40     10     10 300000     99      2.6 25.3  48.5      0.74        12.4     320             4                      29
-      0      40     10     10 300000    103      2.7 25.2  48.5      0.70        12.4     320             4                      29
-     -5      15     10     10  25000     45      1.2 22.2  33.3      0.67         7.9     320             7                      12
-      5      40     10     10 100000    115      3.0 25.2  47.0      0.64        11.0     320             7                      34
+      5      15     50      3 300000     61      1.6 31.1  32.8      4.27        13.8     340             0                      28
+      5      15     50      3 100000     73      1.9 27.4  30.1      2.71        11.8     340             0                      29
+      0      15     50      3 300000     86      2.3 26.7  33.7      2.70        13.1     340             0                      32
+      5      25     20     10 300000     43      1.1 27.9  41.9      2.42        11.0     340             2                      15
+      5      15     50      3  25000     86      2.3 25.6  25.6      2.06        10.7     340             0                      30
+     -5      15     50      3 300000    122      3.2 23.0  32.0      1.80        11.2     340             0                      38
+      5      25     50      3 300000    122      3.2 26.2  42.6      1.72        13.8     340             0                      53
+      0      25     20     10 300000     47      1.2 25.5  44.7      1.48        11.0     340             2                      15
+      5      25     50      5 300000     76      2.0 22.4  40.8      1.41        13.8     340             0                      35
+     -5      25     20     10 300000     50      1.3 26.0  46.0      1.39        10.6     340             2                      15
 
