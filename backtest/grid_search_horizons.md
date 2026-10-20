@@ -1,0 +1,89 @@
+# Grid search with multi-day holding (timeout 1, 2, 3 or 5 trading days), blind split
+
+595 stocks, 60 days (2026-07-28 to 2026-10-20); train = first 40 days, test = last 20 days (not used for any choice). $100 per trade, entry +1% / exit -1% slippage.
+Configurations evaluated (>= 60 train and >= 30 test trades): 119,520
+
+- positive on train: 2.8%
+- positive on test: 0.3%
+- positive on both: 0.0%
+- correlation of train and test mean return across configs: 0.16
+- median test mean return of the best 100 configs on train: -5.80%
+
+## Top 12 configs by train P&L (and what they did on the unseen test days)
+
+ pct_lo  pct_hi  burst  ret10   dvol entry  horizon  tp  sl  n_train  mean_train  pnl_train  n_test  mean_test  pnl_test
+     -5      25     10      5 100000  flag        3 0.5 0.5      374      0.0199      743.0     188    -0.0750   -1410.0
+      0      25     10      5 100000  flag        3 0.5 0.5      330      0.0221      728.0     170    -0.0769   -1307.0
+      5      25     10      5 100000  +10%        3 0.3 0.5      258      0.0273      704.0     118    -0.0533    -629.0
+      0      25     10      5 100000  flag        2 0.5 0.5      330      0.0204      674.0     181    -0.0517    -936.0
+      0      25     10      5 100000  +10%        3 0.3 0.5      268      0.0249      666.0     122    -0.0471    -575.0
+     -5      25     10      5 100000  flag        2 0.5 0.5      374      0.0177      662.0     200    -0.0542   -1084.0
+     -5      25     10      5 100000  +10%        3 0.3 0.5      277      0.0235      650.0     123    -0.0440    -541.0
+      5      25     10      5 100000  flag        3 0.5 0.5      284      0.0227      646.0     144    -0.0669    -963.0
+      5      25     10      5 100000  +10%        5 0.3 0.5      258      0.0246      635.0     107    -0.0794    -850.0
+      5      25     10   -100 100000  +10%        3 0.5 0.5      729      0.0086      625.0     287    -0.0495   -1422.0
+      0      25     10      5 100000  +10%        5 0.3 0.5      268      0.0233      624.0     110    -0.0733    -807.0
+      5      25     10   -100 100000  +10%        2 0.5 0.5      729      0.0085      621.0     309    -0.0427   -1320.0
+
+## Configs positive on both, ranked by the weaker of the two means
+
+ pct_lo  pct_hi  burst  ret10   dvol entry  horizon   tp  sl  n_train  mean_train  pnl_train  n_test  mean_test  pnl_test
+      5      25     10     10 100000  flag        5 0.15 0.5       91      0.0054       49.0      39     0.0048      19.0
+      5      25     10     10 100000  flag        3 0.15 0.5       91      0.0026       23.0      42     0.0131      55.0
+      5      15      5     10  25000  flag        3 0.15 0.5       62      0.0022       14.0      35     0.0077      27.0
+      5      25     20      5 100000  +30%        3 0.20 0.5       61      0.0033       20.0      33     0.0016       5.0
+      0      15      5     10 100000  flag        1 0.10 0.5       65      0.0010        6.0      40     0.0016       6.0
+      0      15     10      5 100000  +10%        2 0.20 0.5      147      0.0005        8.0      81     0.0020      16.0
+
+## Average train/test mean return by holding period (all configs)
+
+         mean_train  mean_test
+horizon                       
+1           -0.0299    -0.0495
+2           -0.0291    -0.0512
+3           -0.0292    -0.0553
+5           -0.0299    -0.0646
+
+## Share of configs positive, by holding period
+
+         mean_train  mean_test  both_pos
+horizon                                 
+1            0.0153     0.0029    0.0000
+2            0.0262     0.0033    0.0000
+3            0.0350     0.0029    0.0001
+5            0.0350     0.0016    0.0000
+
+## Average train/test mean return by exit pair (all configs, 3-day timeout)
+
+           mean_train  mean_test
+tp   sl                         
+0.10 0.05     -0.0391    -0.0459
+     0.10     -0.0323    -0.0466
+     0.15     -0.0285    -0.0454
+     0.25     -0.0185    -0.0516
+     0.50     -0.0114    -0.0533
+0.15 0.05     -0.0401    -0.0446
+     0.10     -0.0328    -0.0481
+     0.15     -0.0300    -0.0470
+     0.25     -0.0193    -0.0569
+     0.50     -0.0086    -0.0579
+0.20 0.05     -0.0392    -0.0463
+     0.10     -0.0329    -0.0491
+     0.15     -0.0303    -0.0463
+     0.25     -0.0200    -0.0557
+     0.50     -0.0109    -0.0570
+0.30 0.05     -0.0391    -0.0491
+     0.10     -0.0325    -0.0531
+     0.15     -0.0280    -0.0534
+     0.25     -0.0148    -0.0593
+     0.50     -0.0067    -0.0617
+0.50 0.05     -0.0425    -0.0475
+     0.10     -0.0385    -0.0598
+     0.15     -0.0375    -0.0579
+     0.25     -0.0274    -0.0688
+     0.50     -0.0188    -0.0790
+1.00 0.05     -0.0452    -0.0519
+     0.10     -0.0424    -0.0568
+     0.15     -0.0453    -0.0543
+     0.25     -0.0353    -0.0720
+     0.50     -0.0272    -0.0828
