@@ -39,7 +39,7 @@ while [ $SECONDS -lt $end ]; do
     python -m pump.watch --seconds $(( wait - 20 )) > logs/watch.log 2>&1; tail -2 logs/watch.log
     commit "watch: $(date -u +%FT%TZ)"
     now=$(date -u +%s); wait=$(( 600 - now % 600 + 5 ))
-    [ $wait -gt 590 ] && wait=0
+    [ $(( now % 600 )) -lt 120 ] && wait=0      # just past the boundary: scan right away, do not skip a slot
   fi
   sleep $wait
 done

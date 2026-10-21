@@ -71,7 +71,7 @@ def already_alerted(ticker, day):
 
 
 def run(seconds):
-    t_end = time.time() + seconds
+    t_end = time.time() + seconds - 30          # hard stop well before the next scan, leaves room for the commit
     hot = read_csv(HOTLIST)
     tickers = [t for t in hot["ticker"] if isinstance(t, str)][:MAX_TICKERS] if not hot.empty else []
     now_ny = pd.Timestamp(now_utc()).tz_convert(market.NY)
@@ -86,7 +86,7 @@ def run(seconds):
     seen = set() if wf.empty else set(zip(wf["ticker"], wf["rule"], wf["ts"].str[:10]))
     print(f"watching {len(prior)}/{len(tickers)} tickers for {int(seconds)} s")
     n = 0
-    while time.time() < t_end - 8:
+    while time.time() < t_end - 15:
         t0 = time.time()
         now_ny = pd.Timestamp(now_utc()).tz_convert(market.NY)
         fresh = fetch_fresh(list(prior))
@@ -111,7 +111,7 @@ def run(seconds):
                 mom = mom.assign(reasons=mom.apply(lambda r: f"1-min watcher: {r['ret10']:+.0f}% in 10 min, vol x{r['burst']:.0f}", axis=1))
                 print("alerts:", alerts.send(mom[["ts", "ticker", "price", "pct", "reasons"]]))
             print(f"{now_ny:%H:%M} new flags: {[(r['ticker'], r['rule']) for r in new]}")
-        time.sleep(max(0, 60 - (time.time() - t0)))
+        time.sleep(min(max(0, 60 - (time.time() - t0)), max(0, t_end - time.time())))
     print(f"watcher done after {n} minutes")
 
 
