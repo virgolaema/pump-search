@@ -1,12 +1,12 @@
-$BTOG: possibly delisted; no price data found  (period=5d)
 $CYCN: possibly delisted; no price data found  (period=5d)
+$BTOG: possibly delisted; no price data found  (period=5d)
 
 2 Failed downloads:
-['BTOG', 'CYCN']: possibly delisted; no price data found  (period=5d)
+['CYCN', 'BTOG']: possibly delisted; no price data found  (period=5d)
 $HCHL: possibly delisted; no price data found  (period=5d)
-$HVII: possibly delisted; no price data found  (period=5d)
 $LAWR: possibly delisted; no price data found  (period=5d)
+$HVII: possibly delisted; no price data found  (period=5d)
 
 3 Failed downloads:
-['HCHL', 'HVII', 'LAWR']: possibly delisted; no price data found  (period=5d)
-2026-10-21T10:10:05Z: priced 288/613, stocktwits ok (21 calls), new flags 0: 
+['HCHL', 'LAWR', 'HVII']: possibly delisted; no price data found  (period=5d)
+2026-10-21T10:20:05Z: priced 292/614, stocktwits ok (21 calls), new flags 0: 
