@@ -1,13 +1,12 @@
-$BTOG: possibly delisted; no price data found  (period=5d)
 $CYCN: possibly delisted; no price data found  (period=5d)
+$BTOG: possibly delisted; no price data found  (period=5d)
 
 2 Failed downloads:
-['BTOG', 'CYCN']: possibly delisted; no price data found  (period=5d)
-$LAWR: possibly delisted; no price data found  (period=5d)
+['CYCN', 'BTOG']: possibly delisted; no price data found  (period=5d)
 $HVII: possibly delisted; no price data found  (period=5d)
+$LAWR: possibly delisted; no price data found  (period=5d)
 $HCHL: possibly delisted; no price data found  (period=5d)
 
 3 Failed downloads:
-['LAWR', 'HVII', 'HCHL']: possibly delisted; no price data found  (period=5d)
-alerts: [{'ts': '2026-10-21T14:30:06Z', 'ticker': 'RBNE', 'ntfy': 'http_200', 'issue': 'http_201'}]
-2026-10-21T14:30:06Z: priced 578/613, stocktwits ok (21 calls), new flags 1: RBNE
+['HVII', 'LAWR', 'HCHL']: possibly delisted; no price data found  (period=5d)
+2026-10-21T14:40:06Z: priced 578/614, stocktwits ok (21 calls), new flags 1: INO
