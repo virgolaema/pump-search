@@ -26,13 +26,16 @@ RULES = {
 TP, SL, SLIP = 0.30, 0.15, 0.01
 
 
-def fill_grid(b):
-    """Reindex to every minute 04:00-19:59 ET on days that have data; carry the price, zero volume."""
+def fill_grid(b, until=None):
+    """Reindex to every minute 04:00-19:59 ET on days that have data; carry the price, zero volume.
+    until: stop the last day at this timestamp (a day still in progress)."""
     parts = []
     for d, g in b.groupby(b.index.date):
-        full = pd.date_range(pd.Timestamp(d, tz=market.NY) + pd.Timedelta(hours=4),
-                             pd.Timestamp(d, tz=market.NY) + pd.Timedelta(hours=19, minutes=59), freq="1min")
-        parts.append(g.reindex(full))
+        day0 = pd.Timestamp(d, tz=market.NY)
+        end = day0 + pd.Timedelta(hours=19, minutes=59)
+        if until is not None and until.date() == d:
+            end = min(end, until)
+        parts.append(g.reindex(pd.date_range(day0 + pd.Timedelta(hours=4), end, freq="1min")))
     x = pd.concat(parts)
     x["Close"] = x["Close"].ffill()
     for c in ("Open", "High", "Low"):

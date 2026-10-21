@@ -34,5 +34,12 @@ while [ $SECONDS -lt $end ]; do
   now=$(date -u +%s); left=$(( end - SECONDS ))
   wait=$(( 600 - now % 600 + 5 ))
   [ $wait -gt $left ] && break
+  if [ "$dow" -le 5 ] && [ "$hour" -ge 8 ] && [ $wait -gt 150 ]; then
+    # minute-by-minute watcher on the hot list until ~15 s before the next 10-minute scan
+    python -m pump.watch --seconds $(( wait - 20 )) > logs/watch.log 2>&1; tail -2 logs/watch.log
+    commit "watch: $(date -u +%FT%TZ)"
+    now=$(date -u +%s); wait=$(( 600 - now % 600 + 5 ))
+    [ $wait -gt 590 ] && wait=0
+  fi
   sleep $wait
 done

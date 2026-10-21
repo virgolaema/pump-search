@@ -7,7 +7,7 @@ import sys
 import numpy as np
 import pandas as pd
 
-from . import market
+from . import market, watch
 from .common import (EVENTS, HIT_DAYS, HIT_GAIN, LEAD_DAYS, OUTCOMES, PREDICTIONS, PRICE_MAX, REPORTS, RUNLOG,
                      SPIKE_GAIN, SPIKE_START, UNIVERSE, now_utc, read_csv)
 
@@ -113,6 +113,10 @@ def run(today, now):
         pd.concat([allev, ev], ignore_index=True).to_csv(EVENTS, index=False)
     base_rate = n_up30 / n_watch * 100 if n_watch else np.nan
 
+    try:
+        watch.evaluate_day(today)
+    except Exception as e:
+        print(f"watcher scoring failed: {type(e).__name__}: {e}")
     write_report(today, now, preds, outcomes, ev, base_rate, n_watch)
 
 
@@ -146,6 +150,10 @@ def write_report(today, now, preds, outcomes, ev, base_rate, n_watch):
     hits = int(fin["hit"].sum()) if not fin.empty else 0
     prec = f"{hits / len(fin) * 100:.0f}%" if len(fin) else "n/a"
     rec = (f"{int(allev['flagged_before'].sum())}/{len(allev)}" if not allev.empty else "0/0")
+    try:
+        L += watch.report_lines(today, ev)
+    except Exception as e:
+        L += [f"**1-minute watcher:** report failed ({type(e).__name__}).", ""]
     L.append(f"**Running totals:** {len(preds)} flags, {len(fin)} resolved, {hits} hit +{HIT_GAIN:.0f}% within "
              f"{HIT_DAYS} days (precision {prec}). Spikes caught in advance: {rec}.")
     br = f"{base_rate:.1f}%" if not pd.isna(base_rate) else "n/a"

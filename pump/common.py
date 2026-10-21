@@ -16,6 +16,9 @@ OUTCOMES = os.path.join(DATA, "outcomes.csv")
 EVENTS = os.path.join(DATA, "events.csv")
 RUNLOG = os.path.join(DATA, "runlog.csv")
 ALERTS = os.path.join(DATA, "alerts.csv")
+HOTLIST = os.path.join(DATA, "hotlist.csv")
+WATCH = os.path.join(DATA, "watch_flags.csv")
+WATCH_OUT = os.path.join(DATA, "watch_outcomes.csv")
 os.makedirs(DATA, exist_ok=True)
 
 # Universe

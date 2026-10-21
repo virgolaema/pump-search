@@ -4,9 +4,9 @@ Run every ~30 min during US trading hours (GitHub Actions)."""
 import numpy as np
 import pandas as pd
 
-from . import alerts, market
+from . import alerts, market, watch
 from .features import bar_features
-from .common import (BURST_MIN, MAX_PCT_AT_FLAG, MIN_PCT_AT_FLAG, MOM_BURST, MOM_DVOL, MOM_PCT_HI, MOM_PCT_LO,
+from .common import (BURST_MIN, HOTLIST, MAX_PCT_AT_FLAG, MIN_PCT_AT_FLAG, MOM_BURST, MOM_DVOL, MOM_PCT_HI, MOM_PCT_LO,
                      MOM_RET10, PREDICTIONS, PRICE_MAX, REFLAG_HOURS, RUNLOG, RVOL_MIN,
                      SNAPSHOTS, ST_RATE_MIN, ST_RATE_MULT, ST_TRENDING, UNIVERSE, append_csv, now_utc, read_csv)
 
@@ -111,6 +111,12 @@ def main():
     snap["st_bull"] = snap["ticker"].map(lambda t: st_rows.get(t, {}).get("st_bull", np.nan))
     snap["trending"] = snap["ticker"].isin(trend_set)
 
+    # short list for the minute-by-minute watcher (pump/watch.py): the most actively traded names not yet spiked
+    hot = snap[(snap["pct"] > -5) & (snap["pct"] < 40) & (snap["dollar_vol_30m"] >= 10_000)]
+    hot = pd.concat([hot.sort_values("dollar_vol_30m", ascending=False).head(100),
+                     snap[snap["trending"] & (snap["pct"] < 40)]]).drop_duplicates("ticker").head(130)
+    hot[["ticker", "pct", "dollar_vol_30m", "burst"]].to_csv(HOTLIST, index=False)
+
     # baselines from history
     hist = read_csv(SNAPSHOTS)
     st_base = {}
@@ -155,6 +161,8 @@ def main():
     flagged["ts"] = ts
     flagged["score"] = flagged["reasons"].str.count(";") + 1
     strong = flagged[flagged["reasons"].map(alerts.is_strong)]
+    if not strong.empty:   # the minute watcher may have alerted already
+        strong = strong[~strong["ticker"].map(lambda t: watch.already_alerted(t, today))]
     if not strong.empty:
         print("alerts:", alerts.send(strong))
     append_csv(PREDICTIONS, flagged[["ts", "ticker", "price", "prev_close", "pct", "burst", "rvol",
