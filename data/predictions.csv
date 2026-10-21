@@ -119,3 +119,4 @@ ts,ticker,price,prev_close,pct,burst,rvol,st_rate,st_bull,trending,session,score
 2026-10-21T14:50:06Z,REED,0.4237,0.435,-2.6,1116.55,238.7,20.0,0.87,False,reg,2,st_rate 20/h; vol x1117
 2026-10-21T15:40:05Z,AKBA,0.596,0.6133,-2.82,7.53,2.93,17.0,0.5,False,reg,2,st_rate 17/h; vol x8
 2026-10-21T15:50:06Z,XXII,0.2693,0.262,2.79,3.98,0.55,21.0,0.96,False,reg,1,st_rate 21/h
+2026-10-21T16:40:06Z,VCIG,0.2759,0.2602,6.03,286.86,2.65,12.0,0.73,False,reg,2,st_rate 12/h; vol x287
