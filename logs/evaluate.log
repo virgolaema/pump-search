@@ -1,34 +1,21 @@
-# Pump watch — 2026-10-19
+# Pump watch — 2026-10-20
 
-**Flags today: 8**
-- GPRO 09:30 ET @ $1.12 (+7% at flag) — st_rate 24/h — max +4% since
-- BURU 09:50 ET @ $0.56 (-4% at flag) — st_rate 22/h; vol x8 — max +24% since
-- XLAB 10:30 ET @ $2.53 (+8% at flag) — st_rate 48/h; vol x43 — max +23% since
-- IPW 10:30 ET @ $0.46 (+15% at flag) — st_rate 10/h; vol x37 — max +8% since
-- GP 11:50 ET @ $1.78 (+11% at flag) — st_rate 10/h; vol x8 — max +1% since
-- SDEV 12:20 ET @ $0.99 (+12% at flag) — st_rate 28/h; vol x8 — max -4% since
-- WFF 12:50 ET @ $0.12 (+8% at flag) — st_rate 29/h — max +3% since
-- RUBI 14:10 ET @ $0.43 (+12% at flag) — momentum +46% in 10 min, vol x361 — max +63% since
+**Flags today: 4**
+- EXYN 09:40 ET @ $2.92 (+8% at flag) — momentum +13% in 10 min, vol x19 — max +6% since
+- EYPT 09:50 ET @ $0.47 (+6% at flag) — st_rate 10/h; vol x31 — max +1% since
+- CIRC 10:30 ET @ $0.37 (+8% at flag) — st_rate 27/h — max +14% since
+- HCAI 15:00 ET @ $0.24 (+14% at flag) — st_rate 29/h; vol x17 — max +7% since
 
-**Spikes today (≥+50%): 16, flagged in advance: 0**
-- PLAG +315%, started 07:05 ET — missed (watched)
-- WORX +216%, started 10:10 ET — missed (watched)
-- AAME +167%, started 04:00 ET — missed (watched)
-- CHOW +135%, started 10:00 ET — missed (watched)
-- SAFX +109%, started 04:00 ET — missed (watched)
-- YMAT +104%, started 08:15 ET — missed (watched)
-- IPW +94%, started 04:00 ET — missed (watched)
-- SXTC +92%, started 15:40 ET — missed (watched)
-- XHG +88%, started 11:40 ET — missed (watched)
-- AMRO +88%, started 11:00 ET — missed (not in watchlist)
-- RUBI +83%, started 14:05 ET — missed (watched)
-- FUFU +74%, started 09:30 ET — missed (watched)
-- EXYN +70%, started 10:10 ET — missed (watched)
-- FRGT +67%, started 09:00 ET — missed (watched)
-- SAIQ +61%, started 17:45 ET — missed (watched)
-- VCIG +52%, started 04:00 ET — missed (watched)
+**Spikes today (≥+50%): 7, flagged in advance: 0**
+- NWGL +204%, started 04:00 ET — missed (watched)
+- GCDT +129%, started 04:00 ET — missed (watched)
+- SAIQ +117%, started 04:00 ET — missed (watched)
+- WORX +73%, started 04:00 ET — missed (watched)
+- AIXI +72%, started 05:05 ET — missed (watched)
+- PRSO +70%, started 09:30 ET — missed (watched)
+- HOST +58%, started 08:20 ET — missed (watched)
 
-**Running totals:** 109 flags, 109 resolved, 9 hit +30% within 2 days (precision 8%). Spikes caught in advance: 0/25.
-**Baseline:** 5.5% of 621 low-price stocks hit +30% intraday today (what random picking would roughly give per day).
-**Data health:** 99 collection runs today; StockTwits status {'ok': 98, 'error:ConnectionError': 1}.
+**Running totals:** 113 flags, 109 resolved, 9 hit +30% within 2 days (precision 8%). Spikes caught in advance: 0/32.
+**Baseline:** 3.3% of 615 low-price stocks hit +30% intraday today (what random picking would roughly give per day).
+**Data health:** 99 collection runs today; StockTwits status {'ok': 99}.
 
