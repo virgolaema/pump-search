@@ -7,7 +7,9 @@ import pandas as pd
 BASE_DAYS = 4   # live collection downloads 5 days, i.e. 4 prior days of baseline
 
 
-def bar_features(b):
+def bar_features(b, step=5):
+    """step = bar length in minutes (5 for live, 1 for the 1-minute replay)."""
+    n30, n10 = 30 // step, 10 // step
     b = b[~b.index.duplicated()].sort_index()
     idx = b.index
     date = pd.Series(idx.date, index=idx)
@@ -21,12 +23,12 @@ def bar_features(b):
     prev_by_day = last_reg.reindex(all_days).shift(1).ffill()
     prev_close = date.map(prev_by_day)
 
-    vol30 = b["Volume"].rolling(6, min_periods=6).sum()
+    vol30 = b["Volume"].rolling(n30, min_periods=n30).sum()
     # baseline: same clock time (+-10 min) on the previous BASE_DAYS days, median over days
     piv = pd.DataFrame({"d": date.values, "t": tod.values, "v": vol30.values}).pivot_table(
         index="d", columns="t", values="v", aggfunc="first")
-    piv = piv.reindex(columns=range(0, 1440, 5))
-    smooth = piv.T.rolling(5, center=True, min_periods=1).mean().T
+    piv = piv.reindex(columns=range(0, 1440, step))
+    smooth = piv.T.rolling(2 * n10 + 1, center=True, min_periods=1).mean().T
     base = smooth.shift(1).rolling(BASE_DAYS, min_periods=2).median()
     base_s = pd.Series(base.stack(future_stack=True).reindex(list(zip(date.values, tod.values))).values, index=idx)
 
@@ -37,7 +39,7 @@ def bar_features(b):
         "pct": (close / prev_close - 1) * 100,
         "burst": vol30 / base_s.clip(lower=1.0),
         "dvol30": vol30 * close,
-        "ret10": (close / close.shift(2) - 1) * 100,
-        "ret30": (close / close.shift(6) - 1) * 100,
+        "ret10": (close / close.shift(n10) - 1) * 100,
+        "ret30": (close / close.shift(n30) - 1) * 100,
     }, index=idx)
     return f
