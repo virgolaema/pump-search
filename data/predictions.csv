@@ -112,3 +112,5 @@ ts,ticker,price,prev_close,pct,burst,rvol,st_rate,st_bull,trending,session,score
 2026-10-20T13:50:06Z,EYPT,0.4672,0.4399,6.21,30.91,11.1,10.0,1.0,False,reg,2,st_rate 10/h; vol x31
 2026-10-20T14:30:06Z,CIRC,0.3701,0.3437,7.68,4.51,3.69,27.0,0.97,False,reg,1,st_rate 27/h
 2026-10-20T19:00:06Z,HCAI,0.242,0.2116,14.37,17.37,3.96,29.0,1.0,False,reg,2,st_rate 29/h; vol x17
+2026-10-21T13:40:06Z,SLNH,0.5941,0.5734,3.61,6.44,11.38,11.0,0.93,False,reg,2,st_rate 11/h; vol x6
+2026-10-21T13:40:06Z,XCH,2.0181,1.76,14.66,5.8,5.66,0.0,0.86,False,reg,1,"momentum +12% in 10 min, vol x6"
