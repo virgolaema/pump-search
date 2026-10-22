@@ -1,2 +1,46 @@
-watching 71/71 tickers for 515 s
+$OKUR: possibly delisted; no price data found  (period=1d)
+$SABS: possibly delisted; no price data found  (period=1d)
+
+2 Failed downloads:
+['OKUR', 'SABS']: possibly delisted; no price data found  (period=1d)
+$OKUR: possibly delisted; no price data found  (period=1d)
+$SABS: possibly delisted; no price data found  (period=1d)
+
+2 Failed downloads:
+['OKUR', 'SABS']: possibly delisted; no price data found  (period=1d)
+$OKUR: possibly delisted; no price data found  (period=1d)
+$SABS: possibly delisted; no price data found  (period=1d)
+
+2 Failed downloads:
+['OKUR', 'SABS']: possibly delisted; no price data found  (period=1d)
+$OKUR: possibly delisted; no price data found  (period=1d)
+$SABS: possibly delisted; no price data found  (period=1d)
+
+2 Failed downloads:
+['OKUR', 'SABS']: possibly delisted; no price data found  (period=1d)
+$OKUR: possibly delisted; no price data found  (period=1d)
+$SABS: possibly delisted; no price data found  (period=1d)
+
+2 Failed downloads:
+['OKUR', 'SABS']: possibly delisted; no price data found  (period=1d)
+$OKUR: possibly delisted; no price data found  (period=1d)
+$SABS: possibly delisted; no price data found  (period=1d)
+
+2 Failed downloads:
+['OKUR', 'SABS']: possibly delisted; no price data found  (period=1d)
+$OKUR: possibly delisted; no price data found  (period=1d)
+$SABS: possibly delisted; no price data found  (period=1d)
+
+2 Failed downloads:
+['OKUR', 'SABS']: possibly delisted; no price data found  (period=1d)
+$OKUR: possibly delisted; no price data found  (period=1d)
+$SABS: possibly delisted; no price data found  (period=1d)
+
+2 Failed downloads:
+['OKUR', 'SABS']: possibly delisted; no price data found  (period=1d)
+watching 100/100 tickers for 512 s
+09:41 new flags: [('ESLA', 'tier2'), ('REED', 'tier2'), ('SAGT', 'tier2')]
+09:44 new flags: [('XXII', 'tier2')]
+09:46 new flags: [('SDEV', 'tier2')]
+09:48 new flags: [('XHLD', 'tier2')]
 watcher done after 8 minutes
