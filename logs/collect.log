@@ -9,4 +9,5 @@ $HVII: possibly delisted; no price data found  (period=5d)
 
 3 Failed downloads:
 ['HCHL', 'LAWR', 'HVII']: possibly delisted; no price data found  (period=5d)
-2026-10-22T13:30:06Z: priced 319/630, stocktwits ok (21 calls), new flags 0: 
+alerts: [{'ts': '2026-10-22T13:40:06Z', 'ticker': 'ATOM', 'ntfy': 'http_200', 'issue': 'http_201'}, {'ts': '2026-10-22T13:40:06Z', 'ticker': 'BATL', 'ntfy': 'http_200', 'issue': 'http_201'}, {'ts': '2026-10-22T13:40:06Z', 'ticker': 'SDEV', 'ntfy': 'http_200', 'issue': 'http_201'}, {'ts': '2026-10-22T13:40:06Z', 'ticker': 'SKYQ', 'ntfy': 'http_200', 'issue': 'http_201'}, {'ts': '2026-10-22T13:40:06Z', 'ticker': 'SURG', 'ntfy': 'http_200', 'issue': 'http_201'}]
+2026-10-22T13:40:06Z: priced 575/629, stocktwits ok (21 calls), new flags 5: ATOM, BATL, SDEV, SKYQ, SURG
