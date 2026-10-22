@@ -1,28 +1,4 @@
-$OKUR: possibly delisted; no price data found  (period=1d)
-$SABS: possibly delisted; no price data found  (period=1d)
-
-2 Failed downloads:
-['OKUR', 'SABS']: possibly delisted; no price data found  (period=1d)
-$SABS: possibly delisted; no price data found  (period=1d)
-$OKUR: possibly delisted; no price data found  (period=1d)
-
-2 Failed downloads:
-['SABS', 'OKUR']: possibly delisted; no price data found  (period=1d)
-$SABS: possibly delisted; no price data found  (period=1d)
-$OKUR: possibly delisted; no price data found  (period=1d)
-
-2 Failed downloads:
-['SABS', 'OKUR']: possibly delisted; no price data found  (period=1d)
-$OKUR: possibly delisted; no price data found  (period=1d)
-
-1 Failed download:
-['OKUR']: possibly delisted; no price data found  (period=1d)
-$OKUR: possibly delisted; no price data found  (period=1d)
-
-1 Failed download:
-['OKUR']: possibly delisted; no price data found  (period=1d)
 watching 100/100 tickers for 515 s
-09:51 new flags: [('INLF', 'tier2')]
-09:54 new flags: [('INO', 'tier2')]
-09:57 new flags: [('TROO', 'tier2')]
+10:02 new flags: [('IPSC', 'tier2')]
+10:03 new flags: [('HTCO', 'tier2')]
 watcher done after 8 minutes
