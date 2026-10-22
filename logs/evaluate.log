@@ -1,0 +1,50 @@
+$BTOG: possibly delisted; no price data found  (period=5d)
+
+1 Failed download:
+['BTOG']: possibly delisted; no price data found  (period=5d)
+$CYCN: possibly delisted; no price data found  (period=5d)
+$HVII: possibly delisted; no price data found  (period=5d)
+$HCHL: possibly delisted; no price data found  (period=5d)
+
+3 Failed downloads:
+['CYCN', 'HVII', 'HCHL']: possibly delisted; no price data found  (period=5d)
+$ISSC: possibly delisted; no price data found  (period=5d)
+$LAWR: possibly delisted; no price data found  (period=5d)
+
+2 Failed downloads:
+['ISSC', 'LAWR']: possibly delisted; no price data found  (period=5d)
+# Pump watch — 2026-10-21
+
+**Flags today: 11**
+- SLNH 09:40 ET @ $0.59 (+4% at flag) — st_rate 11/h; vol x6 — max +1% since
+- XCH 09:40 ET @ $2.02 (+15% at flag) — momentum +12% in 10 min, vol x6 — max +14% since
+- RBNE 10:30 ET @ $0.40 (+4% at flag) — st_rate 63/h; vol x277 — max +14% since
+- INO 10:40 ET @ $0.97 (-4% at flag) — st_rate 27/h — max -1% since
+- REED 10:50 ET @ $0.42 (-3% at flag) — st_rate 20/h; vol x1117 — max +6% since
+- AKBA 11:40 ET @ $0.60 (-3% at flag) — st_rate 17/h; vol x8 — max +9% since
+- XXII 11:50 ET @ $0.27 (+3% at flag) — st_rate 21/h — max +2% since
+- VCIG 12:40 ET @ $0.28 (+6% at flag) — st_rate 12/h; vol x287 — max +1% since
+- FRTT 13:00 ET @ $0.74 (+4% at flag) — st_rate 11/h; vol x9 — max +6% since
+- AMOD 14:00 ET @ $1.34 (+6% at flag) — st_rate 280/h; vol x374 — max -8% since
+- TENX 17:00 ET @ $1.79 (+9% at flag) — momentum +11% in 10 min, vol x131626 — max +1% since
+
+**Spikes today (≥+50%): 9, flagged in advance: 1**
+- POM +751%, started 09:00 ET — missed (watched)
+- RBNE +443%, started 04:00 ET — missed (watched)
+- REED +146%, started 09:55 ET — missed (watched)
+- SDEV +87%, started 09:50 ET — flagged 2730 min before start
+- AMOD +79%, started 08:15 ET — missed (watched)
+- AHT +76%, started 04:00 ET — missed (not in watchlist)
+- OLOX +73%, started 06:25 ET — missed (watched)
+- ESLA +70%, started 10:10 ET — missed (watched)
+- XHLD +62%, started 11:25 ET — missed (watched)
+
+**1-minute watcher** (buy at flag, sell +30% / -15% / same-day close; $100 per trade):
+- momentum: today no flags; all days no flags
+- tier2: today 16 flags, 19% +30%, 31% -15%, avg -1.4%, P&L $-23; all days 16 flags, 19% +30%, 31% -15%, avg -1.4%, P&L $-23
+- spikes today flagged by the watcher before reaching +20%: 0 of 9
+
+**Running totals:** 124 flags, 113 resolved, 9 hit +30% within 2 days (precision 8%). Spikes caught in advance: 1/41.
+**Baseline:** 2.9% of 590 low-price stocks hit +30% intraday today (what random picking would roughly give per day).
+**Data health:** 95 collection runs today; StockTwits status {'ok': 92, 'error:ReadTimeout': 2, 'http_502': 1}.
+
