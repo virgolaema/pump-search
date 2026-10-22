@@ -128,3 +128,4 @@ ts,ticker,price,prev_close,pct,burst,rvol,st_rate,st_bull,trending,session,score
 2026-10-22T13:40:06Z,SDEV,1.07,1.08,-0.93,9.85,8.28,51.3,0.86,False,reg,2,st_rate 51/h; vol x10
 2026-10-22T13:40:06Z,SKYQ,2.46,2.155,14.15,110.5,43.99,28.0,1.0,False,reg,2,st_rate 28/h; vol x110
 2026-10-22T13:40:06Z,SURG,0.1305,0.1269,2.84,23.96,14.95,13.0,1.0,False,reg,2,st_rate 13/h; vol x24
+2026-10-22T13:50:06Z,INLF,0.2234,0.2099,6.43,20.71,207.17,3.0,0.61,False,reg,1,"momentum +16% in 10 min, vol x21"
