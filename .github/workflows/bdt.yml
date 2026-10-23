@@ -1,0 +1,38 @@
+name: bdt
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["pump/bdt.py", ".github/workflows/bdt.yml"]
+concurrency:
+  group: bdt
+  cancel-in-progress: true
+permissions:
+  contents: write
+jobs:
+  backtest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt scikit-learn
+      - name: run
+        shell: bash
+        run: |
+          mkdir -p backtest
+          python -m pump.bdt 2>&1 | tee backtest/bdt_log.txt
+          exit ${PIPESTATUS[0]}
+      - name: commit
+        if: always()
+        run: |
+          git config user.name "pump-bot"
+          git config user.email "pump-bot@users.noreply.github.com"
+          git add backtest
+          git diff --cached --quiet && exit 0
+          git commit -qm "bdt results $(date -u +%FT%TZ)"
+          for i in 1 2 3 4; do git pull --rebase -q && git push -q && exit 0; sleep $((i*5)); done
+          exit 1
