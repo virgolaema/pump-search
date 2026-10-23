@@ -135,3 +135,5 @@ ts,ticker,price,prev_close,pct,burst,rvol,st_rate,st_bull,trending,session,score
 2026-10-22T14:50:06Z,MTEN,1.0,0.88,13.64,13.33,0.61,0.0,0.86,False,reg,1,"momentum +11% in 10 min, vol x13"
 2026-10-22T16:00:06Z,GANX,1.255,1.2,4.58,28.25,5.96,20.0,1.0,False,reg,2,st_rate 20/h; vol x28
 2026-10-22T17:00:06Z,XXII,0.27,0.2734,-1.24,53.82,82.85,10.0,0.53,False,reg,2,st_rate 10/h; vol x54
+2026-10-23T13:40:06Z,CLRO,2.1685,1.91,13.53,47.51,5.56,1.0,1.0,False,reg,1,"momentum +11% in 10 min, vol x48"
+2026-10-23T13:40:06Z,GPUS,0.1455,0.1314,10.69,60.42,75.23,52.0,0.83,False,reg,2,st_rate 52/h; vol x60
