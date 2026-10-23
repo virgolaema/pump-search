@@ -2726,6 +2726,5 @@ See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace 
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   data.rename(columns=ctx.isins, inplace=True)
 watching 100/100 tickers for 506 s
-09:51 new flags: [('STEX', 'tier2'), ('YHC', 'tier2')]
-09:53 new flags: [('STAK', 'tier2')]
+10:03 new flags: [('GPUS', 'tier2')]
 watcher done after 8 minutes
