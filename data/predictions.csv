@@ -141,3 +141,4 @@ ts,ticker,price,prev_close,pct,burst,rvol,st_rate,st_bull,trending,session,score
 2026-10-23T15:00:06Z,EONR,0.4556,0.406,12.22,19.67,9.62,10.0,1.0,False,reg,2,st_rate 10/h; vol x20
 2026-10-23T16:30:05Z,CTM,0.5361,0.564,-4.95,13.54,2.74,12.0,1.0,False,reg,2,st_rate 12/h; vol x14
 2026-10-23T16:50:06Z,GCTS,1.3525,1.385,-2.35,8.55,2.11,13.0,0.83,False,reg,2,st_rate 13/h; vol x9
+2026-10-23T17:20:05Z,MVIS,1.2,1.145,4.8,5.49,0.78,11.0,0.55,False,reg,2,st_rate 11/h; vol x5
