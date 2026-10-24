@@ -1,7 +1,7 @@
 name: loop
 # Self-chaining runner: GitHub's cron never fired for this repo, so one job loops ~5.7 h and
 # re-dispatches itself (workflow_dispatch via GITHUB_TOKEN is allowed to start a new run).
-# To stop: create a file named STOP in the repo root, or disable this workflow. Ends 2026-11-13.
+# To stop: create a file named STOP in the repo root, or disable this workflow. Ends 2026-11-27.
 on:
   workflow_dispatch:
     inputs:
@@ -47,5 +47,5 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           git pull -q || true
-          if [ -f STOP ] || [ "$(date -u +%F)" \> "2026-11-13" ]; then echo "stopping chain"; exit 0; fi
+          if [ -f STOP ] || [ "$(date -u +%F)" \> "2026-11-27" ]; then echo "stopping chain"; exit 0; fi
           gh workflow run loop.yml --ref main --repo "$GITHUB_REPOSITORY"

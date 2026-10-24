@@ -19,6 +19,7 @@ ALERTS = os.path.join(DATA, "alerts.csv")
 HOTLIST = os.path.join(DATA, "hotlist.csv")
 WATCH = os.path.join(DATA, "watch_flags.csv")
 WATCH_OUT = os.path.join(DATA, "watch_outcomes.csv")
+FLAG_TRADES = os.path.join(DATA, "flag_trades.csv")
 os.makedirs(DATA, exist_ok=True)
 
 # Universe

@@ -7,7 +7,7 @@ import sys
 import numpy as np
 import pandas as pd
 
-from . import market, watch
+from . import flag_trades, market, watch
 from .common import (EVENTS, HIT_DAYS, HIT_GAIN, LEAD_DAYS, OUTCOMES, PREDICTIONS, PRICE_MAX, REPORTS, RUNLOG,
                      SPIKE_GAIN, SPIKE_START, UNIVERSE, now_utc, read_csv)
 
@@ -71,6 +71,10 @@ def main():
                 if d.date() in ran and not os.path.exists(os.path.join(REPORTS, f"{d.date()}.md"))]
         if now_ny.weekday() < 5 and now_ny.hour >= 20:
             days.append(now_ny.date())
+    try:
+        flag_trades.score_pending(now)
+    except Exception as e:
+        print(f"flag scoring failed: {type(e).__name__}: {e}")
     for day in days:
         run(day, now)
 
@@ -150,6 +154,10 @@ def write_report(today, now, preds, outcomes, ev, base_rate, n_watch):
     hits = int(fin["hit"].sum()) if not fin.empty else 0
     prec = f"{hits / len(fin) * 100:.0f}%" if len(fin) else "n/a"
     rec = (f"{int(allev['flagged_before'].sum())}/{len(allev)}" if not allev.empty else "0/0")
+    try:
+        L += flag_trades.report_lines(today)
+    except Exception as e:
+        L += [f"**10-min flags, trade model:** report failed ({type(e).__name__}).", ""]
     try:
         L += watch.report_lines(today, ev)
     except Exception as e:
