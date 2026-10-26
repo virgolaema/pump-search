@@ -2725,10 +2725,6 @@ See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace 
 /opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/multi.py:220: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   data.rename(columns=ctx.isins, inplace=True)
-watching 100/100 tickers for 518 s
-alerts: [{'ts': '2026-10-26T13:41:00Z', 'ticker': 'MKDW', 'ntfy': 'http_200', 'issue': 'http_201'}]
-09:41 new flags: [('MKDW', 'momentum'), ('MKDW', 'tier2'), ('PRSO', 'tier2')]
-alerts: [{'ts': '2026-10-26T13:42:00Z', 'ticker': 'LUCD', 'ntfy': 'http_200', 'issue': 'http_201'}]
-09:42 new flags: [('LUCD', 'momentum'), ('LUCD', 'tier2')]
-09:45 new flags: [('XTIA', 'tier2')]
+watching 100/100 tickers for 527 s
+09:52 new flags: [('ESLA', 'tier2')]
 watcher done after 8 minutes
