@@ -146,3 +146,4 @@ ts,ticker,price,prev_close,pct,burst,rvol,st_rate,st_bull,trending,session,score
 2026-10-23T20:00:06Z,YOUL,0.2798,0.251,11.47,44.2,2.38,0.0,0.86,False,post,1,"momentum +26% in 10 min, vol x44"
 2026-10-26T13:40:06Z,BEAT,0.4016,0.3956,1.52,12.95,0.73,12.0,1.0,False,reg,2,st_rate 12/h; vol x13
 2026-10-26T13:40:06Z,PRSO,0.3715,0.3705,0.27,6.29,13.55,14.0,1.0,False,reg,2,st_rate 14/h; vol x6
+2026-10-26T13:50:06Z,LUCD,0.4712,0.414,13.82,13.51,10.1,5.0,0.92,False,reg,1,"momentum +10% in 10 min, vol x14"
