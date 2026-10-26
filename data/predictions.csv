@@ -151,3 +151,4 @@ ts,ticker,price,prev_close,pct,burst,rvol,st_rate,st_bull,trending,session,score
 2026-10-26T14:10:05Z,SRXH,1.0403,1.075,-3.23,4.39,6.24,17.0,0.83,False,reg,1,st_rate 17/h
 2026-10-26T14:30:06Z,GCTK,0.863,0.8228,4.89,85.19,,20.0,0.82,False,reg,2,st_rate 20/h; vol x85
 2026-10-26T18:00:06Z,MVIS,1.338,1.19,12.44,14.88,0.93,18.0,0.77,False,reg,2,st_rate 18/h; vol x15
+2026-10-26T19:20:05Z,AMOD,1.057,0.94,12.45,8.36,0.07,6.0,0.93,False,reg,1,"momentum +13% in 10 min, vol x8"
