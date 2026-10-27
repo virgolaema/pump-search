@@ -159,3 +159,4 @@ ts,ticker,price,prev_close,pct,burst,rvol,st_rate,st_bull,trending,session,score
 2026-10-27T15:10:06Z,TEAD,0.3809,0.3418,11.44,17.2,0.6,0.0,1.0,False,reg,1,"momentum +11% in 10 min, vol x17"
 2026-10-27T16:40:06Z,ALEC,2.09,1.825,14.52,7.49,0.51,10.0,1.0,False,reg,2,st_rate 10/h; vol x7
 2026-10-27T19:30:06Z,MYND,0.3219,0.2842,13.27,18.08,0.77,0.0,1.0,False,reg,1,"momentum +11% in 10 min, vol x18"
+2026-10-27T19:50:06Z,GCTK,1.69,1.5899,6.3,20.26,2.31,5.0,0.73,False,reg,1,"momentum +12% in 10 min, vol x20"
