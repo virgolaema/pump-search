@@ -153,3 +153,5 @@ ts,ticker,price,prev_close,pct,burst,rvol,st_rate,st_bull,trending,session,score
 2026-10-26T18:00:06Z,MVIS,1.338,1.19,12.44,14.88,0.93,18.0,0.77,False,reg,2,st_rate 18/h; vol x15
 2026-10-26T19:20:05Z,AMOD,1.057,0.94,12.45,8.36,0.07,6.0,0.93,False,reg,1,"momentum +13% in 10 min, vol x8"
 2026-10-26T22:00:06Z,MVST,0.4984,0.4969,0.3,267871.0,0.51,10.0,1.0,False,post,2,st_rate 10/h; vol x267871
+2026-10-27T13:40:06Z,CLRO,5.45,4.98,9.44,33.56,53.85,48.8,0.85,False,reg,2,st_rate 49/h; vol x34
+2026-10-27T13:40:06Z,SOAR,0.2349,0.2247,4.52,34.72,9.38,10.0,1.0,False,reg,2,st_rate 10/h; vol x35
