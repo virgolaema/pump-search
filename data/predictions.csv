@@ -164,3 +164,4 @@ ts,ticker,price,prev_close,pct,burst,rvol,st_rate,st_bull,trending,session,score
 2026-10-28T13:50:06Z,DAVI,3.4213,2.9995,14.06,53.08,,18.0,0.72,False,reg,2,st_rate 18/h; vol x53
 2026-10-28T13:50:06Z,MGN,3.53,3.1499,12.07,87.5,29.23,3.0,0.95,False,reg,1,"momentum +26% in 10 min, vol x88"
 2026-10-28T14:20:06Z,CHSN,1.21,1.08,12.04,1029.08,2475.08,116.3,0.72,False,reg,2,st_rate 116/h; vol x1029
+2026-10-28T14:30:06Z,BURU,0.1965,0.1799,9.23,16.72,9.2,48.4,0.62,False,reg,2,st_rate 48/h; vol x17
