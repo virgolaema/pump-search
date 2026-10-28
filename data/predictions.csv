@@ -161,3 +161,5 @@ ts,ticker,price,prev_close,pct,burst,rvol,st_rate,st_bull,trending,session,score
 2026-10-27T19:30:06Z,MYND,0.3219,0.2842,13.27,18.08,0.77,0.0,1.0,False,reg,1,"momentum +11% in 10 min, vol x18"
 2026-10-27T19:50:06Z,GCTK,1.69,1.5899,6.3,20.26,2.31,5.0,0.73,False,reg,1,"momentum +12% in 10 min, vol x20"
 2026-10-27T20:50:05Z,CRDF,0.8761,0.8091,8.28,5.5,1.7,13.0,1.0,False,post,2,st_rate 13/h; vol x6
+2026-10-28T13:50:06Z,DAVI,3.4213,2.9995,14.06,53.08,,18.0,0.72,False,reg,2,st_rate 18/h; vol x53
+2026-10-28T13:50:06Z,MGN,3.53,3.1499,12.07,87.5,29.23,3.0,0.95,False,reg,1,"momentum +26% in 10 min, vol x88"
