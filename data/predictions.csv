@@ -177,3 +177,5 @@ ts,ticker,price,prev_close,pct,burst,rvol,st_rate,st_bull,trending,session,score
 2026-10-29T14:20:05Z,SURG,0.166,0.1563,6.21,5.58,7.56,14.0,1.0,False,reg,2,st_rate 14/h; vol x6
 2026-10-29T15:20:05Z,RILY,4.485,4.235,5.9,7.37,2.28,10.0,0.86,False,reg,2,st_rate 10/h; vol x7
 2026-10-29T15:50:06Z,MVIS,1.425,1.305,9.2,6.76,1.68,23.0,0.79,False,reg,2,st_rate 23/h; vol x7
+2026-10-29T16:30:07Z,ARAI,0.1161,0.1111,4.5,5.36,0.2,14.0,0.92,False,reg,2,st_rate 14/h; vol x5
+2026-10-29T16:30:07Z,HUBC,0.1434,0.129,11.16,5.5,1.18,16.0,1.0,False,reg,2,st_rate 16/h; vol x6
