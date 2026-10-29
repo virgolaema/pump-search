@@ -169,3 +169,6 @@ ts,ticker,price,prev_close,pct,burst,rvol,st_rate,st_bull,trending,session,score
 2026-10-28T15:10:06Z,PRME,4.9601,4.36,13.76,8.71,,17.0,1.0,True,reg,2,st_new_trending; vol x9
 2026-10-28T15:50:05Z,MVST,0.5672,0.5342,6.18,5.22,1.24,12.0,1.0,False,reg,2,st_rate 12/h; vol x5
 2026-10-28T18:20:06Z,INO,0.9547,0.891,7.15,11.61,1.12,11.0,0.95,False,reg,2,st_rate 11/h; vol x12
+2026-10-29T13:40:05Z,FTFT,2.965,2.86,3.67,135.16,16.54,13.0,0.94,False,reg,2,st_rate 13/h; vol x135
+2026-10-29T13:40:05Z,KPTI,0.88,0.8335,5.58,17.77,7.65,13.0,1.0,False,reg,2,st_rate 13/h; vol x18
+2026-10-29T13:40:05Z,TOYO,4.355,3.835,13.56,6.53,12.46,11.0,1.0,False,reg,2,"momentum +11% in 10 min, vol x7; st_rate 11/h"
