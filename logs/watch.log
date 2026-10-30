@@ -2726,4 +2726,6 @@ See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace 
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   data.rename(columns=ctx.isins, inplace=True)
 watching 100/100 tickers for 525 s
+alerts: [{'ts': '2026-10-30T18:30:00Z', 'ticker': 'TCRT', 'ntfy': 'http_200', 'issue': 'http_201'}]
+14:32 new flags: [('TCRT', 'momentum'), ('TCRT', 'tier2')]
 watcher done after 8 minutes
