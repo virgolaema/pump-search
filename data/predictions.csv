@@ -185,3 +185,4 @@ ts,ticker,price,prev_close,pct,burst,rvol,st_rate,st_bull,trending,session,score
 2026-10-30T14:30:06Z,BURU,0.3574,0.3758,-4.9,24.78,41.81,399.7,0.75,False,reg,2,st_rate 400/h; vol x25
 2026-10-30T14:40:06Z,BATL,0.93,0.8921,4.25,5.02,2.13,11.0,0.93,False,reg,2,st_rate 11/h; vol x5
 2026-10-30T15:30:06Z,FRGT,1.03,0.9553,7.82,44.3,2.54,21.0,0.95,False,reg,2,st_rate 21/h; vol x44
+2026-10-30T17:00:05Z,NUR,0.7001,0.6916,1.23,8.15,1.18,11.0,0.95,False,reg,2,st_rate 11/h; vol x8
