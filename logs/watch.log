@@ -2725,6 +2725,6 @@ See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace 
 /opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/multi.py:220: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   data.rename(columns=ctx.isins, inplace=True)
-watching 100/100 tickers for 526 s
-14:51 new flags: [('ACH', 'tier2')]
+watching 100/100 tickers for 525 s
+15:07 new flags: [('NCPL', 'tier2')]
 watcher done after 8 minutes
