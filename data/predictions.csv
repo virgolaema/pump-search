@@ -181,3 +181,4 @@ ts,ticker,price,prev_close,pct,burst,rvol,st_rate,st_bull,trending,session,score
 2026-10-29T16:30:07Z,HUBC,0.1434,0.129,11.16,5.5,1.18,16.0,1.0,False,reg,2,st_rate 16/h; vol x6
 2026-10-30T13:40:06Z,NRXP,2.568,2.65,-3.09,96.7,203.71,120.9,0.42,False,reg,2,st_rate 121/h; vol x97
 2026-10-30T14:00:05Z,XPOF,4.02,3.73,7.77,8.28,1.83,0.0,0.57,False,reg,1,"momentum +11% in 10 min, vol x8"
+2026-10-30T14:10:06Z,SGLY,0.54,0.505,6.93,25.48,2.47,1.0,1.0,False,reg,1,"momentum +12% in 10 min, vol x25"
