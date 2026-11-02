@@ -192,3 +192,4 @@ ts,ticker,price,prev_close,pct,burst,rvol,st_rate,st_bull,trending,session,score
 2026-11-02T15:10:06Z,CHOW,4.24,4.38,-3.2,63.33,1.01,11.0,0.87,False,reg,2,st_rate 11/h; vol x63
 2026-11-02T15:20:06Z,SGRX,0.715,0.7282,-1.81,34.29,2.63,10.0,0.94,False,reg,2,st_rate 10/h; vol x34
 2026-11-02T15:20:06Z,SLGB,0.3412,0.3018,13.05,123.53,13.13,10.0,1.0,False,reg,2,st_rate 10/h; vol x124
+2026-11-02T15:40:06Z,ABOS,0.2474,0.2169,14.06,32.65,19.25,10.0,1.0,False,reg,2,st_rate 10/h; vol x33
