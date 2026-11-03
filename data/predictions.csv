@@ -202,3 +202,4 @@ ts,ticker,price,prev_close,pct,burst,rvol,st_rate,st_bull,trending,session,score
 2026-11-02T20:30:06Z,EHTH,0.5022,0.4943,1.6,13.46,2.71,10.0,0.2,False,reg,2,st_rate 10/h; vol x13
 2026-11-03T14:40:06Z,HCTI,5.2901,4.96,6.66,15.73,33.2,10.0,0.69,False,reg,2,st_rate 10/h; vol x16
 2026-11-03T14:40:06Z,NMRA,0.5588,0.4948,12.93,9.3,4.7,2.0,1.0,False,reg,1,"momentum +18% in 10 min, vol x9"
+2026-11-03T14:50:06Z,POET,5.175,4.795,7.92,1.35,,25.0,1.0,True,reg,1,st_rate 25/h
