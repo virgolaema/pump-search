@@ -206,3 +206,4 @@ ts,ticker,price,prev_close,pct,burst,rvol,st_rate,st_bull,trending,session,score
 2026-11-03T15:00:06Z,SURG,0.1498,0.155,-3.35,18.53,84.56,40.1,1.0,False,reg,2,st_rate 40/h; vol x19
 2026-11-03T15:10:06Z,INO,1.8536,1.9,-2.44,5.9,7.33,127.7,0.94,False,reg,2,st_rate 128/h; vol x6
 2026-11-03T15:20:05Z,SEGG,2.025,1.92,5.47,71.57,6.16,23.0,0.91,False,reg,2,st_rate 23/h; vol x72
+2026-11-03T16:40:06Z,WHLR,0.59,0.6,-1.67,6.39,2.83,17.0,0.86,False,reg,2,st_rate 17/h; vol x6
