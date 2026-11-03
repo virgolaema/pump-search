@@ -209,3 +209,4 @@ ts,ticker,price,prev_close,pct,burst,rvol,st_rate,st_bull,trending,session,score
 2026-11-03T16:40:06Z,WHLR,0.59,0.6,-1.67,6.39,2.83,17.0,0.86,False,reg,2,st_rate 17/h; vol x6
 2026-11-03T16:50:06Z,GLND,2.8,2.69,4.09,4.89,0.21,81.4,1.0,False,reg,1,st_rate 81/h
 2026-11-03T16:50:06Z,MNTS,2.0809,1.82,14.34,14.44,2.89,11.0,1.0,False,reg,2,"momentum +10% in 10 min, vol x14; st_rate 11/h"
+2026-11-03T17:20:06Z,AIXI,2.95,2.805,5.17,8.02,0.02,10.0,0.77,False,reg,2,st_rate 10/h; vol x8
