@@ -217,3 +217,4 @@ ts,ticker,price,prev_close,pct,burst,rvol,st_rate,st_bull,trending,session,score
 2026-11-04T16:20:06Z,FTCI,1.6299,1.45,12.41,877.84,1379.36,110.5,0.67,False,reg,2,st_rate 110/h; vol x878
 2026-11-04T17:30:06Z,OCGN,0.8532,0.7581,12.54,5.59,1.37,23.0,0.94,False,reg,2,st_rate 23/h; vol x6
 2026-11-04T18:50:06Z,MERC,0.252,0.2198,14.65,43.5,1.46,15.0,1.0,False,reg,2,st_rate 15/h; vol x44
+2026-11-04T21:20:06Z,JOBY,5.3372,4.85,10.05,3.17,,68.4,0.95,True,post,2,st_rate 68/h; st_new_trending
