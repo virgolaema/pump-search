@@ -212,3 +212,5 @@ ts,ticker,price,prev_close,pct,burst,rvol,st_rate,st_bull,trending,session,score
 2026-11-03T17:20:06Z,AIXI,2.95,2.805,5.17,8.02,0.02,10.0,0.77,False,reg,2,st_rate 10/h; vol x8
 2026-11-03T18:30:06Z,CRIS,0.711,0.6556,8.45,203.74,68.67,53.8,0.75,False,reg,2,st_rate 54/h; vol x204
 2026-11-03T18:50:15Z,ZNB,0.5378,0.497,8.21,259.95,14.42,12.0,0.83,False,reg,2,st_rate 12/h; vol x260
+2026-11-04T14:40:06Z,CHSN,3.67,3.3701,8.9,519.29,39.56,91.7,0.83,False,reg,2,st_rate 92/h; vol x519
+2026-11-04T14:40:06Z,WORX,1.6,1.445,10.73,103.35,4.24,13.0,0.8,False,reg,2,st_rate 13/h; vol x103
