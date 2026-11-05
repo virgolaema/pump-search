@@ -224,3 +224,4 @@ ts,ticker,price,prev_close,pct,burst,rvol,st_rate,st_bull,trending,session,score
 2026-11-05T17:10:06Z,HUHU,0.415,0.38,9.21,615.92,81.62,23.0,0.81,False,reg,2,st_rate 23/h; vol x616
 2026-11-05T17:10:06Z,WHLR,0.52,0.4854,7.13,7.91,1.13,16.0,0.95,False,reg,2,st_rate 16/h; vol x8
 2026-11-05T19:30:06Z,LODE,1.665,1.49,11.74,15.52,3.09,14.0,0.95,False,reg,2,st_rate 14/h; vol x16
+2026-11-05T21:20:06Z,DFNS,3.2097,2.8299,13.42,45.86,0.47,20.0,0.88,False,post,2,"momentum +11% in 10 min, vol x46; st_rate 20/h"
