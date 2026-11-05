@@ -221,3 +221,5 @@ ts,ticker,price,prev_close,pct,burst,rvol,st_rate,st_bull,trending,session,score
 2026-11-05T14:30:06Z,BURU,0.2239,0.2342,-4.4,0.0,0.0,15.0,0.85,False,reg,1,st_rate 15/h
 2026-11-05T14:40:06Z,BDMD,0.1042,0.1078,-3.34,15.45,163.04,18.0,0.73,False,reg,2,st_rate 18/h; vol x15
 2026-11-05T15:10:06Z,PLCE,0.2657,0.2409,10.29,68.28,146.05,28.0,0.86,False,reg,2,st_rate 28/h; vol x68
+2026-11-05T17:10:06Z,HUHU,0.415,0.38,9.21,615.92,81.62,23.0,0.81,False,reg,2,st_rate 23/h; vol x616
+2026-11-05T17:10:06Z,WHLR,0.52,0.4854,7.13,7.91,1.13,16.0,0.95,False,reg,2,st_rate 16/h; vol x8
