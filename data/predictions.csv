@@ -220,3 +220,4 @@ ts,ticker,price,prev_close,pct,burst,rvol,st_rate,st_bull,trending,session,score
 2026-11-04T21:20:06Z,JOBY,5.3372,4.85,10.05,3.17,,68.4,0.95,True,post,2,st_rate 68/h; st_new_trending
 2026-11-05T14:30:06Z,BURU,0.2239,0.2342,-4.4,0.0,0.0,15.0,0.85,False,reg,1,st_rate 15/h
 2026-11-05T14:40:06Z,BDMD,0.1042,0.1078,-3.34,15.45,163.04,18.0,0.73,False,reg,2,st_rate 18/h; vol x15
+2026-11-05T15:10:06Z,PLCE,0.2657,0.2409,10.29,68.28,146.05,28.0,0.86,False,reg,2,st_rate 28/h; vol x68
