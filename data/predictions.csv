@@ -227,3 +227,4 @@ ts,ticker,price,prev_close,pct,burst,rvol,st_rate,st_bull,trending,session,score
 2026-11-05T21:20:06Z,DFNS,3.2097,2.8299,13.42,45.86,0.47,20.0,0.88,False,post,2,"momentum +11% in 10 min, vol x46; st_rate 20/h"
 2026-11-06T17:40:05Z,ONDS,5.142,4.51,14.01,1.22,,28.0,1.0,True,reg,2,st_rate 28/h; st_new_trending
 2026-11-06T18:20:05Z,GNS,0.0981,0.1027,-4.48,8.33,1.78,103.5,0.79,False,reg,2,st_rate 104/h; vol x8
+2026-11-06T19:30:06Z,SRFM,0.6964,0.6901,0.91,36.8,3.49,10.0,1.0,False,reg,2,st_rate 10/h; vol x37
