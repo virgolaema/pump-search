@@ -239,3 +239,4 @@ ts,ticker,price,prev_close,pct,burst,rvol,st_rate,st_bull,trending,session,score
 2026-11-09T15:20:05Z,BULL,5.0993,4.92,3.64,1.98,,39.8,0.94,True,reg,2,st_rate 40/h; st_new_trending
 2026-11-09T15:30:05Z,TGE,0.3497,0.3601,-2.89,34.73,243.34,33.0,0.75,False,reg,2,st_rate 33/h; vol x35
 2026-11-09T16:50:06Z,NWGL,2.3999,2.4003,-0.02,6.24,124.86,69.0,0.64,False,reg,2,st_rate 69/h; vol x6
+2026-11-09T19:00:06Z,JDZG,0.2017,0.209,-3.49,29.74,36.21,17.0,0.91,False,reg,2,st_rate 17/h; vol x30
