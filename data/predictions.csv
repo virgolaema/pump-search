@@ -231,3 +231,4 @@ ts,ticker,price,prev_close,pct,burst,rvol,st_rate,st_bull,trending,session,score
 2026-11-06T19:50:06Z,OPTT,0.4291,0.3828,12.1,14.65,1.11,0.0,0.36,False,reg,1,"momentum +11% in 10 min, vol x15"
 2026-11-06T20:50:06Z,SDEV,0.9803,0.8965,9.34,3.67,0.12,14.0,1.0,False,reg,1,st_rate 14/h
 2026-11-09T12:50:05Z,ANVS,0.9399,0.8274,13.6,0.0,,13.0,0.79,False,pre,1,st_rate 13/h
+2026-11-09T14:40:06Z,SERV,3.5086,3.215,9.13,7.12,8.72,10.0,1.0,False,reg,2,st_rate 10/h; vol x7
