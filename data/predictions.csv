@@ -242,3 +242,4 @@ ts,ticker,price,prev_close,pct,burst,rvol,st_rate,st_bull,trending,session,score
 2026-11-09T19:00:06Z,JDZG,0.2017,0.209,-3.49,29.74,36.21,17.0,0.91,False,reg,2,st_rate 17/h; vol x30
 2026-11-09T19:10:06Z,SRXH,0.8489,0.8116,4.59,5.49,1.87,47.0,0.95,False,reg,2,st_rate 47/h; vol x5
 2026-11-09T20:20:05Z,BURU,0.2136,0.21,1.71,17.76,0.11,10.0,0.95,False,reg,2,st_rate 10/h; vol x18
+2026-11-09T21:40:06Z,BTGO,5.0785,4.86,4.5,,,6.0,0.9,True,post,1,st_new_trending
