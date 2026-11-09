@@ -233,3 +233,6 @@ ts,ticker,price,prev_close,pct,burst,rvol,st_rate,st_bull,trending,session,score
 2026-11-09T12:50:05Z,ANVS,0.9399,0.8274,13.6,0.0,,13.0,0.79,False,pre,1,st_rate 13/h
 2026-11-09T14:40:06Z,SERV,3.5086,3.215,9.13,7.12,8.72,10.0,1.0,False,reg,2,st_rate 10/h; vol x7
 2026-11-09T14:50:06Z,SMX,5.16,4.928,4.71,11.65,,40.1,0.64,False,reg,2,st_rate 40/h; vol x12
+2026-11-09T15:00:05Z,CLOV,5.135,4.83,6.31,2.1,,73.6,0.94,True,reg,2,st_rate 74/h; st_new_trending
+2026-11-09T15:00:05Z,SDA,0.358,0.3761,-4.81,178.0,3.93,15.0,0.95,False,reg,2,st_rate 15/h; vol x178
+2026-11-09T15:00:05Z,STAK,3.25,3.255,-0.15,22.94,8.21,27.0,0.58,False,reg,2,st_rate 27/h; vol x23
