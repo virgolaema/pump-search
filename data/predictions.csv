@@ -246,3 +246,4 @@ ts,ticker,price,prev_close,pct,burst,rvol,st_rate,st_bull,trending,session,score
 2026-11-10T14:40:06Z,KULR,1.825,1.635,11.62,10.94,17.53,11.0,0.75,False,reg,2,st_rate 11/h; vol x11
 2026-11-10T14:40:06Z,PDYN,4.0553,3.535,14.72,25.36,47.3,13.0,1.0,False,reg,2,st_rate 13/h; vol x25
 2026-11-10T14:40:06Z,ZURA,1.32,1.235,6.88,15.02,4.3,5.0,0.89,False,reg,1,"momentum +10% in 10 min, vol x15"
+2026-11-10T16:10:06Z,AMIX,1.905,1.7,12.06,311.0,3952.97,32.2,0.57,False,reg,2,st_rate 32/h; vol x311
