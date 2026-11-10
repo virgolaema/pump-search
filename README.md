@@ -10,6 +10,8 @@ Minute watcher (from 2026-10-21, `pump/watch.py`): after each 10-minute scan, `c
 
 Flag scoring (from 2026-10-24, `pump/flag_trades.py`): the 10-minute flags since 2026-10-19 are also scored with the watcher's trade model (1-minute bars, +30% / −15% / same-day close), by category (momentum, StockTwits + volume, StockTwits only), into `data/flag_trades.csv` and the daily report. This is the only test of the StockTwits signal; about 100 scored StockTwits trades (roughly to late November) are needed before judging it.
 
+Event study (`pump/event_study.py`, `backtest/event_study.md`): the price path after every live flag (10 minutes to the next day's close) against random watchlist stocks at the same moments, with no exit rule and no costs. Reverse splits: Yahoo re-bases past bars after a split, so scoring compares the recorded flag price with the bars at the flag time and uses the bars' price when they differ by more than 2× (from 2026-11-10; before that a few scores were wrong, e.g. XXII on 2026-10-21/22 counted as +30% hits).
+
 Alerts (v3, from 2026-10-19): an ntfy.sh push (topic in `loop.yml`) plus a GitHub issue labelled `alert` when either
 - **momentum** (chosen by the blind backtest, `backtest/results.md`): price +5% to +15% vs previous close, +10% or more in the last 10 min, 30-min volume ≥5× the same time of day on the prior 4 days, and ≥$100k traded in 30 min; or
 - **social + volume** (not backtestable): a StockTwits signal (rate ≥10/h and ≥3× its baseline, or newly trending) with volume ≥5× and price between −5% and +15%.

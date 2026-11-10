@@ -28,7 +28,7 @@ def score_predictions(preds, bars):
             continue
         days = trading_days_between(b, ts)[:HIT_DAYS]
         after = b[(b.index > ts) & np.isin(b.index.date, days)]
-        mg = (after["High"].max() / p["price"] - 1) * 100 if len(after) else np.nan
+        mg = (after["High"].max() / watch.rebased_price(p["price"], b, ts) - 1) * 100 if len(after) else np.nan
         out.append({"ts": p["ts"], "ticker": p["ticker"], "max_gain": round(mg, 1) if not np.isnan(mg) else np.nan,
                     "days": len(days), "final": len(days) >= HIT_DAYS})
     o = pd.DataFrame(out)

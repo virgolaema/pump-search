@@ -117,13 +117,25 @@ def run(seconds):
 
 # ---------- scoring after the close ----------
 
+def rebased_price(price, bars, ts):
+    """Yahoo re-bases past bars after a reverse split. If the bars at the flag time are far from the price recorded
+    live, use the bars' own price so a later split is not scored as a gain or a loss."""
+    before = bars[(bars.index.date == ts.date()) & (bars.index < ts)]
+    if len(before):
+        ref = float(before["Close"].iloc[-1])
+        if ref > 0 and not 0.5 < ref / price < 2:
+            return ref
+    return price
+
+
 def score(flag, x):
     """Same trade as the replay: buy the flagged minute's close +1%, +30% / -15% / same-day close, -1% exit."""
     ts = pd.Timestamp(flag["ts"]).tz_convert(market.NY)
     day = x[(x.index.date == ts.date()) & (x.index >= ts)]
-    entry = flag["price"] * (1 + SLIP)
+    price = rebased_price(flag["price"], x, ts)
+    entry = price * (1 + SLIP)
     if day.empty:
-        return dict(how="time", ret=(1 - SLIP) * flag["price"] / entry - 1)
+        return dict(how="time", ret=(1 - SLIP) * price / entry - 1)
     L, H, C = day["Low"].values, day["High"].values, day["Close"].values
     sl, tp = L <= entry * (1 - SL), H >= entry * (1 + TP)
     ks, kt = (int(np.argmax(sl)) if sl.any() else len(L)), (int(np.argmax(tp)) if tp.any() else len(L))
