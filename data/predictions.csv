@@ -252,3 +252,4 @@ ts,ticker,price,prev_close,pct,burst,rvol,st_rate,st_bull,trending,session,score
 2026-11-10T18:10:06Z,NCPL,2.07,1.82,13.74,7.63,0.36,2.0,0.88,False,reg,1,"momentum +14% in 10 min, vol x8"
 2026-11-10T19:10:06Z,IPW,1.55,1.445,7.27,5.5,0.79,36.5,1.0,False,reg,2,st_rate 36/h; vol x6
 2026-11-10T20:10:06Z,IEP,5.035,4.84,4.03,0.72,,4.0,1.0,True,reg,1,st_new_trending
+2026-11-10T21:00:05Z,YYAI,1.04,0.9351,11.22,17.42,2.03,11.0,1.0,False,post,2,st_rate 11/h; vol x17
