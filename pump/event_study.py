@@ -1,7 +1,7 @@
 """Event study on the live flags: what does the price do after a flag, independent of any exit rule?
 
 For every live flag (10-minute scan since 2026-10-19 by category, minute watcher by rule) the 5-minute price path
-after the flag is measured against the flag price: +10, +30, +60, +120 minutes, the regular close (16:00 ET), the end
+after the flag is measured against the price at the flag (the close of the last 5-minute bar before it): +10, +30, +60, +120 minutes, the regular close (16:00 ET), the end
 of the extended session, the next day's open and close, plus the best and worst price reached the same day.
 No slippage or fees are applied here (a real round trip costs roughly 2% on these stocks).
 Control: for each flag, 10 random watchlist stocks that traded in the previous 30 minutes, same times, same horizons.
@@ -98,7 +98,15 @@ def main():
         t0 = ts.floor("5min").value if f.channel.startswith("scan") else ts.ceil("5min").value
         if f.ticker not in A:
             continue
-        rows.append({"ts": f.ts, "ticker": f.ticker, "channel": f.channel, "price": f.price, **path(A[f.ticker], t0, f.price)})
+        # entry from the bars themselves (close of the last bar before t0): Yahoo adjusts past bars for later
+        # reverse splits, so the price recorded live can be on a different basis
+        a = A[f.ticker]
+        i = int(np.searchsorted(a["t"], t0, side="left"))
+        if i == 0 or t0 - a["t"][i - 1] > 35 * MIN:
+            continue
+        entry = a["c"][i - 1]
+        rows.append({"ts": f.ts, "ticker": f.ticker, "channel": f.channel, "price": f.price, "entry": entry,
+                     "price_ratio": entry / f.price, **path(a, t0, entry)})
         got = 0
         for c in rng.permutation(pool):
             if c == f.ticker:
@@ -127,14 +135,14 @@ def main():
             continue
         r = path(a, t0 + 5 * MIN, a["c"][i])
         S.append({"date": e.date, "ticker": e.ticker, "start": e.start, "entry": a["c"][i], "day_gain": e.max_gain,
-                  "entry_vs_prev_close": a["c"][i] / e.prev_close - 1, **r})
+                  "prev_close": e.prev_close, **r})
     S = pd.DataFrame(S)
     S.to_csv(os.path.join(OUT, "event_study_spikes.csv"), index=False)
 
     days = sorted(F["day"].unique())
     L = ["# Event study: price after a live flag", "",
          f"{len(F)} live flags on {len(days)} trading days ({days[0]} to {days[-1]}). Mean return ± standard error in %, measured "
-         f"from the flag price on 5-minute bars, no slippage or fees. r10..r120 = minutes after the flag; r_close = 16:00 ET; "
+         f"from the last 5-minute close before the flag, no slippage or fees. r10..r120 = minutes after the flag; r_close = 16:00 ET; "
          f"r_end = end of the extended session; mfe / mae = best / worst price reached the same day.", "",
          "## Flags", ""] + md(table(F, "channel")) + ["", "## Control: random watchlist stocks at the same moments", ""] + \
         md(table(C, "channel")) + [""]
@@ -150,8 +158,7 @@ def main():
         S["when"] = np.where(st.dt.hour * 60 + st.dt.minute < 570, "starts pre-market",
                              np.where(st.dt.hour * 60 + st.dt.minute < 960, "starts in regular hours", "starts post-market"))
         L += ["## The spikes themselves (day high ≥ +50%): buying the close of the first 5-minute bar at +20%", "",
-              f"{len(S)} spikes. Median price at that bar's close: {S['entry_vs_prev_close'].median() * 100:+.0f}% vs the previous close. "
-              f"Median time from there to the day's high: {S['t_peak_min'].median():.0f} minutes. "
+              f"{len(S)} spikes. Median time from there to the day's high: {S['t_peak_min'].median():.0f} minutes. "
               f"Share still above the entry at the end of the day: {(S['r_end'] > 0).mean() * 100:.0f}%; "
               f"at the next day's close: {(S['r_next_close'].dropna() > 0).mean() * 100:.0f}%.", ""] + md(table(S, "when")) + [""]
     open(os.path.join(OUT, "event_study.md"), "w").write("\n".join(L))
