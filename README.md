@@ -2,7 +2,7 @@
 
 Paper test: can StockTwits chatter plus unusual volume flag low-price US stocks ($0.10–$5, market cap < $300M, ≥50k shares/day, Nasdaq/NYSE/AMEX) before they spike? Observation only, no trading.
 
-- Scheduling: GitHub's cron never fired for this repo, so `loop.yml` runs `scripts/loop.sh` (collect every 10 min on weekdays 08:00–24:00 UTC, evaluate at 00:20 UTC), ~5.7 h per job, then re-dispatches itself. Stop it by committing a file named `STOP` or disabling the workflow; it ends on its own after 2026-11-27. `collect.yml`/`evaluate.yml` are manual-run only.
+- Scheduling: GitHub's cron never fired for this repo, so `loop.yml` runs `scripts/loop.sh` (collect every 10 min Mon–Fri 04:00–20:00 New York time, evaluate at 20:20 New York time; New York time since 2026-11-10, before that fixed UTC hours, which broke the evening report after US daylight saving ended on 2026-11-01), ~5.7 h per job, then re-dispatches itself. Stop it by committing a file named `STOP` or disabling the workflow; it ends on its own after 2026-11-27. `collect.yml`/`evaluate.yml` are manual-run only.
 - `pump/collect.py` rebuilds the watchlist once a day from the Yahoo screener (up to 600 names), snapshots 5-min price/volume and StockTwits message rates, and appends flags to `data/predictions.csv`.
 - `pump/evaluate.py` It scores flags and finds the day's spikes, then writes `reports/YYYY-MM-DD.md`.
 

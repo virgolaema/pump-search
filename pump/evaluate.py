@@ -1,6 +1,6 @@
 """Daily evaluation: score past flags, detect today's spikes, write reports/YYYY-MM-DD.md.
 
-Run once after the US close."""
+Run once after the US post-market close (20:20 New York time, from scripts/loop.sh)."""
 import os
 import sys
 
