@@ -263,3 +263,4 @@ ts,ticker,price,prev_close,pct,burst,rvol,st_rate,st_bull,trending,session,score
 2026-11-11T15:50:05Z,BULL,5.1,4.88,4.51,0.6,,13.0,0.89,True,reg,1,st_new_trending
 2026-11-11T16:00:05Z,TNXP,4.0,4.11,-2.68,4.58,3.62,16.0,0.69,False,reg,1,st_rate 16/h
 2026-11-11T16:40:06Z,OTLK,0.4787,0.4609,3.86,3.76,1.0,19.0,0.92,False,reg,1,st_rate 19/h
+2026-11-11T16:50:05Z,INLF,0.5814,0.5448,6.72,6.96,8.2,27.0,0.89,False,reg,2,st_rate 27/h; vol x7
