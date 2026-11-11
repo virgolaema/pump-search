@@ -267,3 +267,4 @@ ts,ticker,price,prev_close,pct,burst,rvol,st_rate,st_bull,trending,session,score
 2026-11-11T17:30:06Z,VIVO,2.255,2.0,12.75,11.36,1.09,0.0,0.7,False,reg,1,"momentum +11% in 10 min, vol x11"
 2026-11-11T17:50:06Z,CLOV,5.01,4.925,1.73,0.77,,18.0,0.92,True,reg,1,st_new_trending
 2026-11-11T17:50:06Z,PLCE,0.198,0.1782,11.11,13.38,8.14,54.6,1.0,False,reg,2,st_rate 55/h; vol x13
+2026-11-11T18:10:06Z,DBGI,0.1757,0.1546,13.65,15.4,2.03,12.0,1.0,False,reg,2,st_rate 12/h; vol x15
