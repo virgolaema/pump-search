@@ -258,3 +258,5 @@ ts,ticker,price,prev_close,pct,burst,rvol,st_rate,st_bull,trending,session,score
 2026-11-11T14:40:06Z,TPST,0.4257,0.3717,14.53,32.82,65.46,10.0,1.0,False,reg,2,st_rate 10/h; vol x33
 2026-11-11T14:40:06Z,UCL,0.1988,0.189,5.19,1490.48,3167.88,12.0,1.0,False,reg,2,st_rate 12/h; vol x1490
 2026-11-11T14:50:06Z,BURU,0.2279,0.2016,13.05,34.77,10.42,47.8,1.0,False,reg,2,st_rate 48/h; vol x35
+2026-11-11T15:00:06Z,AUUD,0.2614,0.2401,8.87,1545.96,5943.39,32.2,0.71,False,reg,2,st_rate 32/h; vol x1546
+2026-11-11T15:00:06Z,YMAT,1.1602,1.01,14.87,189.21,36.02,20.0,0.69,False,reg,2,st_rate 20/h; vol x189
