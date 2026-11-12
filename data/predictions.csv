@@ -274,3 +274,4 @@ ts,ticker,price,prev_close,pct,burst,rvol,st_rate,st_bull,trending,session,score
 2026-11-12T14:40:06Z,CJMB,0.3028,0.3121,-2.98,544.74,49.89,15.0,1.0,False,reg,2,st_rate 15/h; vol x545
 2026-11-12T14:40:06Z,NCT,0.8068,0.72,12.06,162.91,36.13,3.0,0.88,False,reg,1,"momentum +11% in 10 min, vol x163"
 2026-11-12T15:20:06Z,QTEX,1.0502,0.9997,5.05,4.89,5.26,18.0,1.0,False,reg,1,st_rate 18/h
+2026-11-12T16:10:06Z,OPTT,0.6355,0.5949,6.82,94.04,20.76,13.0,1.0,False,reg,2,st_rate 13/h; vol x94
