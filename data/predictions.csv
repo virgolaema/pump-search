@@ -283,3 +283,4 @@ ts,ticker,price,prev_close,pct,burst,rvol,st_rate,st_bull,trending,session,score
 2026-11-13T14:50:06Z,BULL,5.095,4.97,2.52,1.47,,14.0,0.94,True,reg,1,st_new_trending
 2026-11-13T14:50:06Z,XLAB,2.53,2.26,11.95,19.11,4.37,13.0,0.75,False,reg,2,st_rate 13/h; vol x19
 2026-11-13T15:20:06Z,CRMD,5.02,4.838,3.76,0.88,,21.0,1.0,True,reg,1,st_rate 21/h
+2026-11-13T16:20:06Z,AIMD,1.0514,1.05,0.13,5.84,1.76,10.0,1.0,False,reg,2,st_rate 10/h; vol x6
