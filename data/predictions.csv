@@ -280,3 +280,5 @@ ts,ticker,price,prev_close,pct,burst,rvol,st_rate,st_bull,trending,session,score
 2026-11-13T14:40:06Z,DGXX,2.4,2.24,7.14,9.85,14.94,18.0,1.0,False,reg,2,st_rate 18/h; vol x10
 2026-11-13T14:40:06Z,POAS,3.26,2.96,10.14,1499.24,49.06,17.0,0.9,False,reg,2,st_rate 17/h; vol x1499
 2026-11-13T14:40:06Z,SLQT,0.5208,0.4894,6.42,7.29,4.36,1.0,0.5,False,reg,1,"momentum +11% in 10 min, vol x7"
+2026-11-13T14:50:06Z,BULL,5.095,4.97,2.52,1.47,,14.0,0.94,True,reg,1,st_new_trending
+2026-11-13T14:50:06Z,XLAB,2.53,2.26,11.95,19.11,4.37,13.0,0.75,False,reg,2,st_rate 13/h; vol x19
