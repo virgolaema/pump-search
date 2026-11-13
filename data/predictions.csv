@@ -277,3 +277,6 @@ ts,ticker,price,prev_close,pct,burst,rvol,st_rate,st_bull,trending,session,score
 2026-11-12T16:10:06Z,OPTT,0.6355,0.5949,6.82,94.04,20.76,13.0,1.0,False,reg,2,st_rate 13/h; vol x94
 2026-11-12T16:30:06Z,TRUG,0.5364,0.54,-0.67,43.41,6.03,11.0,0.82,False,reg,2,st_rate 11/h; vol x43
 2026-11-13T14:10:06Z,ABAT,1.23,1.245,-1.2,0.0,,12.0,0.92,False,pre,1,st_rate 12/h
+2026-11-13T14:40:06Z,DGXX,2.4,2.24,7.14,9.85,14.94,18.0,1.0,False,reg,2,st_rate 18/h; vol x10
+2026-11-13T14:40:06Z,POAS,3.26,2.96,10.14,1499.24,49.06,17.0,0.9,False,reg,2,st_rate 17/h; vol x1499
+2026-11-13T14:40:06Z,SLQT,0.5208,0.4894,6.42,7.29,4.36,1.0,0.5,False,reg,1,"momentum +11% in 10 min, vol x7"
