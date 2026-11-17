@@ -304,3 +304,4 @@ ts,ticker,price,prev_close,pct,burst,rvol,st_rate,st_bull,trending,session,score
 2026-11-17T14:50:06Z,GIPR,0.2951,0.2726,8.25,113.6,78.46,22.0,1.0,False,reg,2,st_rate 22/h; vol x114
 2026-11-17T15:00:06Z,LVWR,0.3301,0.2933,12.55,76.06,94.98,0.0,0.36,False,reg,1,"momentum +11% in 10 min, vol x76"
 2026-11-17T16:20:06Z,ZKH,1.6,1.46,9.59,9.5,4.38,0.0,0.5,False,reg,1,"momentum +16% in 10 min, vol x10"
+2026-11-17T17:40:06Z,OMH,4.536,3.975,14.11,7.66,4.62,129.9,0.86,False,reg,2,st_rate 130/h; vol x8
