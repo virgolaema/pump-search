@@ -297,3 +297,4 @@ ts,ticker,price,prev_close,pct,burst,rvol,st_rate,st_bull,trending,session,score
 2026-11-16T22:00:06Z,CDT,0.383,0.3903,-1.87,6.8,0.1,12.0,0.8,False,post,2,st_rate 12/h; vol x7
 2026-11-17T00:20:06Z,NGEN,2.1,1.87,12.3,16.05,2.67,1.0,0.89,False,post,1,"momentum +15% in 10 min, vol x16"
 2026-11-17T11:10:06Z,AKAN,2.39,2.205,8.39,0.0,,15.0,0.83,False,pre,1,st_rate 15/h
+2026-11-17T12:10:06Z,BURU,0.2178,0.2029,7.34,0.0,,10.0,0.83,False,pre,1,st_rate 10/h
