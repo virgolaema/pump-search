@@ -315,3 +315,4 @@ ts,ticker,price,prev_close,pct,burst,rvol,st_rate,st_bull,trending,session,score
 2026-11-18T15:00:06Z,CHSN,0.5011,0.4617,8.53,486.38,77.94,118.1,1.0,False,reg,2,st_rate 118/h; vol x486
 2026-11-18T15:00:06Z,GMM,1.5712,1.39,13.04,14.02,39.35,16.0,1.0,False,reg,2,st_rate 16/h; vol x14
 2026-11-18T15:20:05Z,QSI,1.18,1.03,14.56,7.68,4.54,15.0,1.0,False,reg,2,st_rate 15/h; vol x8
+2026-11-18T16:30:06Z,SRFM,0.4268,0.4433,-3.72,12.4,5.94,12.0,1.0,False,reg,2,st_rate 12/h; vol x12
