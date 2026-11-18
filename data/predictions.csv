@@ -310,3 +310,5 @@ ts,ticker,price,prev_close,pct,burst,rvol,st_rate,st_bull,trending,session,score
 2026-11-18T13:50:06Z,AKAN,2.3203,2.065,12.36,0.0,,75.4,1.0,False,pre,1,st_rate 75/h
 2026-11-18T14:40:06Z,INLF,0.4025,0.3645,10.43,33.3,20.98,51.2,1.0,False,reg,2,st_rate 51/h; vol x33
 2026-11-18T14:40:06Z,ZSQR,2.17,1.935,12.14,6.49,0.51,,,False,reg,1,"momentum +12% in 10 min, vol x6"
+2026-11-18T14:50:06Z,DBGI,0.1703,0.1596,6.7,8.04,19.01,10.0,0.95,False,reg,2,st_rate 10/h; vol x8
+2026-11-18T14:50:06Z,PMEC,0.455,0.4138,9.96,79.9,181.13,5.0,1.0,False,reg,1,"momentum +11% in 10 min, vol x80"
