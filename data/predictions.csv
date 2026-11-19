@@ -321,3 +321,5 @@ ts,ticker,price,prev_close,pct,burst,rvol,st_rate,st_bull,trending,session,score
 2026-11-19T14:40:05Z,FUFU,0.8525,0.8116,5.04,11.19,2.95,0.0,0.92,False,reg,1,"momentum +13% in 10 min, vol x11"
 2026-11-19T14:40:05Z,OTLK,0.4168,0.4093,1.83,5.57,11.69,10.0,0.95,False,reg,2,st_rate 10/h; vol x6
 2026-11-19T14:50:06Z,POAS,2.6,2.59,0.39,13.13,6.46,14.0,0.93,False,reg,2,st_rate 14/h; vol x13
+2026-11-19T15:00:06Z,CUE,4.593,4.73,-2.9,8.55,12.02,12.0,1.0,False,reg,2,st_rate 12/h; vol x9
+2026-11-19T15:00:06Z,SVRA,5.04,4.74,6.33,4.66,,10.0,0.94,True,reg,1,st_new_trending
