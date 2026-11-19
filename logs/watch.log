@@ -13,294 +13,9 @@ See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace 
 /opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/multi.py:220: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.set_index("date", inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.set_index("date", inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.set_index("date", inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
+  data.rename(columns=ctx.isins, inplace=True)
 /opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   quotes.sort_index(inplace=True)
@@ -319,981 +34,131 @@ See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace 
 /opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/multi.py:220: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   data.rename(columns=ctx.isins, inplace=True)
-$CVU: possibly delisted; no price data found  (period=1d)
-$XPOF: possibly delisted; no price data found  (period=1d)
-$AIRO: possibly delisted; no price data found  (period=1d)
-$PRQR: possibly delisted; no price data found  (period=1d)
-$TTGT: possibly delisted; no price data found  (period=1d)
-$LSAK: possibly delisted; no price data found  (period=1d)
-$CMRC: possibly delisted; no price data found  (period=1d)
-$HLLY: possibly delisted; no price data found  (period=1d)
 /opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   quotes.sort_index(inplace=True)
-$OSG: possibly delisted; no price data found  (period=1d)
-$GSM: possibly delisted; no price data found  (period=1d)
-$PLX: possibly delisted; no price data found  (period=1d)
-$PLBY: possibly delisted; no price data found  (period=1d)
 /opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   quotes.sort_index(inplace=True)
-$EARN: possibly delisted; no price data found  (period=1d)
-$XGN: possibly delisted; no price data found  (period=1d)
-$TONX: possibly delisted; no price data found  (period=1d)
-$CIK: possibly delisted; no price data found  (period=1d)
-$CMTG: possibly delisted; no price data found  (period=1d)
-$BDTX: possibly delisted; no price data found  (period=1d)
-$AIV: possibly delisted; no price data found  (period=1d)
-$PRLD: possibly delisted; no price data found  (period=1d)
-$RILY: possibly delisted; no price data found  (period=1d)
-$SKYX: possibly delisted; no price data found  (period=1d)
-$EVGO: possibly delisted; no price data found  (period=1d)
-$NPWR: possibly delisted; no price data found  (period=1d)
-$GGN: possibly delisted; no price data found  (period=1d)
-$MITT: possibly delisted; no price data found  (period=1d)
-$UIS: possibly delisted; no price data found  (period=1d)
-$TARA: possibly delisted; no price data found  (period=1d)
 /opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   quotes.sort_index(inplace=True)
-$ARTV: possibly delisted; no price data found  (period=1d)
-$INSE: possibly delisted; no price data found  (period=1d)
-$SION: possibly delisted; no price data found  (period=1d)
-$LTBR: possibly delisted; no price data found  (period=1d)
-$UPB: possibly delisted; no price data found  (period=1d)
-$PNNT: possibly delisted; no price data found  (period=1d)
-$FBIO: possibly delisted; no price data found  (period=1d)
-$MGNX: possibly delisted; no price data found  (period=1d)
-$WHWK: possibly delisted; no price data found  (period=1d)
-$DUOT: possibly delisted; no price data found  (period=1d)
-$VYGR: possibly delisted; no price data found  (period=1d)
-$JRVR: possibly delisted; no price data found  (period=1d)
-$TLSI: possibly delisted; no price data found  (period=1d)
-$LTRX: possibly delisted; no price data found  (period=1d)
-$RCKT: possibly delisted; no price data found  (period=1d)
 /opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   quotes.sort_index(inplace=True)
-$DOUG: possibly delisted; no price data found  (period=1d)
-$HYPR: possibly delisted; no price data found  (period=1d)
-$INVE: possibly delisted; no price data found  (period=1d)
-$SSTK: possibly delisted; no price data found  (period=1d)
-$VENU: possibly delisted; no price data found  (period=1d)
-$DSX: possibly delisted; no price data found  (period=1d)
-$GRO: possibly delisted; no price data found  (period=1d)
-$RXST: possibly delisted; no price data found  (period=1d)
-$PMVP: possibly delisted; no price data found  (period=1d)
-$ENGN: possibly delisted; no price data found  (period=1d)
-$EXFY: possibly delisted; no price data found  (period=1d)
-$VNDA: possibly delisted; no price data found  (period=1d)
-$TWI: possibly delisted; no price data found  (period=1d)
-$ACB: possibly delisted; no price data found  (period=1d)
-$SIGA: possibly delisted; no price data found  (period=1d)
-$BLND: possibly delisted; no price data found  (period=1d)
-$AUTL: possibly delisted; no price data found  (period=1d)
-$SABS: possibly delisted; no price data found  (period=1d)
-$HIO: possibly delisted; no price data found  (period=1d)
-$TRDA: possibly delisted; no price data found  (period=1d)
-$FATE: possibly delisted; no price data found  (period=1d)
-$GHI: possibly delisted; no price data found  (period=1d)
 /opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   quotes.sort_index(inplace=True)
-$VGZ: possibly delisted; no price data found  (period=1d)
-$CCOI: possibly delisted; no price data found  (period=1d)
-$MX: possibly delisted; no price data found  (period=1d)
-$ADCT: possibly delisted; no price data found  (period=1d)
-$ACRE: possibly delisted; no price data found  (period=1d)
-$ICL: possibly delisted; no price data found  (period=1d)
-$SHMD: possibly delisted; no price data found  (period=1d)
-$NEOV: possibly delisted; no price data found  (period=1d)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-$PEW: possibly delisted; no price data found  (period=1d)
-$AIOT: possibly delisted; no price data found  (period=1d)
-$NUS: possibly delisted; no price data found  (period=1d)
-$NGEN: possibly delisted; no price data found  (period=1d)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-$EPM: possibly delisted; no price data found  (period=1d)
-$VUZI: possibly delisted; no price data found  (period=1d)
-$CANG: possibly delisted; no price data found  (period=1d)
-$FF: possibly delisted; no price data found  (period=1d)
-$BHR: possibly delisted; no price data found  (period=1d)
-$QNC: possibly delisted; no price data found  (period=1d)
-$TTEC: possibly delisted; no price data found  (period=1d)
-$PLRX: possibly delisted; no price data found  (period=1d)
-$THRY: possibly delisted; no price data found  (period=1d)
-$PSFE: possibly delisted; no price data found  (period=1d)
-$PACK: possibly delisted; no price data found  (period=1d)
-$PAL: possibly delisted; no price data found  (period=1d)
-$VRRM: possibly delisted; no price data found  (period=1d)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-$CAMP: possibly delisted; no price data found  (period=1d)
-$FULC: possibly delisted; no price data found  (period=1d)
-
-92 Failed downloads:
-['CVU', 'XPOF', 'AIRO', 'PRQR', 'TTGT', 'LSAK', 'CMRC', 'HLLY', 'OSG', 'GSM', 'PLX', 'PLBY', 'EARN', 'XGN', 'TONX', 'CIK', 'CMTG', 'BDTX', 'AIV', 'PRLD', 'RILY', 'SKYX', 'EVGO', 'NPWR', 'GGN', 'MITT', 'UIS', 'TARA', 'ARTV', 'INSE', 'SION', 'LTBR', 'UPB', 'PNNT', 'FBIO', 'MGNX', 'WHWK', 'DUOT', 'VYGR', 'JRVR', 'TLSI', 'LTRX', 'RCKT', 'DOUG', 'HYPR', 'INVE', 'SSTK', 'VENU', 'DSX', 'GRO', 'RXST', 'PMVP', 'ENGN', 'EXFY', 'VNDA', 'TWI', 'ACB', 'SIGA', 'BLND', 'AUTL', 'SABS', 'HIO', 'TRDA', 'FATE', 'GHI', 'VGZ', 'CCOI', 'MX', 'ADCT', 'ACRE', 'ICL', 'SHMD', 'NEOV', 'PEW', 'AIOT', 'NUS', 'NGEN', 'EPM', 'VUZI', 'CANG', 'FF', 'BHR', 'QNC', 'TTEC', 'PLRX', 'THRY', 'PSFE', 'PACK', 'PAL', 'VRRM', 'CAMP', 'FULC']: possibly delisted; no price data found  (period=1d)
 /opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/multi.py:220: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   data.rename(columns=ctx.isins, inplace=True)
-$AIRO: possibly delisted; no price data found  (period=1d)
-$CVU: possibly delisted; no price data found  (period=1d)
-$HLLY: possibly delisted; no price data found  (period=1d)
-$XPOF: possibly delisted; no price data found  (period=1d)
-$PRQR: possibly delisted; no price data found  (period=1d)
-$LSAK: possibly delisted; no price data found  (period=1d)
-$CIK: possibly delisted; no price data found  (period=1d)
-$TTGT: possibly delisted; no price data found  (period=1d)
-$GSM: possibly delisted; no price data found  (period=1d)
-$CMRC: possibly delisted; no price data found  (period=1d)
 /opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   quotes.sort_index(inplace=True)
-$PLBY: possibly delisted; no price data found  (period=1d)
-$OSG: possibly delisted; no price data found  (period=1d)
-$INSE: possibly delisted; no price data found  (period=1d)
-$PLX: possibly delisted; no price data found  (period=1d)
 /opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   quotes.sort_index(inplace=True)
-$EARN: possibly delisted; no price data found  (period=1d)
-$XGN: possibly delisted; no price data found  (period=1d)
-$TONX: possibly delisted; no price data found  (period=1d)
-$CMTG: possibly delisted; no price data found  (period=1d)
-$AIV: possibly delisted; no price data found  (period=1d)
-$PRLD: possibly delisted; no price data found  (period=1d)
-$RILY: possibly delisted; no price data found  (period=1d)
-$BDTX: possibly delisted; no price data found  (period=1d)
-$SKYX: possibly delisted; no price data found  (period=1d)
-$NPWR: possibly delisted; no price data found  (period=1d)
-$EVGO: possibly delisted; no price data found  (period=1d)
-$UIS: possibly delisted; no price data found  (period=1d)
-$GGN: possibly delisted; no price data found  (period=1d)
-$MITT: possibly delisted; no price data found  (period=1d)
-$TARA: possibly delisted; no price data found  (period=1d)
-$ARTV: possibly delisted; no price data found  (period=1d)
 /opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   quotes.sort_index(inplace=True)
-$SION: possibly delisted; no price data found  (period=1d)
-$MGNX: possibly delisted; no price data found  (period=1d)
-$LTBR: possibly delisted; no price data found  (period=1d)
-$FBIO: possibly delisted; no price data found  (period=1d)
-$PNNT: possibly delisted; no price data found  (period=1d)
-$UPB: possibly delisted; no price data found  (period=1d)
-$WHWK: possibly delisted; no price data found  (period=1d)
-$VYGR: possibly delisted; no price data found  (period=1d)
-$DUOT: possibly delisted; no price data found  (period=1d)
-$JRVR: possibly delisted; no price data found  (period=1d)
-$TLSI: possibly delisted; no price data found  (period=1d)
-$LTRX: possibly delisted; no price data found  (period=1d)
-$INVE: possibly delisted; no price data found  (period=1d)
-$RCKT: possibly delisted; no price data found  (period=1d)
 /opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   quotes.sort_index(inplace=True)
-$DOUG: possibly delisted; no price data found  (period=1d)
-$ACB: possibly delisted; no price data found  (period=1d)
-$HYPR: possibly delisted; no price data found  (period=1d)
-$SSTK: possibly delisted; no price data found  (period=1d)
-$DSX: possibly delisted; no price data found  (period=1d)
-$VENU: possibly delisted; no price data found  (period=1d)
-$SIGA: possibly delisted; no price data found  (period=1d)
-$GRO: possibly delisted; no price data found  (period=1d)
-$PMVP: possibly delisted; no price data found  (period=1d)
-$RXST: possibly delisted; no price data found  (period=1d)
-$ENGN: possibly delisted; no price data found  (period=1d)
-$EXFY: possibly delisted; no price data found  (period=1d)
-$VNDA: possibly delisted; no price data found  (period=1d)
 /opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   quotes.sort_index(inplace=True)
-$TWI: possibly delisted; no price data found  (period=1d)
-$BLND: possibly delisted; no price data found  (period=1d)
-$SHMD: possibly delisted; no price data found  (period=1d)
-$HIO: possibly delisted; no price data found  (period=1d)
-$AUTL: possibly delisted; no price data found  (period=1d)
-$SABS: possibly delisted; no price data found  (period=1d)
-$TRDA: possibly delisted; no price data found  (period=1d)
-$FATE: possibly delisted; no price data found  (period=1d)
-$CCOI: possibly delisted; no price data found  (period=1d)
-$GHI: possibly delisted; no price data found  (period=1d)
-$VGZ: possibly delisted; no price data found  (period=1d)
-$ADCT: possibly delisted; no price data found  (period=1d)
-$ICL: possibly delisted; no price data found  (period=1d)
-$MX: possibly delisted; no price data found  (period=1d)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-$NEOV: possibly delisted; no price data found  (period=1d)
-$PEW: possibly delisted; no price data found  (period=1d)
-$ACRE: possibly delisted; no price data found  (period=1d)
-$AIOT: possibly delisted; no price data found  (period=1d)
-$NUS: possibly delisted; no price data found  (period=1d)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-$NGEN: possibly delisted; no price data found  (period=1d)
-$EPM: possibly delisted; no price data found  (period=1d)
-$VUZI: possibly delisted; no price data found  (period=1d)
-$CANG: possibly delisted; no price data found  (period=1d)
-$FF: possibly delisted; no price data found  (period=1d)
-$BHR: possibly delisted; no price data found  (period=1d)
-$QNC: possibly delisted; no price data found  (period=1d)
-$TTEC: possibly delisted; no price data found  (period=1d)
-$PLRX: possibly delisted; no price data found  (period=1d)
-$THRY: possibly delisted; no price data found  (period=1d)
-$PSFE: possibly delisted; no price data found  (period=1d)
-$PACK: possibly delisted; no price data found  (period=1d)
-$VRRM: possibly delisted; no price data found  (period=1d)
-$PAL: possibly delisted; no price data found  (period=1d)
-$CAMP: possibly delisted; no price data found  (period=1d)
-$FULC: possibly delisted; no price data found  (period=1d)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-
-92 Failed downloads:
-['AIRO', 'CVU', 'HLLY', 'XPOF', 'PRQR', 'LSAK', 'CIK', 'TTGT', 'GSM', 'CMRC', 'PLBY', 'OSG', 'INSE', 'PLX', 'EARN', 'XGN', 'TONX', 'CMTG', 'AIV', 'PRLD', 'RILY', 'BDTX', 'SKYX', 'NPWR', 'EVGO', 'UIS', 'GGN', 'MITT', 'TARA', 'ARTV', 'SION', 'MGNX', 'LTBR', 'FBIO', 'PNNT', 'UPB', 'WHWK', 'VYGR', 'DUOT', 'JRVR', 'TLSI', 'LTRX', 'INVE', 'RCKT', 'DOUG', 'ACB', 'HYPR', 'SSTK', 'DSX', 'VENU', 'SIGA', 'GRO', 'PMVP', 'RXST', 'ENGN', 'EXFY', 'VNDA', 'TWI', 'BLND', 'SHMD', 'HIO', 'AUTL', 'SABS', 'TRDA', 'FATE', 'CCOI', 'GHI', 'VGZ', 'ADCT', 'ICL', 'MX', 'NEOV', 'PEW', 'ACRE', 'AIOT', 'NUS', 'NGEN', 'EPM', 'VUZI', 'CANG', 'FF', 'BHR', 'QNC', 'TTEC', 'PLRX', 'THRY', 'PSFE', 'PACK', 'VRRM', 'PAL', 'CAMP', 'FULC']: possibly delisted; no price data found  (period=1d)
 /opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/multi.py:220: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   data.rename(columns=ctx.isins, inplace=True)
-$AIRO: possibly delisted; no price data found  (period=1d)
-$HLLY: possibly delisted; no price data found  (period=1d)
-$CVU: possibly delisted; no price data found  (period=1d)
-$XPOF: possibly delisted; no price data found  (period=1d)
-$LSAK: possibly delisted; no price data found  (period=1d)
-$TTGT: possibly delisted; no price data found  (period=1d)
-$CIK: possibly delisted; no price data found  (period=1d)
-$PRQR: possibly delisted; no price data found  (period=1d)
-$GSM: possibly delisted; no price data found  (period=1d)
-$CMRC: possibly delisted; no price data found  (period=1d)
-$PLBY: possibly delisted; no price data found  (period=1d)
 /opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   quotes.sort_index(inplace=True)
-$INSE: possibly delisted; no price data found  (period=1d)
-$OSG: possibly delisted; no price data found  (period=1d)
-$PLX: possibly delisted; no price data found  (period=1d)
 /opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   quotes.sort_index(inplace=True)
-$TONX: possibly delisted; no price data found  (period=1d)
-$XGN: possibly delisted; no price data found  (period=1d)
-$EARN: possibly delisted; no price data found  (period=1d)
-$CMTG: possibly delisted; no price data found  (period=1d)
-$PRLD: possibly delisted; no price data found  (period=1d)
-$AIV: possibly delisted; no price data found  (period=1d)
-$BDTX: possibly delisted; no price data found  (period=1d)
-$RILY: possibly delisted; no price data found  (period=1d)
-$EVGO: possibly delisted; no price data found  (period=1d)
-$SKYX: possibly delisted; no price data found  (period=1d)
-$UIS: possibly delisted; no price data found  (period=1d)
-$NPWR: possibly delisted; no price data found  (period=1d)
-$GGN: possibly delisted; no price data found  (period=1d)
-$MITT: possibly delisted; no price data found  (period=1d)
-$TARA: possibly delisted; no price data found  (period=1d)
-$ARTV: possibly delisted; no price data found  (period=1d)
 /opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   quotes.sort_index(inplace=True)
-$MGNX: possibly delisted; no price data found  (period=1d)
-$SION: possibly delisted; no price data found  (period=1d)
-$LTBR: possibly delisted; no price data found  (period=1d)
-$UPB: possibly delisted; no price data found  (period=1d)
-$FBIO: possibly delisted; no price data found  (period=1d)
-$PNNT: possibly delisted; no price data found  (period=1d)
-$WHWK: possibly delisted; no price data found  (period=1d)
-$VYGR: possibly delisted; no price data found  (period=1d)
-$DUOT: possibly delisted; no price data found  (period=1d)
-$JRVR: possibly delisted; no price data found  (period=1d)
-$TLSI: possibly delisted; no price data found  (period=1d)
-$LTRX: possibly delisted; no price data found  (period=1d)
-$INVE: possibly delisted; no price data found  (period=1d)
-$RCKT: possibly delisted; no price data found  (period=1d)
 /opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   quotes.sort_index(inplace=True)
-$ACB: possibly delisted; no price data found  (period=1d)
-$DOUG: possibly delisted; no price data found  (period=1d)
-$HYPR: possibly delisted; no price data found  (period=1d)
-$SSTK: possibly delisted; no price data found  (period=1d)
-$VENU: possibly delisted; no price data found  (period=1d)
-$SIGA: possibly delisted; no price data found  (period=1d)
-$DSX: possibly delisted; no price data found  (period=1d)
-$GRO: possibly delisted; no price data found  (period=1d)
-$PMVP: possibly delisted; no price data found  (period=1d)
-$ENGN: possibly delisted; no price data found  (period=1d)
-$RXST: possibly delisted; no price data found  (period=1d)
-$EXFY: possibly delisted; no price data found  (period=1d)
 /opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   quotes.sort_index(inplace=True)
-$VNDA: possibly delisted; no price data found  (period=1d)
-$TWI: possibly delisted; no price data found  (period=1d)
-$BLND: possibly delisted; no price data found  (period=1d)
-$SHMD: possibly delisted; no price data found  (period=1d)
-$HIO: possibly delisted; no price data found  (period=1d)
-$AUTL: possibly delisted; no price data found  (period=1d)
-$SABS: possibly delisted; no price data found  (period=1d)
-$TRDA: possibly delisted; no price data found  (period=1d)
-$FATE: possibly delisted; no price data found  (period=1d)
-$CCOI: possibly delisted; no price data found  (period=1d)
-$GHI: possibly delisted; no price data found  (period=1d)
-$VGZ: possibly delisted; no price data found  (period=1d)
-$ADCT: possibly delisted; no price data found  (period=1d)
-$ICL: possibly delisted; no price data found  (period=1d)
-$MX: possibly delisted; no price data found  (period=1d)
-$NEOV: possibly delisted; no price data found  (period=1d)
-$ACRE: possibly delisted; no price data found  (period=1d)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-$PEW: possibly delisted; no price data found  (period=1d)
-$AIOT: possibly delisted; no price data found  (period=1d)
-$NUS: possibly delisted; no price data found  (period=1d)
-$NGEN: possibly delisted; no price data found  (period=1d)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-$EPM: possibly delisted; no price data found  (period=1d)
-$VUZI: possibly delisted; no price data found  (period=1d)
-$CANG: possibly delisted; no price data found  (period=1d)
-$FF: possibly delisted; no price data found  (period=1d)
-$BHR: possibly delisted; no price data found  (period=1d)
-$QNC: possibly delisted; no price data found  (period=1d)
-$TTEC: possibly delisted; no price data found  (period=1d)
-$PLRX: possibly delisted; no price data found  (period=1d)
-$PSFE: possibly delisted; no price data found  (period=1d)
-$THRY: possibly delisted; no price data found  (period=1d)
-$PACK: possibly delisted; no price data found  (period=1d)
-$VRRM: possibly delisted; no price data found  (period=1d)
-$PAL: possibly delisted; no price data found  (period=1d)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-$CAMP: possibly delisted; no price data found  (period=1d)
-$FULC: possibly delisted; no price data found  (period=1d)
-
-92 Failed downloads:
-['AIRO', 'HLLY', 'CVU', 'XPOF', 'LSAK', 'TTGT', 'CIK', 'PRQR', 'GSM', 'CMRC', 'PLBY', 'INSE', 'OSG', 'PLX', 'TONX', 'XGN', 'EARN', 'CMTG', 'PRLD', 'AIV', 'BDTX', 'RILY', 'EVGO', 'SKYX', 'UIS', 'NPWR', 'GGN', 'MITT', 'TARA', 'ARTV', 'MGNX', 'SION', 'LTBR', 'UPB', 'FBIO', 'PNNT', 'WHWK', 'VYGR', 'DUOT', 'JRVR', 'TLSI', 'LTRX', 'INVE', 'RCKT', 'ACB', 'DOUG', 'HYPR', 'SSTK', 'VENU', 'SIGA', 'DSX', 'GRO', 'PMVP', 'ENGN', 'RXST', 'EXFY', 'VNDA', 'TWI', 'BLND', 'SHMD', 'HIO', 'AUTL', 'SABS', 'TRDA', 'FATE', 'CCOI', 'GHI', 'VGZ', 'ADCT', 'ICL', 'MX', 'NEOV', 'ACRE', 'PEW', 'AIOT', 'NUS', 'NGEN', 'EPM', 'VUZI', 'CANG', 'FF', 'BHR', 'QNC', 'TTEC', 'PLRX', 'PSFE', 'THRY', 'PACK', 'VRRM', 'PAL', 'CAMP', 'FULC']: possibly delisted; no price data found  (period=1d)
 /opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/multi.py:220: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   data.rename(columns=ctx.isins, inplace=True)
-$XPOF: possibly delisted; no price data found  (period=1d)
-$CVU: possibly delisted; no price data found  (period=1d)
-$HLLY: possibly delisted; no price data found  (period=1d)
-$AIRO: possibly delisted; no price data found  (period=1d)
-$TTGT: possibly delisted; no price data found  (period=1d)
-$CIK: possibly delisted; no price data found  (period=1d)
-$PRQR: possibly delisted; no price data found  (period=1d)
-$LSAK: possibly delisted; no price data found  (period=1d)
-$GSM: possibly delisted; no price data found  (period=1d)
-$CMRC: possibly delisted; no price data found  (period=1d)
 /opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   quotes.sort_index(inplace=True)
-$PLBY: possibly delisted; no price data found  (period=1d)
-$PLX: possibly delisted; no price data found  (period=1d)
-$OSG: possibly delisted; no price data found  (period=1d)
-$INSE: possibly delisted; no price data found  (period=1d)
 /opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   quotes.sort_index(inplace=True)
-$XGN: possibly delisted; no price data found  (period=1d)
-$TONX: possibly delisted; no price data found  (period=1d)
-$EARN: possibly delisted; no price data found  (period=1d)
-$CMTG: possibly delisted; no price data found  (period=1d)
-$BDTX: possibly delisted; no price data found  (period=1d)
-$AIV: possibly delisted; no price data found  (period=1d)
-$PRLD: possibly delisted; no price data found  (period=1d)
-$SKYX: possibly delisted; no price data found  (period=1d)
-$EVGO: possibly delisted; no price data found  (period=1d)
-$RILY: possibly delisted; no price data found  (period=1d)
-$NPWR: possibly delisted; no price data found  (period=1d)
-$UIS: possibly delisted; no price data found  (period=1d)
-$GGN: possibly delisted; no price data found  (period=1d)
-$MITT: possibly delisted; no price data found  (period=1d)
-$TARA: possibly delisted; no price data found  (period=1d)
-$ARTV: possibly delisted; no price data found  (period=1d)
 /opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   quotes.sort_index(inplace=True)
-$SION: possibly delisted; no price data found  (period=1d)
-$MGNX: possibly delisted; no price data found  (period=1d)
-$LTBR: possibly delisted; no price data found  (period=1d)
-$UPB: possibly delisted; no price data found  (period=1d)
-$FBIO: possibly delisted; no price data found  (period=1d)
-$PNNT: possibly delisted; no price data found  (period=1d)
-$WHWK: possibly delisted; no price data found  (period=1d)
-$VYGR: possibly delisted; no price data found  (period=1d)
-$DUOT: possibly delisted; no price data found  (period=1d)
-$JRVR: possibly delisted; no price data found  (period=1d)
-$TLSI: possibly delisted; no price data found  (period=1d)
-$INVE: possibly delisted; no price data found  (period=1d)
-$LTRX: possibly delisted; no price data found  (period=1d)
-$RCKT: possibly delisted; no price data found  (period=1d)
 /opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   quotes.sort_index(inplace=True)
-$ACB: possibly delisted; no price data found  (period=1d)
-$DOUG: possibly delisted; no price data found  (period=1d)
-$HYPR: possibly delisted; no price data found  (period=1d)
-$SSTK: possibly delisted; no price data found  (period=1d)
-$VENU: possibly delisted; no price data found  (period=1d)
-$SIGA: possibly delisted; no price data found  (period=1d)
-$DSX: possibly delisted; no price data found  (period=1d)
-$RXST: possibly delisted; no price data found  (period=1d)
-$GRO: possibly delisted; no price data found  (period=1d)
-$PMVP: possibly delisted; no price data found  (period=1d)
-$ENGN: possibly delisted; no price data found  (period=1d)
 /opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   quotes.sort_index(inplace=True)
-$EXFY: possibly delisted; no price data found  (period=1d)
-$VNDA: possibly delisted; no price data found  (period=1d)
-$TWI: possibly delisted; no price data found  (period=1d)
-$BLND: possibly delisted; no price data found  (period=1d)
-$SHMD: possibly delisted; no price data found  (period=1d)
-$HIO: possibly delisted; no price data found  (period=1d)
-$SABS: possibly delisted; no price data found  (period=1d)
-$TRDA: possibly delisted; no price data found  (period=1d)
-$FATE: possibly delisted; no price data found  (period=1d)
-$AUTL: possibly delisted; no price data found  (period=1d)
-$CCOI: possibly delisted; no price data found  (period=1d)
-$GHI: possibly delisted; no price data found  (period=1d)
-$ADCT: possibly delisted; no price data found  (period=1d)
-$VGZ: possibly delisted; no price data found  (period=1d)
-$ICL: possibly delisted; no price data found  (period=1d)
-$MX: possibly delisted; no price data found  (period=1d)
-$ACRE: possibly delisted; no price data found  (period=1d)
-$NEOV: possibly delisted; no price data found  (period=1d)
-$PEW: possibly delisted; no price data found  (period=1d)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-$AIOT: possibly delisted; no price data found  (period=1d)
-$NUS: possibly delisted; no price data found  (period=1d)
-$NGEN: possibly delisted; no price data found  (period=1d)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-$VUZI: possibly delisted; no price data found  (period=1d)
-$EPM: possibly delisted; no price data found  (period=1d)
-$FF: possibly delisted; no price data found  (period=1d)
-$BHR: possibly delisted; no price data found  (period=1d)
-$CANG: possibly delisted; no price data found  (period=1d)
-$TTEC: possibly delisted; no price data found  (period=1d)
-$PLRX: possibly delisted; no price data found  (period=1d)
-$QNC: possibly delisted; no price data found  (period=1d)
-$THRY: possibly delisted; no price data found  (period=1d)
-$PSFE: possibly delisted; no price data found  (period=1d)
-$PACK: possibly delisted; no price data found  (period=1d)
-$VRRM: possibly delisted; no price data found  (period=1d)
-$PAL: possibly delisted; no price data found  (period=1d)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-$CAMP: possibly delisted; no price data found  (period=1d)
-$FULC: possibly delisted; no price data found  (period=1d)
-
-92 Failed downloads:
-['XPOF', 'CVU', 'HLLY', 'AIRO', 'TTGT', 'CIK', 'PRQR', 'LSAK', 'GSM', 'CMRC', 'PLBY', 'PLX', 'OSG', 'INSE', 'XGN', 'TONX', 'EARN', 'CMTG', 'BDTX', 'AIV', 'PRLD', 'SKYX', 'EVGO', 'RILY', 'NPWR', 'UIS', 'GGN', 'MITT', 'TARA', 'ARTV', 'SION', 'MGNX', 'LTBR', 'UPB', 'FBIO', 'PNNT', 'WHWK', 'VYGR', 'DUOT', 'JRVR', 'TLSI', 'INVE', 'LTRX', 'RCKT', 'ACB', 'DOUG', 'HYPR', 'SSTK', 'VENU', 'SIGA', 'DSX', 'RXST', 'GRO', 'PMVP', 'ENGN', 'EXFY', 'VNDA', 'TWI', 'BLND', 'SHMD', 'HIO', 'SABS', 'TRDA', 'FATE', 'AUTL', 'CCOI', 'GHI', 'ADCT', 'VGZ', 'ICL', 'MX', 'ACRE', 'NEOV', 'PEW', 'AIOT', 'NUS', 'NGEN', 'VUZI', 'EPM', 'FF', 'BHR', 'CANG', 'TTEC', 'PLRX', 'QNC', 'THRY', 'PSFE', 'PACK', 'VRRM', 'PAL', 'CAMP', 'FULC']: possibly delisted; no price data found  (period=1d)
 /opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/multi.py:220: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   data.rename(columns=ctx.isins, inplace=True)
-$HLLY: possibly delisted; no price data found  (period=1d)
-$AIRO: possibly delisted; no price data found  (period=1d)
-$CVU: possibly delisted; no price data found  (period=1d)
-$XPOF: possibly delisted; no price data found  (period=1d)
-$PRQR: possibly delisted; no price data found  (period=1d)
-$LSAK: possibly delisted; no price data found  (period=1d)
-$CIK: possibly delisted; no price data found  (period=1d)
-$TTGT: possibly delisted; no price data found  (period=1d)
-$CMRC: possibly delisted; no price data found  (period=1d)
-$GSM: possibly delisted; no price data found  (period=1d)
 /opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   quotes.sort_index(inplace=True)
-$PLBY: possibly delisted; no price data found  (period=1d)
-$INSE: possibly delisted; no price data found  (period=1d)
-$OSG: possibly delisted; no price data found  (period=1d)
-$PLX: possibly delisted; no price data found  (period=1d)
 /opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   quotes.sort_index(inplace=True)
-$XGN: possibly delisted; no price data found  (period=1d)
-$TONX: possibly delisted; no price data found  (period=1d)
-$EARN: possibly delisted; no price data found  (period=1d)
-$CMTG: possibly delisted; no price data found  (period=1d)
-$BDTX: possibly delisted; no price data found  (period=1d)
-$AIV: possibly delisted; no price data found  (period=1d)
-$PRLD: possibly delisted; no price data found  (period=1d)
-$RILY: possibly delisted; no price data found  (period=1d)
-$SKYX: possibly delisted; no price data found  (period=1d)
-$EVGO: possibly delisted; no price data found  (period=1d)
-$NPWR: possibly delisted; no price data found  (period=1d)
-$UIS: possibly delisted; no price data found  (period=1d)
-$TARA: possibly delisted; no price data found  (period=1d)
-$MITT: possibly delisted; no price data found  (period=1d)
-$GGN: possibly delisted; no price data found  (period=1d)
-$ARTV: possibly delisted; no price data found  (period=1d)
 /opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   quotes.sort_index(inplace=True)
-$MGNX: possibly delisted; no price data found  (period=1d)
-$SION: possibly delisted; no price data found  (period=1d)
-$LTBR: possibly delisted; no price data found  (period=1d)
-$UPB: possibly delisted; no price data found  (period=1d)
-$FBIO: possibly delisted; no price data found  (period=1d)
-$PNNT: possibly delisted; no price data found  (period=1d)
-$WHWK: possibly delisted; no price data found  (period=1d)
-$DUOT: possibly delisted; no price data found  (period=1d)
-$JRVR: possibly delisted; no price data found  (period=1d)
-$TLSI: possibly delisted; no price data found  (period=1d)
-$VYGR: possibly delisted; no price data found  (period=1d)
-$INVE: possibly delisted; no price data found  (period=1d)
 /opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   quotes.sort_index(inplace=True)
-$RCKT: possibly delisted; no price data found  (period=1d)
-$LTRX: possibly delisted; no price data found  (period=1d)
-$ACB: possibly delisted; no price data found  (period=1d)
-$HYPR: possibly delisted; no price data found  (period=1d)
-$DOUG: possibly delisted; no price data found  (period=1d)
-$SSTK: possibly delisted; no price data found  (period=1d)
-$VENU: possibly delisted; no price data found  (period=1d)
-$SIGA: possibly delisted; no price data found  (period=1d)
-$DSX: possibly delisted; no price data found  (period=1d)
-$GRO: possibly delisted; no price data found  (period=1d)
-$RXST: possibly delisted; no price data found  (period=1d)
-$PMVP: possibly delisted; no price data found  (period=1d)
-$EXFY: possibly delisted; no price data found  (period=1d)
-$ENGN: possibly delisted; no price data found  (period=1d)
 /opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   quotes.sort_index(inplace=True)
-$VNDA: possibly delisted; no price data found  (period=1d)
-$BLND: possibly delisted; no price data found  (period=1d)
-$TWI: possibly delisted; no price data found  (period=1d)
-$AUTL: possibly delisted; no price data found  (period=1d)
-$HIO: possibly delisted; no price data found  (period=1d)
-$SHMD: possibly delisted; no price data found  (period=1d)
-$SABS: possibly delisted; no price data found  (period=1d)
-$TRDA: possibly delisted; no price data found  (period=1d)
-$FATE: possibly delisted; no price data found  (period=1d)
-$GHI: possibly delisted; no price data found  (period=1d)
-$CCOI: possibly delisted; no price data found  (period=1d)
-$VGZ: possibly delisted; no price data found  (period=1d)
-$ADCT: possibly delisted; no price data found  (period=1d)
-$ICL: possibly delisted; no price data found  (period=1d)
-$MX: possibly delisted; no price data found  (period=1d)
-$ACRE: possibly delisted; no price data found  (period=1d)
-$NEOV: possibly delisted; no price data found  (period=1d)
-$PEW: possibly delisted; no price data found  (period=1d)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-$AIOT: possibly delisted; no price data found  (period=1d)
-$NUS: possibly delisted; no price data found  (period=1d)
-$NGEN: possibly delisted; no price data found  (period=1d)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-$EPM: possibly delisted; no price data found  (period=1d)
-$VUZI: possibly delisted; no price data found  (period=1d)
-$CANG: possibly delisted; no price data found  (period=1d)
-$FF: possibly delisted; no price data found  (period=1d)
-$BHR: possibly delisted; no price data found  (period=1d)
-$TTEC: possibly delisted; no price data found  (period=1d)
-$QNC: possibly delisted; no price data found  (period=1d)
-$PLRX: possibly delisted; no price data found  (period=1d)
-$THRY: possibly delisted; no price data found  (period=1d)
-$PACK: possibly delisted; no price data found  (period=1d)
-$VRRM: possibly delisted; no price data found  (period=1d)
-$PSFE: possibly delisted; no price data found  (period=1d)
-$PAL: possibly delisted; no price data found  (period=1d)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-$CAMP: possibly delisted; no price data found  (period=1d)
-$FULC: possibly delisted; no price data found  (period=1d)
-
-92 Failed downloads:
-['HLLY', 'AIRO', 'CVU', 'XPOF', 'PRQR', 'LSAK', 'CIK', 'TTGT', 'CMRC', 'GSM', 'PLBY', 'INSE', 'OSG', 'PLX', 'XGN', 'TONX', 'EARN', 'CMTG', 'BDTX', 'AIV', 'PRLD', 'RILY', 'SKYX', 'EVGO', 'NPWR', 'UIS', 'TARA', 'MITT', 'GGN', 'ARTV', 'MGNX', 'SION', 'LTBR', 'UPB', 'FBIO', 'PNNT', 'WHWK', 'DUOT', 'JRVR', 'TLSI', 'VYGR', 'INVE', 'RCKT', 'LTRX', 'ACB', 'HYPR', 'DOUG', 'SSTK', 'VENU', 'SIGA', 'DSX', 'GRO', 'RXST', 'PMVP', 'EXFY', 'ENGN', 'VNDA', 'BLND', 'TWI', 'AUTL', 'HIO', 'SHMD', 'SABS', 'TRDA', 'FATE', 'GHI', 'CCOI', 'VGZ', 'ADCT', 'ICL', 'MX', 'ACRE', 'NEOV', 'PEW', 'AIOT', 'NUS', 'NGEN', 'EPM', 'VUZI', 'CANG', 'FF', 'BHR', 'TTEC', 'QNC', 'PLRX', 'THRY', 'PACK', 'VRRM', 'PSFE', 'PAL', 'CAMP', 'FULC']: possibly delisted; no price data found  (period=1d)
 /opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/multi.py:220: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   data.rename(columns=ctx.isins, inplace=True)
-$CVU: possibly delisted; no price data found  (period=1d)
-$HLLY: possibly delisted; no price data found  (period=1d)
-$AIRO: possibly delisted; no price data found  (period=1d)
-$XPOF: possibly delisted; no price data found  (period=1d)
-$PRQR: possibly delisted; no price data found  (period=1d)
-$TTGT: possibly delisted; no price data found  (period=1d)
-$CIK: possibly delisted; no price data found  (period=1d)
-$LSAK: possibly delisted; no price data found  (period=1d)
-$GSM: possibly delisted; no price data found  (period=1d)
-$CMRC: possibly delisted; no price data found  (period=1d)
 /opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   quotes.sort_index(inplace=True)
-$PLBY: possibly delisted; no price data found  (period=1d)
-$OSG: possibly delisted; no price data found  (period=1d)
 /opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   quotes.sort_index(inplace=True)
-$INSE: possibly delisted; no price data found  (period=1d)
-$PLX: possibly delisted; no price data found  (period=1d)
-$EARN: possibly delisted; no price data found  (period=1d)
-$XGN: possibly delisted; no price data found  (period=1d)
-$CMTG: possibly delisted; no price data found  (period=1d)
-$TONX: possibly delisted; no price data found  (period=1d)
-$BDTX: possibly delisted; no price data found  (period=1d)
-$AIV: possibly delisted; no price data found  (period=1d)
-$RILY: possibly delisted; no price data found  (period=1d)
-$PRLD: possibly delisted; no price data found  (period=1d)
-$EVGO: possibly delisted; no price data found  (period=1d)
-$SKYX: possibly delisted; no price data found  (period=1d)
-$NPWR: possibly delisted; no price data found  (period=1d)
-$UIS: possibly delisted; no price data found  (period=1d)
-$MITT: possibly delisted; no price data found  (period=1d)
-$GGN: possibly delisted; no price data found  (period=1d)
-$ARTV: possibly delisted; no price data found  (period=1d)
-$TARA: possibly delisted; no price data found  (period=1d)
-$MGNX: possibly delisted; no price data found  (period=1d)
 /opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   quotes.sort_index(inplace=True)
-$SION: possibly delisted; no price data found  (period=1d)
-$LTBR: possibly delisted; no price data found  (period=1d)
-$WHWK: possibly delisted; no price data found  (period=1d)
-$UPB: possibly delisted; no price data found  (period=1d)
-$FBIO: possibly delisted; no price data found  (period=1d)
-$PNNT: possibly delisted; no price data found  (period=1d)
-$DUOT: possibly delisted; no price data found  (period=1d)
-$JRVR: possibly delisted; no price data found  (period=1d)
-$TLSI: possibly delisted; no price data found  (period=1d)
-$VYGR: possibly delisted; no price data found  (period=1d)
-$LTRX: possibly delisted; no price data found  (period=1d)
-$RCKT: possibly delisted; no price data found  (period=1d)
-$INVE: possibly delisted; no price data found  (period=1d)
 /opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   quotes.sort_index(inplace=True)
-$ACB: possibly delisted; no price data found  (period=1d)
-$HYPR: possibly delisted; no price data found  (period=1d)
-$DOUG: possibly delisted; no price data found  (period=1d)
-$SSTK: possibly delisted; no price data found  (period=1d)
-$SIGA: possibly delisted; no price data found  (period=1d)
-$DSX: possibly delisted; no price data found  (period=1d)
-$VENU: possibly delisted; no price data found  (period=1d)
-$GRO: possibly delisted; no price data found  (period=1d)
-$RXST: possibly delisted; no price data found  (period=1d)
-$PMVP: possibly delisted; no price data found  (period=1d)
-$ENGN: possibly delisted; no price data found  (period=1d)
-$EXFY: possibly delisted; no price data found  (period=1d)
 /opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   quotes.sort_index(inplace=True)
-$VNDA: possibly delisted; no price data found  (period=1d)
-$TWI: possibly delisted; no price data found  (period=1d)
-$BLND: possibly delisted; no price data found  (period=1d)
-$SHMD: possibly delisted; no price data found  (period=1d)
-$HIO: possibly delisted; no price data found  (period=1d)
-$AUTL: possibly delisted; no price data found  (period=1d)
-$SABS: possibly delisted; no price data found  (period=1d)
-$TRDA: possibly delisted; no price data found  (period=1d)
-$CCOI: possibly delisted; no price data found  (period=1d)
-$GHI: possibly delisted; no price data found  (period=1d)
-$FATE: possibly delisted; no price data found  (period=1d)
-$ADCT: possibly delisted; no price data found  (period=1d)
-$VGZ: possibly delisted; no price data found  (period=1d)
-$ICL: possibly delisted; no price data found  (period=1d)
-$ACRE: possibly delisted; no price data found  (period=1d)
-$MX: possibly delisted; no price data found  (period=1d)
-$NEOV: possibly delisted; no price data found  (period=1d)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-$PEW: possibly delisted; no price data found  (period=1d)
-$AIOT: possibly delisted; no price data found  (period=1d)
-$NUS: possibly delisted; no price data found  (period=1d)
-$NGEN: possibly delisted; no price data found  (period=1d)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-$EPM: possibly delisted; no price data found  (period=1d)
-$VUZI: possibly delisted; no price data found  (period=1d)
-$CANG: possibly delisted; no price data found  (period=1d)
-$FF: possibly delisted; no price data found  (period=1d)
-$QNC: possibly delisted; no price data found  (period=1d)
-$BHR: possibly delisted; no price data found  (period=1d)
-$TTEC: possibly delisted; no price data found  (period=1d)
-$PLRX: possibly delisted; no price data found  (period=1d)
-$THRY: possibly delisted; no price data found  (period=1d)
-$PSFE: possibly delisted; no price data found  (period=1d)
-$PACK: possibly delisted; no price data found  (period=1d)
-$VRRM: possibly delisted; no price data found  (period=1d)
-$PAL: possibly delisted; no price data found  (period=1d)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-$CAMP: possibly delisted; no price data found  (period=1d)
-$FULC: possibly delisted; no price data found  (period=1d)
-
-92 Failed downloads:
-['CVU', 'HLLY', 'AIRO', 'XPOF', 'PRQR', 'TTGT', 'CIK', 'LSAK', 'GSM', 'CMRC', 'PLBY', 'OSG', 'INSE', 'PLX', 'EARN', 'XGN', 'CMTG', 'TONX', 'BDTX', 'AIV', 'RILY', 'PRLD', 'EVGO', 'SKYX', 'NPWR', 'UIS', 'MITT', 'GGN', 'ARTV', 'TARA', 'MGNX', 'SION', 'LTBR', 'WHWK', 'UPB', 'FBIO', 'PNNT', 'DUOT', 'JRVR', 'TLSI', 'VYGR', 'LTRX', 'RCKT', 'INVE', 'ACB', 'HYPR', 'DOUG', 'SSTK', 'SIGA', 'DSX', 'VENU', 'GRO', 'RXST', 'PMVP', 'ENGN', 'EXFY', 'VNDA', 'TWI', 'BLND', 'SHMD', 'HIO', 'AUTL', 'SABS', 'TRDA', 'CCOI', 'GHI', 'FATE', 'ADCT', 'VGZ', 'ICL', 'ACRE', 'MX', 'NEOV', 'PEW', 'AIOT', 'NUS', 'NGEN', 'EPM', 'VUZI', 'CANG', 'FF', 'QNC', 'BHR', 'TTEC', 'PLRX', 'THRY', 'PSFE', 'PACK', 'VRRM', 'PAL', 'CAMP', 'FULC']: possibly delisted; no price data found  (period=1d)
 /opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/multi.py:220: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   data.rename(columns=ctx.isins, inplace=True)
-$CVU: possibly delisted; no price data found  (period=1d)
-$HLLY: possibly delisted; no price data found  (period=1d)
-$AIRO: possibly delisted; no price data found  (period=1d)
-$XPOF: possibly delisted; no price data found  (period=1d)
-$PRQR: possibly delisted; no price data found  (period=1d)
-$CIK: possibly delisted; no price data found  (period=1d)
-$LSAK: possibly delisted; no price data found  (period=1d)
-$TTGT: possibly delisted; no price data found  (period=1d)
-$GSM: possibly delisted; no price data found  (period=1d)
-$CMRC: possibly delisted; no price data found  (period=1d)
 /opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   quotes.sort_index(inplace=True)
-$PLBY: possibly delisted; no price data found  (period=1d)
-$PLX: possibly delisted; no price data found  (period=1d)
-$OSG: possibly delisted; no price data found  (period=1d)
-$INSE: possibly delisted; no price data found  (period=1d)
 /opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   quotes.sort_index(inplace=True)
-$XGN: possibly delisted; no price data found  (period=1d)
-$EARN: possibly delisted; no price data found  (period=1d)
-$TONX: possibly delisted; no price data found  (period=1d)
-$CMTG: possibly delisted; no price data found  (period=1d)
-$BDTX: possibly delisted; no price data found  (period=1d)
-$AIV: possibly delisted; no price data found  (period=1d)
-$PRLD: possibly delisted; no price data found  (period=1d)
-$RILY: possibly delisted; no price data found  (period=1d)
-$SKYX: possibly delisted; no price data found  (period=1d)
-$EVGO: possibly delisted; no price data found  (period=1d)
-$NPWR: possibly delisted; no price data found  (period=1d)
-$UIS: possibly delisted; no price data found  (period=1d)
-$GGN: possibly delisted; no price data found  (period=1d)
-$MITT: possibly delisted; no price data found  (period=1d)
-$TARA: possibly delisted; no price data found  (period=1d)
-$ARTV: possibly delisted; no price data found  (period=1d)
 /opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   quotes.sort_index(inplace=True)
-$MGNX: possibly delisted; no price data found  (period=1d)
-$SION: possibly delisted; no price data found  (period=1d)
-$LTBR: possibly delisted; no price data found  (period=1d)
-$FBIO: possibly delisted; no price data found  (period=1d)
-$UPB: possibly delisted; no price data found  (period=1d)
-$PNNT: possibly delisted; no price data found  (period=1d)
-$WHWK: possibly delisted; no price data found  (period=1d)
-$DUOT: possibly delisted; no price data found  (period=1d)
-$VYGR: possibly delisted; no price data found  (period=1d)
-$JRVR: possibly delisted; no price data found  (period=1d)
-$TLSI: possibly delisted; no price data found  (period=1d)
-$INVE: possibly delisted; no price data found  (period=1d)
-$RCKT: possibly delisted; no price data found  (period=1d)
 /opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   quotes.sort_index(inplace=True)
-$LTRX: possibly delisted; no price data found  (period=1d)
-$ACB: possibly delisted; no price data found  (period=1d)
-$DOUG: possibly delisted; no price data found  (period=1d)
-$HYPR: possibly delisted; no price data found  (period=1d)
-$SSTK: possibly delisted; no price data found  (period=1d)
-$SIGA: possibly delisted; no price data found  (period=1d)
-$DSX: possibly delisted; no price data found  (period=1d)
-$VENU: possibly delisted; no price data found  (period=1d)
-$GRO: possibly delisted; no price data found  (period=1d)
-$RXST: possibly delisted; no price data found  (period=1d)
-$PMVP: possibly delisted; no price data found  (period=1d)
-$ENGN: possibly delisted; no price data found  (period=1d)
-$EXFY: possibly delisted; no price data found  (period=1d)
 /opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   quotes.sort_index(inplace=True)
-$VNDA: possibly delisted; no price data found  (period=1d)
-$TWI: possibly delisted; no price data found  (period=1d)
-$SHMD: possibly delisted; no price data found  (period=1d)
-$BLND: possibly delisted; no price data found  (period=1d)
-$HIO: possibly delisted; no price data found  (period=1d)
-$AUTL: possibly delisted; no price data found  (period=1d)
-$SABS: possibly delisted; no price data found  (period=1d)
-$TRDA: possibly delisted; no price data found  (period=1d)
-$FATE: possibly delisted; no price data found  (period=1d)
-$CCOI: possibly delisted; no price data found  (period=1d)
-$GHI: possibly delisted; no price data found  (period=1d)
-$VGZ: possibly delisted; no price data found  (period=1d)
-$ADCT: possibly delisted; no price data found  (period=1d)
-$MX: possibly delisted; no price data found  (period=1d)
-$ACRE: possibly delisted; no price data found  (period=1d)
-$NEOV: possibly delisted; no price data found  (period=1d)
-$ICL: possibly delisted; no price data found  (period=1d)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-$PEW: possibly delisted; no price data found  (period=1d)
-$NUS: possibly delisted; no price data found  (period=1d)
-$AIOT: possibly delisted; no price data found  (period=1d)
-$NGEN: possibly delisted; no price data found  (period=1d)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-$EPM: possibly delisted; no price data found  (period=1d)
-$VUZI: possibly delisted; no price data found  (period=1d)
-$CANG: possibly delisted; no price data found  (period=1d)
-$QNC: possibly delisted; no price data found  (period=1d)
-$BHR: possibly delisted; no price data found  (period=1d)
-$FF: possibly delisted; no price data found  (period=1d)
-$TTEC: possibly delisted; no price data found  (period=1d)
-$PLRX: possibly delisted; no price data found  (period=1d)
-$THRY: possibly delisted; no price data found  (period=1d)
-$PSFE: possibly delisted; no price data found  (period=1d)
-$PACK: possibly delisted; no price data found  (period=1d)
-$VRRM: possibly delisted; no price data found  (period=1d)
-$PAL: possibly delisted; no price data found  (period=1d)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-$CAMP: possibly delisted; no price data found  (period=1d)
-$FULC: possibly delisted; no price data found  (period=1d)
-
-92 Failed downloads:
-['CVU', 'HLLY', 'AIRO', 'XPOF', 'PRQR', 'CIK', 'LSAK', 'TTGT', 'GSM', 'CMRC', 'PLBY', 'PLX', 'OSG', 'INSE', 'XGN', 'EARN', 'TONX', 'CMTG', 'BDTX', 'AIV', 'PRLD', 'RILY', 'SKYX', 'EVGO', 'NPWR', 'UIS', 'GGN', 'MITT', 'TARA', 'ARTV', 'MGNX', 'SION', 'LTBR', 'FBIO', 'UPB', 'PNNT', 'WHWK', 'DUOT', 'VYGR', 'JRVR', 'TLSI', 'INVE', 'RCKT', 'LTRX', 'ACB', 'DOUG', 'HYPR', 'SSTK', 'SIGA', 'DSX', 'VENU', 'GRO', 'RXST', 'PMVP', 'ENGN', 'EXFY', 'VNDA', 'TWI', 'SHMD', 'BLND', 'HIO', 'AUTL', 'SABS', 'TRDA', 'FATE', 'CCOI', 'GHI', 'VGZ', 'ADCT', 'MX', 'ACRE', 'NEOV', 'ICL', 'PEW', 'NUS', 'AIOT', 'NGEN', 'EPM', 'VUZI', 'CANG', 'QNC', 'BHR', 'FF', 'TTEC', 'PLRX', 'THRY', 'PSFE', 'PACK', 'VRRM', 'PAL', 'CAMP', 'FULC']: possibly delisted; no price data found  (period=1d)
 /opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/multi.py:220: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   data.rename(columns=ctx.isins, inplace=True)
-$XPOF: possibly delisted; no price data found  (period=1d)
-$CVU: possibly delisted; no price data found  (period=1d)
-$HLLY: possibly delisted; no price data found  (period=1d)
-$AIRO: possibly delisted; no price data found  (period=1d)
-$CIK: possibly delisted; no price data found  (period=1d)
-$PRQR: possibly delisted; no price data found  (period=1d)
-$TTGT: possibly delisted; no price data found  (period=1d)
-$LSAK: possibly delisted; no price data found  (period=1d)
-$CMRC: possibly delisted; no price data found  (period=1d)
-$GSM: possibly delisted; no price data found  (period=1d)
-$PLBY: possibly delisted; no price data found  (period=1d)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-$OSG: possibly delisted; no price data found  (period=1d)
-$PLX: possibly delisted; no price data found  (period=1d)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-$INSE: possibly delisted; no price data found  (period=1d)
-$EARN: possibly delisted; no price data found  (period=1d)
-$TONX: possibly delisted; no price data found  (period=1d)
-$CMTG: possibly delisted; no price data found  (period=1d)
-$XGN: possibly delisted; no price data found  (period=1d)
-$BDTX: possibly delisted; no price data found  (period=1d)
-$PRLD: possibly delisted; no price data found  (period=1d)
-$AIV: possibly delisted; no price data found  (period=1d)
-$RILY: possibly delisted; no price data found  (period=1d)
-$SKYX: possibly delisted; no price data found  (period=1d)
-$NPWR: possibly delisted; no price data found  (period=1d)
-$EVGO: possibly delisted; no price data found  (period=1d)
-$UIS: possibly delisted; no price data found  (period=1d)
-$GGN: possibly delisted; no price data found  (period=1d)
-$TARA: possibly delisted; no price data found  (period=1d)
-$MITT: possibly delisted; no price data found  (period=1d)
-$ARTV: possibly delisted; no price data found  (period=1d)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-$MGNX: possibly delisted; no price data found  (period=1d)
-$SION: possibly delisted; no price data found  (period=1d)
-$LTBR: possibly delisted; no price data found  (period=1d)
-$UPB: possibly delisted; no price data found  (period=1d)
-$PNNT: possibly delisted; no price data found  (period=1d)
-$WHWK: possibly delisted; no price data found  (period=1d)
-$FBIO: possibly delisted; no price data found  (period=1d)
-$VYGR: possibly delisted; no price data found  (period=1d)
-$DUOT: possibly delisted; no price data found  (period=1d)
-$JRVR: possibly delisted; no price data found  (period=1d)
-$TLSI: possibly delisted; no price data found  (period=1d)
-$INVE: possibly delisted; no price data found  (period=1d)
-$LTRX: possibly delisted; no price data found  (period=1d)
-$RCKT: possibly delisted; no price data found  (period=1d)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-$ACB: possibly delisted; no price data found  (period=1d)
-$DOUG: possibly delisted; no price data found  (period=1d)
-$HYPR: possibly delisted; no price data found  (period=1d)
-$SSTK: possibly delisted; no price data found  (period=1d)
-$VENU: possibly delisted; no price data found  (period=1d)
-$SIGA: possibly delisted; no price data found  (period=1d)
-$DSX: possibly delisted; no price data found  (period=1d)
-$GRO: possibly delisted; no price data found  (period=1d)
-$RXST: possibly delisted; no price data found  (period=1d)
-$ENGN: possibly delisted; no price data found  (period=1d)
-$PMVP: possibly delisted; no price data found  (period=1d)
-$EXFY: possibly delisted; no price data found  (period=1d)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-$VNDA: possibly delisted; no price data found  (period=1d)
-$TWI: possibly delisted; no price data found  (period=1d)
-$BLND: possibly delisted; no price data found  (period=1d)
-$SHMD: possibly delisted; no price data found  (period=1d)
-$HIO: possibly delisted; no price data found  (period=1d)
-$AUTL: possibly delisted; no price data found  (period=1d)
-$TRDA: possibly delisted; no price data found  (period=1d)
-$SABS: possibly delisted; no price data found  (period=1d)
-$FATE: possibly delisted; no price data found  (period=1d)
-$CCOI: possibly delisted; no price data found  (period=1d)
-$GHI: possibly delisted; no price data found  (period=1d)
-$ADCT: possibly delisted; no price data found  (period=1d)
-$VGZ: possibly delisted; no price data found  (period=1d)
-$ICL: possibly delisted; no price data found  (period=1d)
-$MX: possibly delisted; no price data found  (period=1d)
-$NEOV: possibly delisted; no price data found  (period=1d)
-$ACRE: possibly delisted; no price data found  (period=1d)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-$PEW: possibly delisted; no price data found  (period=1d)
-$NUS: possibly delisted; no price data found  (period=1d)
-$AIOT: possibly delisted; no price data found  (period=1d)
-$NGEN: possibly delisted; no price data found  (period=1d)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-$VUZI: possibly delisted; no price data found  (period=1d)
-$EPM: possibly delisted; no price data found  (period=1d)
-$CANG: possibly delisted; no price data found  (period=1d)
-$FF: possibly delisted; no price data found  (period=1d)
-$QNC: possibly delisted; no price data found  (period=1d)
-$BHR: possibly delisted; no price data found  (period=1d)
-$TTEC: possibly delisted; no price data found  (period=1d)
-$PLRX: possibly delisted; no price data found  (period=1d)
-$THRY: possibly delisted; no price data found  (period=1d)
-$PSFE: possibly delisted; no price data found  (period=1d)
-$PACK: possibly delisted; no price data found  (period=1d)
-$VRRM: possibly delisted; no price data found  (period=1d)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-$PAL: possibly delisted; no price data found  (period=1d)
-$CAMP: possibly delisted; no price data found  (period=1d)
-$FULC: possibly delisted; no price data found  (period=1d)
-
-92 Failed downloads:
-['XPOF', 'CVU', 'HLLY', 'AIRO', 'CIK', 'PRQR', 'TTGT', 'LSAK', 'CMRC', 'GSM', 'PLBY', 'OSG', 'PLX', 'INSE', 'EARN', 'TONX', 'CMTG', 'XGN', 'BDTX', 'PRLD', 'AIV', 'RILY', 'SKYX', 'NPWR', 'EVGO', 'UIS', 'GGN', 'TARA', 'MITT', 'ARTV', 'MGNX', 'SION', 'LTBR', 'UPB', 'PNNT', 'WHWK', 'FBIO', 'VYGR', 'DUOT', 'JRVR', 'TLSI', 'INVE', 'LTRX', 'RCKT', 'ACB', 'DOUG', 'HYPR', 'SSTK', 'VENU', 'SIGA', 'DSX', 'GRO', 'RXST', 'ENGN', 'PMVP', 'EXFY', 'VNDA', 'TWI', 'BLND', 'SHMD', 'HIO', 'AUTL', 'TRDA', 'SABS', 'FATE', 'CCOI', 'GHI', 'ADCT', 'VGZ', 'ICL', 'MX', 'NEOV', 'ACRE', 'PEW', 'NUS', 'AIOT', 'NGEN', 'VUZI', 'EPM', 'CANG', 'FF', 'QNC', 'BHR', 'TTEC', 'PLRX', 'THRY', 'PSFE', 'PACK', 'VRRM', 'PAL', 'CAMP', 'FULC']: possibly delisted; no price data found  (period=1d)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/yfinance/multi.py:220: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  data.rename(columns=ctx.isins, inplace=True)
-watching 100/100 tickers for 490 s
+watching 5/5 tickers for 518 s
 watcher done after 8 minutes
