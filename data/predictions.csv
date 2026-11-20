@@ -334,3 +334,4 @@ ts,ticker,price,prev_close,pct,burst,rvol,st_rate,st_bull,trending,session,score
 2026-11-20T14:40:05Z,VIVS,0.3,0.2831,5.97,1022.58,25.8,22.0,0.6,False,reg,2,st_rate 22/h; vol x1023
 2026-11-20T15:00:06Z,RAYA,0.52,0.4964,4.75,1586.38,99.49,19.0,0.92,False,reg,2,st_rate 19/h; vol x1586
 2026-11-20T15:00:06Z,TRUG,0.2677,0.2815,-4.9,98.4,185.38,10.0,1.0,False,reg,2,st_rate 10/h; vol x98
+2026-11-20T15:40:06Z,LVWR,0.7323,0.6384,14.71,6.62,22.99,18.0,1.0,False,reg,2,st_rate 18/h; vol x7
