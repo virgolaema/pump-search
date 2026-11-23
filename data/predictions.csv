@@ -346,3 +346,4 @@ ts,ticker,price,prev_close,pct,burst,rvol,st_rate,st_bull,trending,session,score
 2026-11-23T14:50:06Z,IVVD,0.472,0.4182,12.86,89.05,194.46,15.0,1.0,False,reg,2,st_rate 15/h; vol x89
 2026-11-23T14:50:06Z,SUIG,0.7321,0.6406,14.28,29.15,24.49,0.0,1.0,False,reg,1,"momentum +13% in 10 min, vol x29"
 2026-11-23T16:00:06Z,GOAI,0.5425,0.5172,4.89,4.17,1.42,23.0,1.0,False,reg,1,st_rate 23/h
+2026-11-23T16:20:06Z,ABAT,0.8872,0.7882,12.56,5.94,5.93,10.0,1.0,False,reg,2,st_rate 10/h; vol x6
