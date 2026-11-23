@@ -339,3 +339,4 @@ ts,ticker,price,prev_close,pct,burst,rvol,st_rate,st_bull,trending,session,score
 2026-11-20T19:00:06Z,STAK,2.27,2.04,11.27,16.94,0.89,0.0,0.95,False,reg,1,"momentum +14% in 10 min, vol x17"
 2026-11-23T11:40:05Z,AKAN,4.2008,4.2,0.02,0.0,,10.0,1.0,False,pre,1,st_rate 10/h
 2026-11-23T11:40:05Z,CDT,0.2311,0.2303,0.35,0.0,,18.0,1.0,False,pre,1,st_rate 18/h
+2026-11-23T13:40:06Z,ALT,1.4046,1.32,6.41,0.0,,10.0,1.0,False,pre,1,st_rate 10/h
