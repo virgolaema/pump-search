@@ -340,3 +340,6 @@ ts,ticker,price,prev_close,pct,burst,rvol,st_rate,st_bull,trending,session,score
 2026-11-23T11:40:05Z,AKAN,4.2008,4.2,0.02,0.0,,10.0,1.0,False,pre,1,st_rate 10/h
 2026-11-23T11:40:05Z,CDT,0.2311,0.2303,0.35,0.0,,18.0,1.0,False,pre,1,st_rate 18/h
 2026-11-23T13:40:06Z,ALT,1.4046,1.32,6.41,0.0,,10.0,1.0,False,pre,1,st_rate 10/h
+2026-11-23T14:40:06Z,EMPD,1.996,1.76,13.41,20.73,63.86,0.0,0.86,False,reg,1,"momentum +11% in 10 min, vol x21"
+2026-11-23T14:40:06Z,SBMT,5.02,4.51,11.31,5.33,0.34,,,False,reg,1,"momentum +11% in 10 min, vol x5"
+2026-11-23T14:40:06Z,SEGG,0.8657,0.7984,8.43,9.57,2.27,1.0,1.0,False,reg,1,"momentum +11% in 10 min, vol x10"
