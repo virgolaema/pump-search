@@ -337,3 +337,5 @@ ts,ticker,price,prev_close,pct,burst,rvol,st_rate,st_bull,trending,session,score
 2026-11-20T15:40:06Z,LVWR,0.7323,0.6384,14.71,6.62,22.99,18.0,1.0,False,reg,2,st_rate 18/h; vol x7
 2026-11-20T17:20:06Z,AZIO,0.4315,0.4029,7.1,432.13,72.12,10.0,1.0,False,reg,2,st_rate 10/h; vol x432
 2026-11-20T19:00:06Z,STAK,2.27,2.04,11.27,16.94,0.89,0.0,0.95,False,reg,1,"momentum +14% in 10 min, vol x17"
+2026-11-23T11:40:05Z,AKAN,4.2008,4.2,0.02,0.0,,10.0,1.0,False,pre,1,st_rate 10/h
+2026-11-23T11:40:05Z,CDT,0.2311,0.2303,0.35,0.0,,18.0,1.0,False,pre,1,st_rate 18/h
