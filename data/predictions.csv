@@ -351,3 +351,4 @@ ts,ticker,price,prev_close,pct,burst,rvol,st_rate,st_bull,trending,session,score
 2026-11-23T18:30:06Z,DWTX,1.06,1.05,0.95,112.82,511.05,14.0,0.82,False,reg,2,st_rate 14/h; vol x113
 2026-11-23T19:10:06Z,UUUU,5.305,4.955,7.06,0.48,,3.0,0.67,True,reg,1,st_new_trending
 2026-11-23T19:40:06Z,SOAR,0.1918,0.1715,11.84,18.04,159.95,13.0,1.0,False,reg,2,st_rate 13/h; vol x18
+2026-11-23T20:20:06Z,GMEX,0.2069,0.1887,9.64,61.65,57.65,11.0,0.89,False,reg,2,st_rate 11/h; vol x62
