@@ -357,3 +357,4 @@ ts,ticker,price,prev_close,pct,burst,rvol,st_rate,st_bull,trending,session,score
 2026-11-24T13:10:06Z,AKAN,3.2104,2.81,14.25,0.0,,15.0,1.0,False,pre,1,st_rate 15/h
 2026-11-24T14:50:06Z,ZBAO,0.1163,0.1069,8.79,35.85,50.01,10.0,1.0,False,reg,2,"momentum +11% in 10 min, vol x36; st_rate 10/h"
 2026-11-24T16:00:06Z,WETO,0.574,0.5339,7.51,22.58,2.52,5.0,0.79,False,reg,1,"momentum +11% in 10 min, vol x23"
+2026-11-24T16:10:06Z,YFOR,0.9362,0.861,8.73,34.36,,11.0,0.93,False,reg,2,st_rate 11/h; vol x34
