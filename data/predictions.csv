@@ -353,3 +353,4 @@ ts,ticker,price,prev_close,pct,burst,rvol,st_rate,st_bull,trending,session,score
 2026-11-23T19:40:06Z,SOAR,0.1918,0.1715,11.84,18.04,159.95,13.0,1.0,False,reg,2,st_rate 13/h; vol x18
 2026-11-23T20:20:06Z,GMEX,0.2069,0.1887,9.64,61.65,57.65,11.0,0.89,False,reg,2,st_rate 11/h; vol x62
 2026-11-23T21:20:06Z,ZNB,0.3991,0.3539,12.77,39.19,0.04,18.0,1.0,False,post,2,st_rate 18/h; vol x39
+2026-11-24T11:50:06Z,CAPR,1.8506,1.91,-3.11,0.0,,21.0,0.59,False,pre,1,st_rate 21/h
