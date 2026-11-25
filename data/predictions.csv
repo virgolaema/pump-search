@@ -360,3 +360,4 @@ ts,ticker,price,prev_close,pct,burst,rvol,st_rate,st_bull,trending,session,score
 2026-11-24T16:10:06Z,YFOR,0.9362,0.861,8.73,34.36,,11.0,0.93,False,reg,2,st_rate 11/h; vol x34
 2026-11-24T19:30:05Z,ALT,1.405,1.365,2.93,5.9,1.14,12.0,0.93,False,reg,2,st_rate 12/h; vol x6
 2026-11-25T10:30:06Z,BENF,0.9299,0.9199,1.09,0.0,,12.0,0.94,False,pre,1,st_rate 12/h
+2026-11-25T14:50:06Z,OMH,4.29,3.7399,14.71,21.47,14.73,30.3,1.0,False,reg,2,st_rate 30/h; vol x21
