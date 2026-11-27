@@ -3029,5 +3029,4 @@ See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace 
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   data.rename(columns=ctx.isins, inplace=True)
 watching 100/100 tickers for 533 s
-13:11 new flags: [('PMVP', 'tier2')]
 watcher done after 9 minutes
