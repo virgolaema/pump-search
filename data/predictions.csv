@@ -368,3 +368,5 @@ ts,ticker,price,prev_close,pct,burst,rvol,st_rate,st_bull,trending,session,score
 2026-11-25T18:50:06Z,SMX,2.16,2.01,7.46,16.97,0.24,12.0,0.91,False,reg,2,st_rate 12/h; vol x17
 2026-11-25T19:00:05Z,BYND,4.17,3.705,12.55,4.83,1.28,21.0,0.93,False,reg,1,st_rate 21/h
 2026-11-25T21:00:06Z,STAK,3.001,2.9051,3.3,19.36,0.95,24.0,0.78,False,post,2,st_rate 24/h; vol x19
+2026-11-27T15:10:06Z,BYND,4.93,4.44,11.04,4.21,7.62,50.2,1.0,False,reg,1,st_rate 50/h
+2026-11-27T15:10:06Z,GDC,0.7102,0.74,-4.03,4.03,3.17,48.3,0.57,False,reg,1,st_rate 48/h
