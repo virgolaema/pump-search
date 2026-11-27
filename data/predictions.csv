@@ -373,3 +373,4 @@ ts,ticker,price,prev_close,pct,burst,rvol,st_rate,st_bull,trending,session,score
 2026-11-27T15:30:06Z,NCPL,1.895,1.855,2.16,5.4,3.06,11.0,0.93,False,reg,2,st_rate 11/h; vol x5
 2026-11-27T16:20:06Z,APVO,0.3599,0.3392,6.1,12.86,7.03,10.0,0.92,False,reg,2,st_rate 10/h; vol x13
 2026-11-27T16:20:06Z,RMSG,0.1939,0.1783,8.75,29.89,0.97,10.0,0.94,False,reg,2,st_rate 10/h; vol x30
+2026-11-27T17:30:05Z,STIM,1.7,1.495,13.71,8.42,1.21,10.0,1.0,False,reg,2,st_rate 10/h; vol x8
